@@ -6,9 +6,9 @@ title: Nólëbase
 titleTemplate: 记录回忆，知识和畅想的地方
 
 hero:
-  name: g~Nj$3J2^
-  text: 记录回忆，知识和畅想的地方
-  tagline: 以 Nólëbase 为名，读作 nole-base，取自意为「知识」的昆雅语 nólë 和意为「基础」的英文 base，即「知识库」
+  name: Larry Shi's Knowledge Base
+  text: 纯粹的知识库
+  tagline: 知识库基于nolebase项目，替换了昂贵的Obsidian Publish，用于本人学习内容的记录。
   image:
     src: /logo.svg
     alt: Vitest
@@ -17,25 +17,22 @@ hero:
       text: 开始阅读
       link: /笔记/index
     - theme: alt
-      text: 加入 Discord 服务器
-      link: https://discord.gg/XuNFDcDZGj
-    - theme: alt
       text: GitHub 上浏览
-      link: https://github.com/nolebase/nolebase
+      link: https://github.com/indexss/nolebase
 
 features:
-  - title: 多样的主题和内容
-    details: 本知识库和所生成的页面均由创作者们维护，涉及到生活中各方面知识和内容，也不乏我们的回忆和畅想。
-    icon: 🌈
-  - title: 皆为 Markdown
-    details: 使用 Markdown 和 Markdown 拓展语法编写和记录笔记，每一个页面都是 Markdown 文件。
-    icon: 📃
-  - title: 由 VitePress 驱动
-    details: 基于 Vite 的强大静态文档页面生成器，它生成了我们知识库的页面，提供了简单易用的主题和工具。
+  - title: 课程笔记
+    details: 包含了我来到伯明翰大学交换后的课程笔记以及所收集到的课程资源。节约后人时间，让我们专心于自己感兴趣的事情。
+    icon: 🎓
+  - title: AI
+    details: 我的主攻方向，杂食性学习。本领域太多人是浮躁的，希望我的总结能够让你我扎实一点。
+    icon: 🤖
+  - title: 思考分享 - 「不降志，不辱心」
+    details: My values lean towards classical liberalism, and I'm a supporter of an AI-assisted market. There’s no conflict in that. Open to debate!
+    icon: ⚖️
+  - title: 由现代技术栈驱动
+    details: 由 Obsidian 进行知识库管理，并通过 VitePress 生成静态页面，CI/CD 部署 Vercel。
     icon: 🚀
-  - title: 由 Obsidian 驱动
-    details: 强大的知识库管理工具，支持花样繁多的插件和拓展，让知识管理变得更加简单。
-    icon: 🗃
 ---
 
 <HomePage />

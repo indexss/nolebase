@@ -1,4 +1,7 @@
 @import 'kbd.css';
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Pattaya&display=swap');
+
 
 html, body {
   -webkit-tap-highlight-color: transparent; /* 避免触屏下的点击高亮颜色 */
@@ -93,7 +96,8 @@ html, body {
 /* 首页标题样式 */
 .VPHomeHero > .container > .main > h1 {
   font-size: 5rem;
-  font-family: 'tengwarannatar-bold';
+  /* padding-top: 2rem; */
+  font-family: "Pattaya", sans-serif;
 }
 
 /* 首页子标题样式 */
