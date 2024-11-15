@@ -32,11 +32,13 @@ A:
 
 Word2Vec的思想是，由于一个词的意思可以通过其周围的词
 
+
+
 ```handwritten-ink
 {
-	"versionAtEmbed": "0.2.6",
-	"filepath": "💬 CS224N-Natural Language Processing with Deep Learning/assets/Ink/Writing/2024.11.15 - 19.24pm.writing"
+	"versionAtEmbed": "0.1.172",
+	"filepath": "💬 CS224N-Natural Language Processing with Deep Learning/assets/Ink/Writing/2024.10.15 - 19.46pm.writing"
 }
 ```
-ok
+
 
