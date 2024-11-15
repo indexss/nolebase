@@ -38,8 +38,8 @@ _University of Birmingham_
 - Created a **client application** that communicates seamlessly with the server, allowing for operations like adding, deleting, and verifying firewall rules, and effectively listing stored rules.
 - Emphasized **robust error handling** and memory management, ensuring all client-server interactions are accurate, while avoiding memory leaks and improving long-term server reliability.
 
-# 🎉 Hobbies
-- ==💀 ***Arch Linux User*** 💀== and 🌼 **proud owner of the full Apple ecosystem** 🌼
+## 🎉 Hobbies
+- 💀 ***Arch Linux User*** 💀 and 🌼 **proud owner of the full Apple ecosystem** 🌼
 - 🎻 Classical music enthusiasts
 - ⛰️ Hiking enthusiast
 - ⚖️ Keyboard Politician
