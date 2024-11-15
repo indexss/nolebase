@@ -32,3 +32,6 @@ A:
 
 Word2Vec的思想是，由于一个词的意思可以通过其周围的词
 
+![|454](assets/Pasted%20image%2020241115170809.png)
+![](assets/Pasted%20image%2020241115170809.png)
+![](assets/Pasted%20image%2020241115170809.png)
