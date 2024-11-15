@@ -2,8 +2,8 @@
 layout: home
 sidebar: false
 
-title: Nólëbase
-titleTemplate: 记录回忆，知识和畅想的地方
+title: Larry's Base
+titleTemplate: 纯粹的知识库
 
 hero:
   name: Larry Shi's Knowledge Base
