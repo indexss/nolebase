@@ -10,7 +10,7 @@ A:
 
    缺点挺多的，比如需要人力，主观，缺少新意思，且在某些语境下可能不对。
 
-<img src="./assets/image-20241115014910319.png" alt="image-20241115014910319" style="zoom:50%;" />
+<img src="./assets/image-20241115014910319.png" alt="image-20241115014910319" />
 
 2. one-hot向量表示词语
 
@@ -32,6 +32,11 @@ A:
 
 Word2Vec的思想是，由于一个词的意思可以通过其周围的词
 
-![|454](assets/Pasted%20image%2020241115170809.png)
-![](assets/Pasted%20image%2020241115170809.png)
-![](assets/Pasted%20image%2020241115170809.png)
+```handwritten-ink
+{
+	"versionAtEmbed": "0.2.6",
+	"filepath": "💬 CS224N-Natural Language Processing with Deep Learning/assets/Ink/Writing/2024.11.15 - 19.24pm.writing"
+}
+```
+ok
+
