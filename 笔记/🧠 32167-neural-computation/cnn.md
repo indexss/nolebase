@@ -6,7 +6,7 @@ ReLU最常用，有时用用Leaky ReLU，也可以在最后一层试试tanh，�
 
 *   Sigmoid
 
-    <figure><img src="./.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
 *   tanh
 
     <figure><img src="../.gitbook/assets/image (4).png" alt="" width="375"><figcaption></figcaption></figure>
