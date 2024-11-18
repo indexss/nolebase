@@ -37,3 +37,29 @@ Word2Vec的思想是，由于一个词的意思可以通过其周围的词得到
 ![](assets/Pasted%20image%2020241118020129.webp)
 
 这样，之后做梯度下降就可以了！
+从向量化的角度看，就是这样计算的
+
+![](assets/Pasted%20image%2020241118025546.webp)
+
+这种做法之下，我们用V和U的平均值当作词向量，那么similar words在向量空间中的距离就会变近。
+为什么要用两个向量？Easier optimization.
+用于训练的损失函数：
+1. Naïve softmax（简单但昂贵的损失函数，在有许多输出类别时），上面讨论的就是这个，负log。
+2. 更优化的变体，如分层softmax
+3. 负采样 negative sampling
+
+## Negative Sampling
+上面我们看到，分母那个巨大的加和乘法，计算量巨大，所以会有负采样。
+负采样的想法是，我们不去管分母那个了，因为太大了。我们只去管context中，这些context的出现概率应该接近1，而不在context中的词，我们希望出现概率接近0。我们只需要采样几个不在context里面的词就可以
+
+$$
+J_{neg-sample}(u_o,v_c,U)=-\log\sigma(u_o^Tv_c)-\sum_{k\in\{K\text{ sampled indices}\}}\log\sigma(-\boldsymbol{u}_k^T\boldsymbol{v}_c)
+$$
+-log之后就变成优化最小了，所以前半部分随着优化会变小，后半部分由于也要变小，所以加负号。
+这里我们用了sigmoid函数做激活，也是为了转为概率。
+那么这些非context的点是怎么取出来的呢？就是靠采样，怎么采？
+采样用了 P(w) = U(w)^3/4 / Z, 这里U是unigram分布。这样取power，可以让低频的词多被采样到。
+这样需要优化的东西，就只有2m+1个词（m是半个窗口），以及2km个负采样，k是一个超参数。这样，梯度计算就很简单稀疏了。
+
+## SGD中的梯度形状问题
+
