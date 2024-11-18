@@ -121,15 +121,15 @@ Information Theory研究的是如何量化信息。
 
     I(X;Y) = I(Y;X)
 
-    ![image-20240409005531854](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409005531854.png)
+    ![image-20240409005531854](assets/88613eb6c0f513710e35a14d0523e475_MD5.png)
 
-    ![image-20240408233854444](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240408233854444.png)
+    ![image-20240408233854444](assets/d904e5569ea27f9544ac0b95cfbb4d7e_MD5.png)
 
-    ![image-20240408235216148](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240408235216148.png)
+    ![image-20240408235216148](assets/e27c42b773df6a2227dd72ca72f18f96_MD5.png)
 
-    ![image-20240408235349137](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240408235349137.png)
+    ![image-20240408235349137](assets/92510e860e2e7c53344ef62b47fa89a9_MD5.png)
 
-![image-20240408235401299](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240408235401299.png)
+![image-20240408235401299](assets/f25f149d9b217a15d86f79a6de507f13_MD5.png)
 
 > 例1：正常硬币投掷正面朝上是0.5，不正常硬币是0.7。抛正常硬币为X，不正常硬币为Y
 >
@@ -139,13 +139,13 @@ Information Theory研究的是如何量化信息。
 >
 > 例2：将英语语言视为一个离散随机变量X，其范围RX = {1, 2, 3, . . . , 27}，其中值1-26代表26个字母（a-z）的出现，27代表空格字符（用于分隔两个单词）。
 >
-> ![image-20240408223622962](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240408223622962.png)
+> ![image-20240408223622962](assets/c9f4b7f26c2f80958ea8d88bc8f08ce5_MD5.png)
 >
 > 计算entropy
 >
-> ![image-20240408223708623](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240408223708623.png)
+> ![image-20240408223708623](assets/662e1ab3a6ece9d1951932c80ee38eb5_MD5.png)
 >
-> ![image-20240409000144233](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409000144233.png)
+> ![image-20240409000144233](assets/5ef0129edc54977e868707192ab50b6e_MD5.png)
 >
 > *   H(X) = 1/8 \* log8 + 3/4 \* log(4/3) + 1/8 \* log8 = 1.061 bits
 >
@@ -176,11 +176,11 @@ Information Theory研究的是如何量化信息。
 
 拆分样本有两种方法。在CART中，用了Gini index
 
-![image-20240409005034730](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409005034730.png)
+![image-20240409005034730](assets/e265798ca1d7900a7c2ecd28d1dd11ec_MD5.png)
 
 而在ID3算法和C4.5算法中用到了Information Gain, 其实就是mutual information
 
-![image-20240409005357112](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409005357112.png)
+![image-20240409005357112](assets/5c494776d41c90a9ec7457ae5553bbd5_MD5.png)
 
 > 实例：使用Information Gain来构建决策树
 >
@@ -188,25 +188,25 @@ Information Theory研究的是如何量化信息。
 >
 > 我们只研究其中的AB两个因素
 >
-> ![image-20240409005836419](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409005836419.png)
+> ![image-20240409005836419](assets/d7c8c8e87cad234a76a817e3fa77150d_MD5.png)
 >
 > 首先，计算Y的熵，Y是是否有癌症。0为没得，1为得了
 >
-> ![image-20240409005956335](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409005956335.png)
+> ![image-20240409005956335](assets/572a302196a7546a388cf07a2e53fe57_MD5.png)
 >
 > 然后，算出Y和A，Y和B，Y和C的IG
 >
 > 记住，IG一般通过H(X,Y)-H(X|Y)或者H(X)-H(X|Y)获得
 >
-> ![image-20240409010253305](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409010253305.png)
+> ![image-20240409010253305](assets/e4937fefca6a16a342902e236070e78f_MD5.png)
 >
-> ![image-20240409010302864](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409010302864.png)
+> ![image-20240409010302864](assets/e75c80b40efd7fe9b6d6faedb850599f_MD5.png)
 >
-> ![image-20240409010310639](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409010310639.png)
+> ![image-20240409010310639](assets/230798111b413e20725ddb6508f6ce27_MD5.png)
 >
 > 由于IG（Y,B）最大，所以用B作为分割。
 >
-> ![image-20240409010343867](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409010343867.png)
+> ![image-20240409010343867](assets/fcd828091cfffe94db3d2e56c705851f_MD5.png)
 >
 > 对于具有两个以上数值（称为分类变量）和连续随机变量的一般离散随机变量，我们需要搜索最佳值，称为切割点、切点或阈值来最大化信息增益。
 
@@ -224,7 +224,7 @@ Information Theory研究的是如何量化信息。
 
 #### Mutual Information Feature Selection
 
-![image-20240409013519743](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409013519743.png)
+![image-20240409013519743](assets/c22ccde70b0e17f244a963771da7ad84_MD5.png)
 
 在这个特征选择过程中，算法试图选择与目标变量 Y 最相关的 K 个特征。这个过程可以总结如下：
 
@@ -237,13 +237,13 @@ Information Theory研究的是如何量化信息。
 
 ### Exercise Question
 
-![image-20240408223857945](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240408223857945.png)
+![image-20240408223857945](assets/e5e92d421e51e81fc0f576ca54aacb38_MD5.png)
 
-> ![image-20240409013953863](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409013953863.png)
+> ![image-20240409013953863](assets/e776470acaa47a9074f24275e791c033_MD5.png)
 
-![image-20240408224455723](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240408224455723.png)
+![image-20240408224455723](assets/7f6acdf54756500987e5417ece450ddb_MD5.png)
 
-![image-20240408224511254](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240408224511254.png)
+![image-20240408224511254](assets/739d649725965317df411e6163518ff7_MD5.png)
 
 > *   \-0.77 + 0.23\*0.5 - 1.18 = -1.835
 >
@@ -259,7 +259,7 @@ Information Theory研究的是如何量化信息。
 >
 >     从分析中我们可以向老板建议，顾客花费的时间越多，他们终止合同的可能性就越大，这意味着公司应该改善其电信服务/价格。然而，简单地说服他们订阅额外数据计划，则更有可能留下来。
 
-![image-20240408225525204](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240408225525204.png)
+![image-20240408225525204](assets/dfa70b856d1e415d4d04208edf76dfcc_MD5.png)
 
 > 注意 C\_(100)^(55) == (下55上100)
 >
@@ -271,7 +271,7 @@ Information Theory研究的是如何量化信息。
 >
 > 55/p = 45/1-p -> 55-55p = 45p -> 100p = 55 -> p=0.55
 
-![image-20240409014026948](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409014026948.png)
+![image-20240409014026948](assets/77b5c039a1fa6e4fff1d5f934130d1d6_MD5.png)
 
 > (a1) 互信息背后的基本动机是衡量两个随机变量X和Y共享的信息。换句话说，它衡量了知道其中一个变量如何减少对另一个变量的不确定性。
 >

@@ -36,7 +36,7 @@
 
 示意图
 
-![image-20240401141952057](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240401141952057.png)
+![image-20240401141952057](assets/83aac31c8a3d789d66e84943f1f405b8_MD5.png)
 
 ```c
  FILE *fp; /*variable fp is pointer to type FILE*/
@@ -135,7 +135,7 @@ int (\*foo)(int)
 
 使用方法：
 
-![image-20240401143414480](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240401143414480.png)
+![image-20240401143414480](assets/b52a14083c5c4c89829d44ce6e971fef_MD5.png)
 
 ***
 
@@ -261,17 +261,17 @@ makefile例子
 
 ### Practice Problems
 
-![image-20240401145956016](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240401145956016.png)
+![image-20240401145956016](assets/d738c1b06c42ec7c737698e274e7fc2f_MD5.png)
 
 > A function pointer is is a pointer to a C function. They are used to pass functions as arguments.
 
-![image-20240401150023356](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240401150023356.png)
+![image-20240401150023356](assets/4396221bd4ed501748a1db53b5ff3b96_MD5.png)
 
 > 1st is a function takes an int arg as input and returns an Integer pointer.
 >
 > 2nd is a function pointer that points an function which takes an int arg as parameter and returns an integer.
 
-![image-20240401150158618](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240401150158618.png)
+![image-20240401150158618](assets/d63d981749efe47c7c976b60728513d2_MD5.png)
 
 > *   Argument 0 is ./program
 >
@@ -295,11 +295,11 @@ makefile例子
 >
 >     Argument 2 is Second argument
 
-![image-20240401150433306](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240401150433306.png)
+![image-20240401150433306](assets/58e18ca85edc0d0f742471e9331a0821_MD5.png)
 
 > Just store the address of any type. You need it when you need to store the address of any type, and cast it into different type of pointer when you want to access the data.
 
-![image-20240401150608270](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240401150608270.png)
+![image-20240401150608270](assets/9c3ec3a351e30298d375872c531f8163_MD5.png)
 
 > Because the size of different objects are usually different. Without casting, the increase of pointer is unclear, so the accesss process may go wrong.
 
@@ -307,7 +307,7 @@ makefile例子
 
 > Makefile specify what instructions and dependencies you need to use to compile a large / difficult project.
 
-![image-20240401150908678](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240401150908678.png)
+![image-20240401150908678](assets/4bfdcc45c35fd0e3405ff605fdf56400_MD5.png)
 
 > 生成program的要运行
 >

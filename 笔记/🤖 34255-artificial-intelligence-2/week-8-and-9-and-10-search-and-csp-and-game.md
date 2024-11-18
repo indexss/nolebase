@@ -24,10 +24,10 @@
 
 *   State space graph：一种搜索问题的数学表示形式。node代表状态，arc代表转换
 
-    ![image-20240409203318538](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409203318538.png)
+    ![image-20240409203318538](assets/3d215f69ce897fad2cc9fcdf7d7ed51c_MD5.png)
 *   Search Tree：解决搜索问题的过程可以被抽象成为一棵搜索树。
 
-    ![image-20240409203443485](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409203443485.png)
+    ![image-20240409203443485](assets/860c4e954b613e9ea7eb1c630583a2c3_MD5.png)
 
 开始状态为根节点，孩子对应后继，节点显示状态，但对应于实现这些状态的计划（即路径）。
 
@@ -231,9 +231,9 @@ forward checking：当添加到现有分配时违反约束的相邻变量值进�
 
 这是一开始的状态。当A被分配为0时，其邻居B和C的域减少，因此很快就知道这个赋值是不合法的（因为C现在为空）。
 
-![image-20240409223333532](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409223333532.png)
+![image-20240409223333532](assets/6879e967a7540a9defa8ff1f2c34b36d_MD5.png)
 
-![image-20240409223430818](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409223430818.png)
+![image-20240409223430818](assets/e8ad3e0cb4cedbddd04efc85b29e9c3b_MD5.png)
 
 #### Speed-up: Ordering
 

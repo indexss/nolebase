@@ -1,7 +1,11 @@
 ---
-source: https://zhuanlan.zhihu.com/p/669193585
-author: 密排六方橘子
+tags:
+  - LLM
 ---
+| Archive 自 | Archive 创建于      | 分类  | 原始作者   | 原始地址                                         | 原始资源创建时间         | 原始资源更新时间         |
+| --------- | ---------------- | --- | ------ | -------------------------------------------- | ---------------- | ---------------- |
+| 知乎        | 2024-11-18 01:26 | 分类  | 密排六方橘子 | [链接](https://zhuanlan.zhihu.com/p/669193585) | 2023-12-05 06:45 | 2024-01-08 07:21 |
+
 LLM入门指南
 
 ## 目录
@@ -64,7 +68,7 @@ C ≈ 6NBS，或者写成C ≈ 6ND
 
 Scaling law的另一个结论如下：
 
-![](https://pica.zhimg.com/v2-53e742750300c48665c3fdf54fea2934_r.jpg)
+![](assets/2fcebcfa9cd7c953a62a9ccb4732e493_MD5.webp)
 
 这三个式子反映的是CND在两者固定的情况下，单独调整某一个变量对模型loss带来的影响。除此之外还有一些公式，因为理解起来有点麻烦就不放在这了。
 
@@ -76,7 +80,7 @@ PS：我们知道了C ≈ 6ND，可以来看一下这三个式子是什么情况
 
 当然实际情况下，这个幂次的具体数值不一定能直接套用到你的模型结构上，因为模型之间亦有差距。因此可以参考[cingti：介绍一些Scaling Laws](https://zhuanlan.zhihu.com/p/631357320)里详细描述的内容（本质是上面的1.1式），也就是我们可以先跑几个小模型，然后画多条损失-计算量曲线（L-C，一个模型画一条），如下图所示：
 
-![](https://picx.zhimg.com/v2-3315c7f873056134a08a585b2cd307a9_r.jpg)
+![](assets/68735d509f152fd40d392438b6499916_MD5.webp)
 
 从图上可以看出，收敛的拐点在对数图上连起来差不多是一条直线，这样实际上你可以知道多个小模型收敛时CND各是多少，这样就能估计大模型的表现。
 
@@ -108,7 +112,7 @@ PS：我们知道了C ≈ 6ND，可以来看一下这三个式子是什么情况
 
 在这里我要点名表扬一下天工的GRE选手，请品鉴：
 
-In the pursuit of cultivating a profoundly adept LLM, the model’s exposure must encompass a diverse array of content spanning an extensive spectrum of domains. Prior endeavors within the field have entailed the task of assigning categorical labels to each individual document or webpage, thereby manually dictating the composition of the training corpus. However, we posit that the corpus employed for LLM training has burgeoned to such an extent that the knowledge it encapsulates can not be compartmentalized discretely. Consequently, eschewing a label-centric approach, our methodology centers on benchmarking the semantic affinities existing between textual segments, thereby identifying and omitting those text blocks characterized by an exceedingly high recurrence rate.
+In the pursuit of cultivating a profoundly adeptLLM, the model’s exposure must encompass a diverse array of content spanning an extensive spectrum of domains. Prior endeavors within the field have entailed the task of assigning categoricallabels to each individual document or webpage, thereby manually dictating the composition of the training corpus. However, we posit that the corpus employed for LLM training has burgeoned to such an extent that the knowledge it encapsulates can not be compartmentalized discretely. Consequently, eschewing a label-centric approach, our methodologycenters on benchmarking the semantic affinities existing between textual segments, thereby identifying and omitting those text blocks characterized by an exceedingly high recurrence rate.
 
 我觉得你们要是之后打算投稿也就算了……要是只是作为造福社区的技术报告，我建议还是稍微user friendly一些，毕竟隔壁qwen，llama乃至scaling law也没见谁把论文写成这样吧。
 
@@ -125,7 +129,7 @@ In the pursuit of cultivating a profoundly adept LLM, the model’s exposure mus
 
 最后的数据构成（整个6T数据集，不是150B的）如下图所示：
 
-![](https://pic1.zhimg.com/v2-6468a8e2f7af78a51b392f4bf6944dde_r.jpg)
+![](assets/2bb65022eb4e417acbb868a5317ec4a1_MD5.webp)
 
 注意对于一些高质量的语料（比维基百科）可以在数据集里多重复几遍，但是根据某些论文里的经验，最好不要超过5遍。
 
@@ -214,7 +218,7 @@ $r_{m}r_{n}=R_{m-n}$, $\phi_{m}-\phi_{n}=\Phi_{m-n}$
 
 我们回头来看transformer论文里写的PE：
 
-![](https://pic2.zhimg.com/v2-182c63730d3c6af66b13ad6a08bf1fbd_r.jpg)
+![](assets/e7169eeb8794952f056c5923cae1b876_MD5.webp)
 
 很显然，我们的结果已经跟他非常像了。这两个式子里的pos对应于我们的m，而唯一的区别就是**我们的 $\theta_{i}$实际上是随机的，你想让他是多少就可以是多少，但是transformer里给它特意加了一个数值** $10000^{2i/d}$。
 
@@ -222,7 +226,7 @@ $r_{m}r_{n}=R_{m-n}$, $\phi_{m}-\phi_{n}=\Phi_{m-n}$
 
 在于他有一个非常好的性质，就是**随着m-n（也就是相对距离）的增大， $p_{m}^{T}p_{n}$的结果会逐渐减小** ，反映在transformer里就是两个输入距离越远，相关性越小，这其实是非常符合直觉的。至于为什么会出现这个现象，其实你硬算一下就知道了，在d足够大的时候可以把求和近似转化为震荡积分（或者可以直接画一下图），篇幅所限，这里就不折腾了。至于到底是1w还是1k，似乎并没有太大所谓。
 
-![](https://pica.zhimg.com/v2-18e67ef2ca5bcd6814eb6ee0597610ea_r.jpg)
+![](assets/ec5d5ccb11fc64bf838299e0d71456c4_MD5.webp)
 
 *来源：https://kexue.fm/archives/8231*
 
@@ -364,11 +368,11 @@ RMS（Root Mean Square）norm认为归一化均值没什么用，主要是方差
 
 然后再来简单提一下千问。
 
-![](https://pic2.zhimg.com/v2-a37ec4e337529a0cc42204f78a0f2d9d_r.jpg)
+![](assets/58366ebbb39fe4ae1fbd3b65e747f2a1_MD5.webp)
 
 整体的数据集规模差不多，参数设置基本都和LLAMA2保持一致，而天工会略有区别：
 
-![](https://pic1.zhimg.com/v2-1ca508f17324bd1aefd8cb45b1959448_r.jpg)
+![](assets/ddb241fa73e5d9e6d4b5e5d6be41bd01_MD5.webp)
 
 千问的训练就正常多了，他也没特地强调训练时有什么花活儿。需要强调的是，训练时采用的都是BF16（和FP32能够表示同样的range，但是精度缩减了）。
 
@@ -397,7 +401,7 @@ RMS（Root Mean Square）norm认为归一化均值没什么用，主要是方差
 
 ### 分块attention
 
-![](https://pic3.zhimg.com/v2-0f1fa95d351496dd7ed8e5625da64f22_r.jpg)
+![](assets/37d555fcb59bf25acdd4978aed204b9b_MD5.webp)
 
 以上是分块attention示意图，我们以N为句子长度，d为特征维数。
 
@@ -413,7 +417,7 @@ RMS（Root Mean Square）norm认为归一化均值没什么用，主要是方差
 
 我们直接来看算法流程图。
 
-![](https://picx.zhimg.com/v2-70eee1fbe8e1e9dc3544a5405b94e1c7_r.jpg)
+![](assets/891d1f1f3e54695f6f5e3b042d04b7bf_MD5.webp)
 
 关注5-15行这个循环即可。这个循环的意思大致是，on chip地遍历每一个分块（只读写L1而不是显存，因此速度很快），然后你需要存下来的东西是**当前状态下的O矩阵，以及当前状态下的 $l$和 $m$** （即每行的和以及每行的最大值），你就可以计算出跟传统attention一模一样的结果。
 
@@ -490,7 +494,7 @@ reward：用于自动评价输出的结果好坏
 
 偏好模型的训练也分两步，pretrain和finetune，pretrain这一步可以简称PMP。这两个步骤只是数据稍微有点区别，finetune阶段的数据质量要高一些。不过文章里并没有介绍pretrain用的数据集有多大……
 
-![](https://pica.zhimg.com/v2-b18560fe3406b3499e908f8250ef7a7a_r.jpg)
+![](assets/a0738fe0b74a7c01ac925a9fd8292b1d_MD5.webp)
 
 实际上finetune之后的模型（RM）和只用pretrain的（PMP）主要是在千问自己的数据集上提升比较大（应该是针对性地构造了一些数据），但是在其他数据集上提升并不明显。
 
@@ -502,7 +506,7 @@ reward：用于自动评价输出的结果好坏
 
 训练流程如下图所示：
 
-![](https://pica.zhimg.com/v2-180f4629d2ca870bed2f8efc4af5c890_r.jpg)
+![](assets/44b8eac22e3ba4a15582870b7b848777_MD5.webp)
 
 图中可以看到三个模块，其中initial language model就是reference model，中间的tuned language model就是我们之前说的actor-critic，最后右边红色框里的reward model。
 
@@ -518,7 +522,7 @@ reward：用于自动评价输出的结果好坏
 
 众所周知，传统Attention定义了QK的相似度： $sim(Q_{i},K_{j})=exp(\frac{Q_{i}K_{j}^{T}}{\sqrt{D}})$，可以把V写成这样：
 
-![](https://pic4.zhimg.com/v2-56e09890deb4536412bc5461f1cdab23_1440w.jpg)
+![](assets/efea7127080fdc68f0795cb3e2b51330_MD5.webp)
 
 这就带来了一个问题，计算的复杂度是随着序列长度平方增长 $O(N^{2})$的。所以一个直觉的想法是把QK相乘这个东西换掉，比如说它能不能是一次的，而不是二次的。
 
@@ -536,7 +540,7 @@ reward：用于自动评价输出的结果好坏
 
 这里不妨先瞅一眼AFT的decoder形式（因为是decoder所以只能看到左边的）：
 
-![](https://pica.zhimg.com/v2-4eb52aa69158cb78fe62b1c6eedb7040_1440w.jpg)
+![](assets/ccac6bac9f04047ac63d05fa8dbe6bbc_MD5.webp)
 
 其中 $\sigma(Q_{i})$是取sigmoid，右边分数里面的 $w_{i,j}$是可学习项。
 
@@ -556,19 +560,19 @@ reward：用于自动评价输出的结果好坏
 
 我们前面说了由于 $w_{i,j}$的存在，AFT的计算量仍然没能缩到O(N)，于是有了如下改进方案：
 
-![](https://picx.zhimg.com/v2-a07731c3b7300d219d29fe415aa0a2b9_r.jpg)
+![](assets/fb760335d1632b5858a09db489c2e7d6_MD5.webp)
 
 左边的是细节图，右边的是整体框架。
 
 **我们先来看下半的time mixing部分** 。RKV就是transformer里的QKV，黄色框里的 $\mu$是一个混合用的参数，具体作用就是把上一时刻的输出和这一时刻做一个混合：
 
-![](https://pic3.zhimg.com/v2-8ff1c1e94b8c38e52a422e5318b3ef6c_r.jpg)
+![](assets/1ed15079fe41a12e45c9a6b80d57f85b_MD5.webp)
 
 有LSTM那个味儿了。
 
 R一支自然没什么好说的，跟AFT一样，而WKV模块长这样：
 
-![](https://pic2.zhimg.com/v2-f91a149ff6ddfb04c6eea1bb5449d9c3_r.jpg)
+![](assets/e196c631bfd730edf68c4b9d130b4990_MD5.webp)
 
 可以看到分子分母都是两项，前一项是求和，与前t-1项相关，后一项就是当前t时刻的值。
 
@@ -578,7 +582,7 @@ R一支自然没什么好说的，跟AFT一样，而WKV模块长这样：
 
 对照一下前面的AFT，可以发现RWKV这里就是改了一下 $w$和 $u$，这样保留了sequential decoding的优势，同时也把计算复杂度降下来了，可以参考作者在原文里的公式：
 
-![](https://pic1.zhimg.com/v2-597c68f3b49abb217925bdb768776bd2_1440w.jpg)
+![](assets/ee0d0ad084c6c03a9a549e911510e355_MD5.webp)
 
 显然当前时刻t的结果可以由**上一时刻的结果+一些和序列长度无关的O(1)计算** 得出，因此整体复杂度是O(N)，非常环保。
 
@@ -586,7 +590,7 @@ R一支自然没什么好说的，跟AFT一样，而WKV模块长这样：
 
 这里的R'K'V'都是带撇的，显然意思是值跟前面的RKV不一样，重新算了一下。同样对于左边R一支没什么好说的，右边一支的计算方法显得很莫名其妙：
 
-![](https://pic1.zhimg.com/v2-141c85bc035a9ce92b6f6402a92f2106_1440w.jpg)
+![](assets/07499db1a684e671aaa861b20537de5e_MD5.webp)
 
 相当于把 $k_{t}'$先做一个squared ReLU，然后再把 $W_{v}'$乘上去。
 

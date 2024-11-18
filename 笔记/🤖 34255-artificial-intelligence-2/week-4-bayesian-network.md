@@ -48,11 +48,11 @@ P（Xi | Parents（Xi））
 
 > (a)
 >
-> ![image-20240409021912884](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409021912884.png)
+> ![image-20240409021912884](assets/a5d181f3539a38289c411ca93d8cf3bc_MD5.png)
 >
 > (b)
 >
-> ![image-20240409021710351](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409021710351.png)
+> ![image-20240409021710351](assets/05753e605e20a85a95e15b98f9d7fe3d_MD5.png)
 >
 > (c) 1+1+4+1+4=11
 
@@ -60,11 +60,11 @@ P（Xi | Parents（Xi））
 
 > (1)
 >
-> ![image-20240409022102589](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409022102589.png)
+> ![image-20240409022102589](assets/b73e93671bbb8641e054291105970698_MD5.png)
 >
 > (2)
 >
-> ![image-20240409022209915](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409022209915.png)
+> ![image-20240409022209915](assets/efd91342cc3cacaaf48e744108b4a78a_MD5.png)
 >
 > (3) 1+1+1+2+4+4+2 = 15
 >
@@ -76,6 +76,6 @@ P（Xi | Parents（Xi））
 
 > (a)
 >
-> ![image-20240409023027552](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240409023027552.png)
+> ![image-20240409023027552](assets/288997c8ce8da9a8545557dfe292f335_MD5.png)
 >
 > 这题和上面完全一样。

@@ -38,17 +38,17 @@ S: this data is sharing
 
 I: invalid
 
-![image-20240401163140883](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240401163140883.png)
+![image-20240401163140883](assets/3a3ad92b02e29ed1294979773c47bd66_MD5.png)
 
-![image-20240401163212772](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240401163212772.png)
+![image-20240401163212772](assets/49e0b80a0ff6099ca86289c0e64810fe_MD5.png)
 
-![image-20240401163224394](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240401163224394.png)
+![image-20240401163224394](assets/c2ee9503bc25b69930f9640c9be46f93_MD5.png)
 
-![image-20240401163237730](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240401163237730.png)
+![image-20240401163237730](assets/6056da62e7b4844854494018be348553_MD5.png)
 
-![image-20240401163248331](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240401163248331.png)
+![image-20240401163248331](assets/062633ff24ad09e5ab1b20492bc32a97_MD5.png)
 
-![image-20240401163302543](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240401163302543.png)
+![image-20240401163302543](assets/4d260a25402326374cb69e1587049590_MD5.png)
 
 #### multicore programming
 

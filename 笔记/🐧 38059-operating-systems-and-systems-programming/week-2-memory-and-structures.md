@@ -166,7 +166,7 @@ Memory leak：申请了，但没有free()ed。就是内存泄露。在C中，防
 
 typedef定义shortcut
 
-![image-20240331233302725](https://cdn.jsdelivr.net/gh/indexss/imagehost@main/img/image-20240331233302725.png)
+![image-20240331233302725](assets/d1987eef4f9ff45d361487463d67e881_MD5.png)
 
 ***
 
