@@ -1,5 +1,5 @@
-# Résumé
-Hello! I'm **Linli Shi (史林立)**, also known as **Larry** among my English-speaking friends, and **indexss** online. I am currently a third-year student at the [University of Birmingham, UK](https://www.birmingham.ac.uk/), studying at the School of Computer Science, where I also serve as a TA in *Team Project Lesson*.
+# Hi there!
+I'm **Linli Shi (史林立)**, also known as **Larry** among my English-speaking friends, and **indexss** online. I am currently a third-year student at the [University of Birmingham, UK](https://www.birmingham.ac.uk/), studying at the School of Computer Science, where I also serve as a TA in *Team Project Lesson*.
 
 ### 🎓 Education  
 I am currently pursuing a dual Bachelor of Science and Bachelor of Engineering in Computer Science. My academic journey began at [Central South University, China](https://www.csu.edu.cn/) in 2021 and will conclude at the [University of Birmingham, UK](https://www.birmingham.ac.uk/) in 2025. Throughout these four years at CSU and UoB, I have consistently received scholarships. Given the unique nature of my dual-degree program, I am preparing for graduate applications for Fall 2026, considering both Master's and PhD programs.
