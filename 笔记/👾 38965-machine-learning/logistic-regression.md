@@ -1,3 +1,9 @@
+---
+tags:
+  - AI
+  - DL
+  - ML
+---
 # Logistic Regression
 
 ## Hypothesis Set

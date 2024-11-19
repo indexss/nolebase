@@ -1,3 +1,10 @@
+---
+tags:
+  - AI
+  - DL
+  - ML
+---
+
 # Linear Models
 
 ## Machine Learning & Neural Computation

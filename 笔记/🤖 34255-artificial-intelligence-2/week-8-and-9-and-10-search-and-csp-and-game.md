@@ -1,3 +1,10 @@
+---
+tags:
+  - AI
+  - DL
+  - ML
+---
+
 # Week 8&9&10 Search & CSP & Game
 
 ### Search

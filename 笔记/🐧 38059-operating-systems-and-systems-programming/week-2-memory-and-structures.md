@@ -1,3 +1,10 @@
+---
+tags:
+  - Sys
+  - OS
+  - Linux
+  - C
+---
 # Week 2 - Memory & Structures
 
 ### Memory

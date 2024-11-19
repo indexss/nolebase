@@ -1,3 +1,10 @@
+---
+tags:
+  - AI
+  - DL
+  - ML
+---
+
 # Week 2&3 - LR & Info Theory & Tree
 
 ### Logistic Regression

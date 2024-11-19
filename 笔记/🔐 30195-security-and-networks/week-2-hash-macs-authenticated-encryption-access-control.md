@@ -1,5 +1,12 @@
 ---
 description: 本周内容比较多，但多数为intro类型
+tags:
+  - Sys
+  - Security
+  - OS
+  - Linux
+  - C
+  - network
 ---
 
 # Week 2 - Hash, MACs, Authenticated Encryption, Access Control

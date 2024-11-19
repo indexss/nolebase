@@ -1,5 +1,10 @@
 ---
 description: Intro
+tags:
+  - Sys
+  - OS
+  - Linux
+  - C
 ---
 
 # Week 0 Intro

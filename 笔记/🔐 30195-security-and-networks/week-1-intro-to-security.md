@@ -1,5 +1,12 @@
 ---
 description: Week 1 主要介绍了一下这门课要讲什么。
+tags:
+  - Sys
+  - Security
+  - OS
+  - Linux
+  - C
+  - network
 ---
 
 # Week 1 - Intro to Security

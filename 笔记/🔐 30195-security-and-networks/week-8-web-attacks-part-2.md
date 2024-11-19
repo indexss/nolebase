@@ -1,5 +1,12 @@
 ---
 description: 接着第7周讲web攻击
+tags:
+  - Sys
+  - Security
+  - OS
+  - Linux
+  - C
+  - network
 ---
 
 # Week 8 - Web Attacks Part 2

@@ -1,3 +1,10 @@
+---
+tags:
+  - Sys
+  - OS
+  - Linux
+  - C
+---
 # Week 1 - Computer Architecture & C
 
 ### 冯·诺伊曼系统

@@ -1,3 +1,11 @@
+---
+tags:
+  - AI
+  - DL
+  - ML
+  - NLP
+---
+
 # RNN
 
 RNN是一种经典用于处理序列的模型。Transformer也可以处理序列。

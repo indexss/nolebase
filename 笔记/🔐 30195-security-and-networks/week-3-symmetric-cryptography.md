@@ -1,5 +1,12 @@
 ---
 description: 介绍了编码，简单的加密，着重讲解了对称加密的知识。
+tags:
+  - Sys
+  - Security
+  - OS
+  - Linux
+  - C
+  - network
 ---
 
 # Week 3 - Symmetric Cryptography

@@ -1,5 +1,12 @@
 ---
 description: 简单介绍web攻击
+tags:
+  - Sys
+  - Security
+  - OS
+  - Linux
+  - C
+  - network
 ---
 
 # Week 7 - Web Attacks Part 1

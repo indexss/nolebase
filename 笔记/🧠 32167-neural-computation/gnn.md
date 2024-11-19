@@ -1,3 +1,11 @@
+---
+tags:
+  - AI
+  - DL
+  - ML
+  - Graph
+---
+
 # GNN
 
 ## 图介绍

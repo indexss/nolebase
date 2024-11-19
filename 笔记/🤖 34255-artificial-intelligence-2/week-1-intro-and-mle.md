@@ -1,3 +1,10 @@
+---
+tags:
+  - AI
+  - DL
+  - ML
+---
+
 # Week 1 - Intro & MLE
 
 ### 暴论

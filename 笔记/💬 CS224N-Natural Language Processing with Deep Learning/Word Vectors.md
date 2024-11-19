@@ -1,3 +1,10 @@
+---
+tags:
+  - NLP
+  - AI
+  - DL
+  - ML
+---
 # Word Vectors
 ## Word Vectors简介
 

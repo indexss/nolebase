@@ -1,3 +1,10 @@
+---
+tags:
+  - Sys
+  - OS
+  - Linux
+  - C
+---
 # Week 9 - Mutual Exclusion for Cooperating Processes
 
 ### 动机

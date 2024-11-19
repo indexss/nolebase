@@ -1,3 +1,10 @@
+---
+tags:
+  - Sys
+  - OS
+  - Linux
+  - C
+---
 # Week 5 - OS Design Principles and System Calls
 
 ### Operating System Description

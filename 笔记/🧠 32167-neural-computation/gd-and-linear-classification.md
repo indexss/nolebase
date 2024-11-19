@@ -1,3 +1,10 @@
+---
+tags:
+  - AI
+  - DL
+  - ML
+---
+
 # GD & Linear Classification
 
 ## Gradient Descent

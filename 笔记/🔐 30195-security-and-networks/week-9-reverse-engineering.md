@@ -1,5 +1,12 @@
 ---
 description: 简单介绍逆向工程
+tags:
+  - Sys
+  - Security
+  - OS
+  - Linux
+  - C
+  - network
 ---
 
 # Week 9 - Reverse Engineering

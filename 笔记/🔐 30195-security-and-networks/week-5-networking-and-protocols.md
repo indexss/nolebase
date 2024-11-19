@@ -1,5 +1,12 @@
 ---
 description: 加密的部分基本结束，开始网络与协议部分
+tags:
+  - Sys
+  - Security
+  - OS
+  - Linux
+  - C
+  - network
 ---
 
 # Week 5 - Networking and Protocols

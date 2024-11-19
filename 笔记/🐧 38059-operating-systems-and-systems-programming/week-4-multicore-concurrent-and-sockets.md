@@ -1,3 +1,10 @@
+---
+tags:
+  - Sys
+  - OS
+  - Linux
+  - C
+---
 # Week 4 - Multicore, Concurrent & Sockets
 
 ### Muticore

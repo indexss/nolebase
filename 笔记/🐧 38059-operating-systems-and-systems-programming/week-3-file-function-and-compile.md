@@ -1,3 +1,10 @@
+---
+tags:
+  - Sys
+  - OS
+  - Linux
+  - C
+---
 # Week 3 - File, Function & Compile
 
 ### Why should I use pointers when I can access objects directly?

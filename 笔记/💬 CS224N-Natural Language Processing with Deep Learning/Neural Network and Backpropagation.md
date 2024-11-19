@@ -1,3 +1,10 @@
+---
+tags:
+  - NLP
+  - AI
+  - DL
+  - ML
+---
 # Neural Network and Backpropagation
 比较基础，只是挑一些比较有意思的拿出来看看。
 

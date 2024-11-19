@@ -1,3 +1,9 @@
+---
+tags:
+  - AI
+  - DL
+  - ML
+---
 # SVM
 
 ## SVM的General Idea
