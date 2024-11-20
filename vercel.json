@@ -1,0 +1,10 @@
+{
+    "redirects": [
+      {
+        "source": "/to/:shortUrl",
+        "destination": "/api/to?shortUrl=:shortUrl",
+        "permanent": false
+      }
+    ]
+  }
+  
