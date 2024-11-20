@@ -7,7 +7,14 @@
 
 .idea
 
+
+
 # Obsidian
+
+**/obsidian-full-calendar/*
+**/obsidian-full-calendar*
+**/obsidian-full-calendar/
+
 
 # **/.obsidian/*
 # !**/.obsidian/workspace*
