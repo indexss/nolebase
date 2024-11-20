@@ -1,4 +1,4 @@
-.obsidian/
+# .obsidian/
 .Trash/
 .trash/
 .DS_Store
@@ -9,10 +9,10 @@
 
 # Obsidian
 
-**/.obsidian/*
-!**/.obsidian/workspace*
-!**/.obsidian/graph*
-!**/.obsidian/snippets/
+# **/.obsidian/*
+# !**/.obsidian/workspace*
+# !**/.obsidian/graph*
+# !**/.obsidian/snippets/
 
 # Temporary files
 

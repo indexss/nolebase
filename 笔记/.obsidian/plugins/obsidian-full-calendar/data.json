@@ -1,0 +1,16 @@
+{
+  "calendarSources": [
+    {
+      "type": "ical",
+      "color": "#6676f0",
+      "url": "https://mybhamtimetable.bham.ac.uk/ical?671ed6cd&group=true&eu=bHhzNDMyQHN0dWRlbnQuYmhhbS5hYy51aw==&h=xlZf0r29m7DLZ-qMscMlFmjL-WsYqhFg9RTLH9IdYm4="
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 1,
+  "initialView": {
+    "desktop": "timeGridWeek",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": true
+}
