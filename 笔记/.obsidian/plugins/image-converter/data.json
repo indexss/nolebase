@@ -38,7 +38,7 @@
   "previewPath": "",
   "manage_duplicate_filename": "duplicate_rename",
   "destructive_resizeMode": "None",
-  "destructive_desiredWidth": 600,
+  "destructive_desiredWidth": 400,
   "destructive_desiredHeight": 800,
   "destructive_desiredLongestEdge": 800,
   "destructive_enlarge_or_reduce": "Always",
