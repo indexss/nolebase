@@ -4,24 +4,80 @@
     "type": "split",
     "children": [
       {
-        "id": "7a6b2f4a3c76cf02",
-        "type": "tabs",
+        "id": "d617469be81c0959",
+        "type": "split",
         "children": [
           {
-            "id": "05a6f6641feeea67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4 - Language Models and RNN"
-            }
+            "id": "7a6b2f4a3c76cf02",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "05a6f6641feeea67",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "4 - Language Models and RNN"
+                }
+              }
+            ]
+          },
+          {
+            "id": "11163ba6fe548759",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c8522d4a64b5a956",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/linlishi/projects/nolebase/笔记",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "/bin/zsh",
+                        "name": "",
+                        "platforms": {
+                          "darwin": true,
+                          "linux": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": true,
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": {
+                        "columns": 126,
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % ls\r\n \u001b[4mindex.md\u001b[0m                                              \u001b[34m \u001b[1;4m'💬 CS224N-Natural Language Processing with Deep Learning'\r\n\u001b[22;24m \u001b[1;4m'❤️ 好的文章，爱来自Larry'\u001b[0m                             \u001b[34m \u001b[1;4m'🔐 30195-security-and-networks'\r\n\u001b[22;24m \u001b[1;4m'🐧 38059-operating-systems-and-systems-programming'\u001b[0m  \u001b[34m \u001b[1;4m'🤖 34255-artificial-intelligence-2'\r\n\u001b[22;24m \u001b[1;4m'👾 38965-machine-learning'\u001b[0m                           \u001b[34m \u001b[1;4m'🧠 32167-neural-computation'\r\n\u001b[0m(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git add .\r\n(base) linlishi@Linlis-MacBook-Pro nolebase %                 \u001b[16D",
+                        "rows": 23
+                      }
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "终端：zsh"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -77,7 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 311.5
   },
   "right": {
     "id": "f12232ab6faa5dfa",
@@ -138,11 +194,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "4 - Language Models and RNN 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -164,13 +218,33 @@
               "icon": "clock",
               "title": "Chronology"
             }
+          },
+          {
+            "id": "68ebccd712d46c3e",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Smart Connections"
+            }
+          },
+          {
+            "id": "f2ac9c50a5973554",
+            "type": "leaf",
+            "state": {
+              "type": "smart-search-view",
+              "state": {},
+              "icon": "search",
+              "title": "Smart Search"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 383.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,16 +260,25 @@
       "chronology:Open Chronology": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "obsidian-full-calendar:Open Full Calendar": false,
+      "publish:发布更改": false,
       "obsidian42-brat:BRAT": false,
-      "publish:发布更改": false
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "05a6f6641feeea67",
+  "active": "1150ea58d01613f2",
   "lastOpenFiles": [
     "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/3 - Dependency Parsing.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/1 - Word Vectors.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241120071517.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241120070209.webp",
+    "❤️ 好的文章，爱来自Larry/LLM入门指南.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/2 - Neural Network and Backpropagation.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/1 - Word Vectors.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/3 - Dependency Parsing.md",
+    "❤️ 好的文章，爱来自Larry/有哪些类似“左派搞最低工资、最高工时、强制保险，导致雇主不堪重负，工人失业了”的反常识的经济学现象？.md",
+    "smart-chats/UNTITLED CHAT 2024-11-20 04 06 05.md",
+    "smart-chats/UNTITLED CHAT 2024-11-20 04 03 28.md",
+    "smart-chats",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241119040900.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241119040625.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241119040412.webp",
@@ -214,20 +297,13 @@
     "❤️ 好的文章，爱来自Larry/如何判断你是否有精神洁癖？.md",
     "❤️ 好的文章，爱来自Larry/我的收藏插件.md",
     "❤️ 好的文章，爱来自Larry/有什么不错的历史书籍推荐？.md",
-    "❤️ 好的文章，爱来自Larry/有哪些类似“左派搞最低工资、最高工时、强制保险，导致雇主不堪重负，工人失业了”的反常识的经济学现象？.md",
-    "❤️ 好的文章，爱来自Larry/LLM入门指南.md",
     "🧠 32167-neural-computation/backpropagation.md",
     "🧠 32167-neural-computation/cnn.md",
     "🧠 32167-neural-computation/gd-and-linear-classification.md",
     "🧠 32167-neural-computation/gnn.md",
     "🧠 32167-neural-computation/linear-models.md",
     "🧠 32167-neural-computation/README.md",
-    "🧠 32167-neural-computation/rnn.md",
-    "🔐 30195-security-and-networks/week-2-hash-macs-authenticated-encryption-access-control.md",
-    "🔐 30195-security-and-networks/week-1-intro-to-security.md",
     "❤️ 好的文章，爱来自Larry/assets/c7488dc2b2c8f12165fcec5b9490de47_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/693cf02a23ce626ceb84918935ed39bf_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/3286e78f01f784099306b8815555337f_MD5.webp",
     "❤️ 好的文章，爱来自Larry/assets/cj.js",
     "🐧 38059-operating-systems-and-systems-programming/assets",
     "🤖 34255-artificial-intelligence-2/assets",
@@ -236,7 +312,6 @@
     "assets",
     "👾 38965-machine-learning/assets",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Ink/Writing/2024.10.15 - 19.46pm.writing",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Ink/Drawing/2024.11.15 - 19.32pm.drawing",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Ink/Drawing"
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Ink/Drawing/2024.11.15 - 19.32pm.drawing"
   ]
 }

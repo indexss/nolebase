@@ -15,6 +15,22 @@
 **/obsidian-full-calendar*
 **/obsidian-full-calendar/
 
+**/.smart-env/*
+**/.smart-env*
+**/.smart-env/
+
+**/smart-chats/*
+**/smart-chats*
+**/smart-chats/
+
+**/.smart-chats/*
+**/.smart-chats*
+**/.smart-chats/
+
+**/smart-connections/*
+**/smart-connections*
+**/smart-connections/
+
 
 # **/.obsidian/*
 # !**/.obsidian/workspace*
