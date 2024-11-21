@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8298a56656ac7a71",
+        "id": "6f777219cb3c93ad",
         "type": "tabs",
         "children": [
           {
-            "id": "cb237a5503b68fa9",
+            "id": "a138173ea897756d",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "笔记/.obsidian/graph.json",
-                "staged": false
+                "file": "❤️ 好的文章，爱来自Larry/“我是爱知乎的，但我们不能假装一切都没有发生“.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (graph.json)"
+              "icon": "lucide-file",
+              "title": "“我是爱知乎的，但我们不能假装一切都没有发生“"
             }
           }
         ]
@@ -156,9 +157,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "❤️ 好的文章，爱来自Larry/“我是爱知乎的，但我们不能假装一切都没有发生“.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "“我是爱知乎的，但我们不能假装一切都没有发生“ 的大纲"
             }
           },
           {
@@ -235,7 +238,7 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "cb237a5503b68fa9",
+  "active": "a138173ea897756d",
   "lastOpenFiles": [
     "❤️ 好的文章，爱来自Larry/“我是爱知乎的，但我们不能假装一切都没有发生“.md",
     "❤️ 好的文章，爱来自Larry/LLM入门指南.md",
