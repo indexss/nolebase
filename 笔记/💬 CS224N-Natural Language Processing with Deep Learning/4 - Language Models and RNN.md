@@ -1,14 +1,16 @@
 # Language Models and RNN
 ## 训练Trick
 
-这一部分大多是克服过拟合的。对过拟合更深刻的解释，可以看这篇文章 https://arxiv.org/abs/1912.02292
-我已经做过解读，链接 [Deep Double Descent Where Bigger Models and More Data Hurt](../🧐%20读读paper/Deep%20Double%20Descent%20Where%20Bigger%20Models%20and%20More%20Data%20Hurt.md)
+这里的内容是讲一些克服过拟合的trick的，但OpenAI的结果显示，其实不存在所谓的过拟合，存在double descent。我在里面也讨论了下面trick的内容。
+论文链接： https://arxiv.org/abs/1912.02292
+而这篇paper我已经做过解读，可以参考： [Deep Double Descent Where Bigger Models and More Data Hurt](../🧐%20读读paper/Deep%20Double%20Descent%20Where%20Bigger%20Models%20and%20More%20Data%20Hurt.md)  
 ### 使用正则化应对过拟合
 $$J(\theta)=\frac{1}{N}\sum_{i=1}^{N}-\log\left(\frac{e^{f_{y_i}}}{\sum_{c=1}^{C}e^{f_c}}\right)\boxed{+\lambda\sum_{k}\theta_k^2}$$
 **经典观点：**
 这个是L2正则。L2正则的原理就是，当我们去argmin theta J的时候，前半部分缩小是没有问题的。后半部分的正则项，如果想要小，那么每个theta都不能太大，这就会让theta整体趋于小，也就是说，不让某个神经元过于敏感，从而防止过拟合的发生。
 
 **目前观点：**
+
 > [!warning] ⚠️ 过拟合的奇怪表述
 这里有个很怪的说法，slide认为训练集的误差接近0就叫过拟合，我认为不是，我认为过拟合是一个相对概念，train降test升才叫过拟合，单看train降到0也不能叫过拟合，但是为了展示这个观点，我把观点放在这。
 
@@ -46,6 +48,84 @@ $$\mathrm{Var}(W_i)=\frac2{n_\mathrm{in}+n_\mathrm{out}}$$
 - AdamW考虑了权重衰减的优化（weight decay），更适合大型模型。
 - NAdamW在 AdamW 基础上引入了 Nesterov 动量加速，更适合语言模型（如词向量）和速度要求较高的场景。
 
-## Language Modeling
+## Language Model
+### Intro
 总的来说，Language Model是一种预测下一个词是什么的模型。
 ![](assets/Pasted%20image%2020241120143356.webp)
+如果更正式的写，就是这样：
+$$P(\boldsymbol{x}^{(t+1)}|\boldsymbol{x}^{(t)},\ldots,\boldsymbol{x}^{(1)})$$
+xt是前面的词，而xt+1可以是语料库V里面的任何一个词。
+语言模型也可以这样解释：LM是一个系统，可以为一句话分配概率。
+例如，如果我们有一句话x1 ... xT, 那么这句话的概率就是：
+$$\begin{aligned}P(\boldsymbol{x}^{(1)},\ldots,\boldsymbol{x}^{(T)})&=P(\boldsymbol{x}^{(1)})\times P(\boldsymbol{x}^{(2)}|\boldsymbol{x}^{(1)})\times\cdots\times P(\boldsymbol{x}^{(T)}|\boldsymbol{x}^{(T-1)},\ldots,\boldsymbol{x}^{(1)})\\&=\prod_{t=1}^TP(\boldsymbol{x}^{(t)}|\boldsymbol{x}^{(t-1)},\ldots,\boldsymbol{x}^{(1)})\end{aligned}$$
+而这就是LM的核心功能。你通过条件概率的链式法则把一个概率拆解成下面的联乘形式后，语言模型的作用就体现在给定前面的词x1 - xt-1, 预测xt的概率。
+
+这里就是LM的一个应用：
+![](assets/Pasted%20image%2020241121202140.webp)
+
+
+### n-gram Language Model
+
+n-gram LM 是在DL出现之前最常用的一种语言模型。 n-gram是由 **n 个连续单词** 组成的单词块。
+例如句子The students opened their \_\_\_\_\_
+1-gram: “the”, “students”, “opened”, “their”
+2-gram: “the students”, “students opened”, “opened their”
+3-gram: “the students opened”, “students opened their”
+4-gram: “the students opened their”
+
+想法就是，收集关于不同n-gram的频率统计数据，并利用这些数据来预测下一个单词。
+
+n-gram有一个假设，叫做Markov assumption: 每个单词 x(t+1)的出现只依赖于前面 n−1个单词，而不依赖更久远的上下文。n是n-gram的n
+$$P(x^{(t+1)}|x^{(t)},x^{(t-1)},\ldots,x^{(1)})=P(x^{(t+1)}|x^{(t)},x^{(t-1)},\ldots,x^{(t-n+2)})$$
+而根据条件概率的公式，我们有：
+$$P(x^{(t+1)}|x^{(t)},x^{(t-1)},\ldots,x^{(t-n+2)})=\frac{P(x^{(t+1)},x^{(t)},\ldots,x^{(t-n+2)})}{P(x^{(t)},x^{(t-1)},\ldots,x^{(t-n+2)})}$$
+那我们怎么得到n-gram和(n-1)-gram的联合概率呢？用大型语料库中的**频率估计概率**：
+$$P(x^{(t+1)}|x^{(t)},\ldots,x^{(t-n+2)})\approx\frac{\mathrm{count}(x^{(t+1)},x^{(t)},\ldots,x^{(t-n+2)})}{\mathrm{count}(x^{(t)},x^{(t-1)},\ldots,x^{(t-n+2)})}$$
+例子：
+![](assets/Pasted%20image%2020241121203208.webp)
+那么在这个例子中，语料库中student open there book 是400次比 student open their exams是100次，所以4-gram LM选择book为w。
+但是如果联系更前面的上文，我们知道proctor是监考员，所以应该选择exam。这是n-gram的问题之一。接下来我们来讨论n-gram的问题：
+
+#### 问题1: 稀疏性问题 (Sparsity Problems)
+问题1: 如果分子从来没有出现过怎么办？
+$$P(w|\text{students opened their})=\frac{\mathrm{count}(\text{students opened their }w)}{\mathrm{count}(\text{students opened their})}=0$$
+引入 **平滑技术 (Smoothing)**，从而让模型可以处理所有分子不存在的情况。
+$$\mathrm{count}(w)\to\mathrm{count}(w)+\delta $$
+问题2: 如果分母从来没有出现过怎么办？
+$$P(w|\text{students opened their})=\frac{\mathrm{count}(\text{students opened their }w)}{\mathrm{count}(\text{students opened their})}=\frac{?}0$$
+可以用**backoff**策略。回退上下文。
+$$P(w|\text{students opened their})\approx P(w|\text{opened their})$$
+实际上，n 越大，n-gram 的组合数量呈指数增长，导致数据稀疏性加剧。通常n 不会取太大值（通常不超过 5），否则模型的稀疏性问题会难以解决。
+
+#### 问题2: 储存问题(Storage Problems)
+如果你的语料库有V个词，那么可能的n-gram就有 $V^n$ 种，那么V变大，需要存储的模式就更多。
+
+实际中，一个3-gram的LM的效果是这样的：
+
+> today the price of gold per ton , while production of shoe lasts and shoe industry , the bank intervened just after it considered and rejected an imf demand to rebuild depleted european stocks , sept 30 end primary 76 cts a share .
+
+语法大概没问题，但是不连贯，所以考虑想要用神经网络。
+
+
+### Fixed-window Neural Language Model
+无稀疏性问题，也没有存储问题。
+但有新问题：窗口永远不够大，且由于每个词在的位置不一样，每个词被处理的权重也不一样，这不一定是一个缺点，就是在这里提一下。
+![](assets/Pasted%20image%2020241121205107.webp)
+### RNN
+以前学过，这里简单聊一下。首先就是一个简单的例子：
+
+![](assets/Pasted%20image%2020241121205521.webp)
+RNN优点：任意长度都可以处理，且所有长度的W维度都一样。每个时间步词的处理都是对称的。
+缺点：慢，且难以利用很长时间步以前的内容。这些缺点将会在后面详谈。
+
+
+#### 如何训练RNN？
+拿一个大文字语料库 $\boldsymbol{x}^{(1)},\ldots,\boldsymbol{x}^{(T)}$ 喂给RNN, 得到每一个时间步的输出分布 $\hat{y}^{(t)}$ , $\hat{y}^{(t)}$ 向量的每一位都是一个概率。
+然后和ground truth, one-hot向量 $y^{(t)}$ 算cross-entropy:
+$$J^{(t)}(\theta)=CE(\boldsymbol{y}^{(t)},\hat{\boldsymbol{y}}^{(t)})=-\sum_{w\in V}\boldsymbol{y}_w^{(t)}\log\hat{\boldsymbol{y}}_w^{(t)}=-\log\hat{\boldsymbol{y}}_{\boldsymbol{x}_{t+1}}^{(t)}$$
+而整个训练集上的loss就是这样：
+$$J(\theta)=\frac1T\sum_{t=1}^TJ^{(t)}(\theta)=\frac1T\sum_{t=1}^T-\log\hat{\boldsymbol{y}}_{\boldsymbol{x}_{t+1}}^{(t)}$$
+训练的示意图如下：
+![](assets/Pasted%20image%2020241121232526.webp)
+
+[test111](assets/test111.pdf)
