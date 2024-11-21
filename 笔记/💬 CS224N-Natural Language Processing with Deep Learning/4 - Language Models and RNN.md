@@ -128,4 +128,8 @@ $$J(\theta)=\frac1T\sum_{t=1}^TJ^{(t)}(\theta)=\frac1T\sum_{t=1}^T-\log\hat{\bol
 训练的示意图如下：
 ![](assets/Pasted%20image%2020241121232526.webp)
 
-[test111](assets/test111.pdf)
+这里面存在一个叫Teaching Forcing的技巧，或者叫训练与测试的差距：
+就比如说，当我们给出the这个词的时候，我们输出的东西是y1hat, 输出的hidden state是h1，但是问题就是，真实场景中，我们应当拿y1hat作为x2输入，而不是ground truth x2，students。在这里输入ground truth x可以快速帮助模型训练，防止错误累积，导致模型训练不稳定。
+**但Teaching Forth其实也存在潜在问题。** 在测试阶段，模型需要使用自己预测的结果作为下一步的输入，这可能与训练阶段的行为不一致，从而影响性能。
+
+[test1121](test1121.pdf)
