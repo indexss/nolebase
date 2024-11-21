@@ -13,6 +13,13 @@
         "a": 1,
         "rgb": 5542386
       }
+    },
+    {
+      "query": "path:\"🧐 读读paper\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
     }
   ],
   "collapse-display": true,

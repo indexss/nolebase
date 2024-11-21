@@ -1,5 +1,8 @@
 # Language Models and RNN
 ## 训练Trick
+
+这一部分大多是克服过拟合的。对过拟合更深刻的解释，可以看这篇文章 https://arxiv.org/abs/1912.02292
+我已经做过解读，链接 [Deep Double Descent Where Bigger Models and More Data Hurt](../🧐%20读读paper/Deep%20Double%20Descent%20Where%20Bigger%20Models%20and%20More%20Data%20Hurt.md)
 ### 使用正则化应对过拟合
 $$J(\theta)=\frac{1}{N}\sum_{i=1}^{N}-\log\left(\frac{e^{f_{y_i}}}{\sum_{c=1}^{C}e^{f_c}}\right)\boxed{+\lambda\sum_{k}\theta_k^2}$$
 **经典观点：**
@@ -44,5 +47,5 @@ $$\mathrm{Var}(W_i)=\frac2{n_\mathrm{in}+n_\mathrm{out}}$$
 - NAdamW在 AdamW 基础上引入了 Nesterov 动量加速，更适合语言模型（如词向量）和速度要求较高的场景。
 
 ## Language Modeling
-
-
+总的来说，Language Model是一种预测下一个词是什么的模型。
+![](assets/Pasted%20image%2020241120143356.webp)

@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "2e3635c37b6652e6",
+        "id": "8298a56656ac7a71",
         "type": "tabs",
         "children": [
           {
-            "id": "3e2b17408a913ca9",
+            "id": "cb237a5503b68fa9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
-                "mode": "source",
-                "source": false
+                "file": "笔记/.obsidian/graph.json",
+                "staged": false
               },
-              "icon": "lucide-file",
-              "title": "4 - Language Models and RNN"
+              "icon": "git-pull-request",
+              "title": "Diff View (graph.json)"
             }
           }
         ]
@@ -53,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:过拟合",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +103,7 @@
       {
         "id": "6fdc0afd9a8b2b2d",
         "type": "tabs",
-        "dimension": 57.91469194312796,
+        "dimension": 46.98795180722892,
         "children": [
           {
             "id": "a0fee5747b87e0c7",
@@ -157,11 +156,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "4 - Language Models and RNN 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -173,15 +170,23 @@
               "icon": "clock",
               "title": "Chronology"
             }
-          },
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "1e9050aab095232b",
+        "type": "tabs",
+        "dimension": 53.01204819277109,
+        "children": [
           {
-            "id": "68ebccd712d46c3e",
+            "id": "1150ea58d01613f2",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-view",
+              "type": "git-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Smart Connections"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -193,23 +198,15 @@
               "icon": "search",
               "title": "Smart Search"
             }
-          }
-        ],
-        "currentTab": 6
-      },
-      {
-        "id": "1e9050aab095232b",
-        "type": "tabs",
-        "dimension": 42.08530805687204,
-        "children": [
+          },
           {
-            "id": "1150ea58d01613f2",
+            "id": "68ebccd712d46c3e",
             "type": "leaf",
             "state": {
-              "type": "git-view",
+              "type": "smart-connections-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "smart-connections",
+              "title": "Smart Connections"
             }
           }
         ]
@@ -238,14 +235,24 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "3e2b17408a913ca9",
+  "active": "cb237a5503b68fa9",
   "lastOpenFiles": [
-    "🤖 34255-artificial-intelligence-2/week-8-and-9-and-10-search-and-csp-and-game.md",
+    "❤️ 好的文章，爱来自Larry/“我是爱知乎的，但我们不能假装一切都没有发生“.md",
+    "❤️ 好的文章，爱来自Larry/LLM入门指南.md",
+    "❤️ 好的文章，爱来自Larry/assets/Pasted image 20241121170116.webp",
+    "❤️ 好的文章，爱来自Larry/懂王真的会把关税加到100％甚至以上吗？.md",
+    "❤️ 好的文章，爱来自Larry/我的收藏插件.md",
+    "❤️ 好的文章，爱来自Larry/那么多人骨子里的善良为何要被戏称为“圣母”呢？.md",
+    "❤️ 好的文章，爱来自Larry/有哪些越早知道越好的人生经验？.md",
+    "❤️ 好的文章，爱来自Larry/为什么Yann lecun（杨立昆）对chatGPT持否定态度？.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
+    "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
+    "🧐 读读paper",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241120143356.webp",
+    "🤖 34255-artificial-intelligence-2/week-8-and-9-and-10-search-and-csp-and-game.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241120080735.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241120071517.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241120070209.webp",
-    "❤️ 好的文章，爱来自Larry/LLM入门指南.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/2 - Neural Network and Backpropagation.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/1 - Word Vectors.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/3 - Dependency Parsing.md",
@@ -259,24 +266,14 @@
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241119034809.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241119033627.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/tets.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241119031553.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241119031329.webp",
     "❤️ 好的文章，爱来自Larry/机器学习中有哪些形式简单却很巧妙的idea？.md",
-    "❤️ 好的文章，爱来自Larry/未命名.md",
     "❤️ 好的文章，爱来自Larry/你有什么事是当程序员之后才懂的？.md",
     "2024-11-19.md",
     "❤️ 好的文章，爱来自Larry/人工智能疯了，学无道，富且贵焉，耻也.md",
     "❤️ 好的文章，爱来自Larry/为什么至今没有看到被“无孩爱猫女”冒犯的群体发声呢？.md",
     "❤️ 好的文章，爱来自Larry/假如泽连斯基去世了，战争会不会立即结束？.md",
     "❤️ 好的文章，爱来自Larry/如何判断你是否有精神洁癖？.md",
-    "❤️ 好的文章，爱来自Larry/我的收藏插件.md",
     "❤️ 好的文章，爱来自Larry/有什么不错的历史书籍推荐？.md",
-    "🧠 32167-neural-computation/backpropagation.md",
-    "🧠 32167-neural-computation/cnn.md",
-    "🧠 32167-neural-computation/gd-and-linear-classification.md",
-    "🧠 32167-neural-computation/gnn.md",
-    "🧠 32167-neural-computation/linear-models.md",
-    "🧠 32167-neural-computation/README.md",
     "❤️ 好的文章，爱来自Larry/assets/cj.js",
     "🐧 38059-operating-systems-and-systems-programming/assets",
     "🤖 34255-artificial-intelligence-2/assets",
@@ -284,7 +281,6 @@
     "❤️ 好的文章，爱来自Larry",
     "assets",
     "👾 38965-machine-learning/assets",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Ink/Writing/2024.10.15 - 19.46pm.writing",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Ink/Drawing/2024.11.15 - 19.32pm.drawing"
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Ink/Writing/2024.10.15 - 19.46pm.writing"
   ]
 }
