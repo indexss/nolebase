@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
+                "file": "❤️ 好的文章，爱来自Larry/“我是爱知乎的，但我们不能假装一切都没有发生“.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 - Language Models and RNN"
+              "title": "“我是爱知乎的，但我们不能假装一切都没有发生“"
             }
           }
         ]
@@ -158,10 +158,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md"
+                "file": "❤️ 好的文章，爱来自Larry/“我是爱知乎的，但我们不能假装一切都没有发生“.md"
               },
               "icon": "lucide-list",
-              "title": "4 - Language Models and RNN 的大纲"
+              "title": "“我是爱知乎的，但我们不能假装一切都没有发生“ 的大纲"
             }
           },
           {
@@ -238,13 +238,38 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "dee736f041d546b4",
+  "active": "1150ea58d01613f2",
   "lastOpenFiles": [
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/test1121.pdf",
+    "❤️ 好的文章，爱来自Larry/那么多人骨子里的善良为何要被戏称为“圣母”呢？.md",
+    "❤️ 好的文章，爱来自Larry/砍价的时候，假装走开有用么？.md",
+    "❤️ 好的文章，爱来自Larry/机器学习中有哪些形式简单却很巧妙的idea？.md",
+    "❤️ 好的文章，爱来自Larry/有哪些越早知道越好的人生经验？.md",
+    "❤️ 好的文章，爱来自Larry/有哪些类似“左派搞最低工资、最高工时、强制保险，导致雇主不堪重负，工人失业了”的反常识的经济学现象？.md",
+    "❤️ 好的文章，爱来自Larry/有什么不错的历史书籍推荐？.md",
+    "❤️ 好的文章，爱来自Larry/我的收藏插件.md",
+    "❤️ 好的文章，爱来自Larry/懂王真的会把关税加到100％甚至以上吗？.md",
+    "❤️ 好的文章，爱来自Larry/如何判断你是否有精神洁癖？.md",
+    "❤️ 好的文章，爱来自Larry/假如泽连斯基去世了，战争会不会立即结束？.md",
+    "❤️ 好的文章，爱来自Larry/你有什么事是当程序员之后才懂的？.md",
+    "❤️ 好的文章，爱来自Larry/人工智能疯了，学无道，富且贵焉，耻也.md",
+    "❤️ 好的文章，爱来自Larry/为什么至今没有看到被“无孩爱猫女”冒犯的群体发声呢？.md",
+    "❤️ 好的文章，爱来自Larry/为什么Yann lecun（杨立昆）对chatGPT持否定态度？.md",
+    "❤️ 好的文章，爱来自Larry/LLM入门指南.md",
+    "❤️ 好的文章，爱来自Larry/“我是爱知乎的，但我们不能假装一切都没有发生“.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/3 - Dependency Parsing.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/2 - Neural Network and Backpropagation.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/1 - Word Vectors.md",
+    "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
+    "🧠 32167-neural-computation/rnn.md",
+    "🧠 32167-neural-computation/README.md",
+    "🧠 32167-neural-computation/linear-models.md",
+    "🧠 32167-neural-computation/gnn.md",
+    "🧠 32167-neural-computation/gd-and-linear-classification.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/1912.02292v1.pdf",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/test1121.pdf",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122022442.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/test111.pdf",
-    "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122022424.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122022353.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122022334.webp",
@@ -253,37 +278,13 @@
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122004204.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122001946.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241121232526.webp",
-    "👾 38965-machine-learning/README.md",
-    "👾 38965-machine-learning/Intro.md",
-    "👾 38965-machine-learning/Logistic-Regression.md",
-    "👾 38965-machine-learning/SVM Classification.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241121205521.webp",
-    "❤️ 好的文章，爱来自Larry/砍价的时候，假装走开有用么？.md",
-    "🤖 34255-artificial-intelligence-2/week-8-and-9-and-10-search-and-csp-and-game.md",
-    "❤️ 好的文章，爱来自Larry/“我是爱知乎的，但我们不能假装一切都没有发生“.md",
-    "❤️ 好的文章，爱来自Larry/LLM入门指南.md",
-    "❤️ 好的文章，爱来自Larry/懂王真的会把关税加到100％甚至以上吗？.md",
-    "❤️ 好的文章，爱来自Larry/我的收藏插件.md",
-    "❤️ 好的文章，爱来自Larry/那么多人骨子里的善良为何要被戏称为“圣母”呢？.md",
-    "❤️ 好的文章，爱来自Larry/有哪些越早知道越好的人生经验？.md",
-    "❤️ 好的文章，爱来自Larry/为什么Yann lecun（杨立昆）对chatGPT持否定态度？.md",
     "🧐 读读paper",
-    "💬 CS224N-Natural Language Processing with Deep Learning/2 - Neural Network and Backpropagation.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/1 - Word Vectors.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/3 - Dependency Parsing.md",
-    "❤️ 好的文章，爱来自Larry/有哪些类似“左派搞最低工资、最高工时、强制保险，导致雇主不堪重负，工人失业了”的反常识的经济学现象？.md",
-    "smart-chats/UNTITLED CHAT 2024-11-20 04 06 05.md",
-    "smart-chats/UNTITLED CHAT 2024-11-20 04 03 28.md",
     "smart-chats",
-    "💬 CS224N-Natural Language Processing with Deep Learning/tets.md",
-    "❤️ 好的文章，爱来自Larry/机器学习中有哪些形式简单却很巧妙的idea？.md",
-    "❤️ 好的文章，爱来自Larry/你有什么事是当程序员之后才懂的？.md",
-    "2024-11-19.md",
     "❤️ 好的文章，爱来自Larry/assets/cj.js",
     "🐧 38059-operating-systems-and-systems-programming/assets",
     "🤖 34255-artificial-intelligence-2/assets",
     "❤️ 好的文章，爱来自Larry/assets",
-    "❤️ 好的文章，爱来自Larry",
-    "assets"
+    "❤️ 好的文章，爱来自Larry"
   ]
 }

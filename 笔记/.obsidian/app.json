@@ -4,5 +4,6 @@
   "attachmentFolderPath": "./assets",
   "readableLineLength": false,
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "showInlineTitle": false
 }

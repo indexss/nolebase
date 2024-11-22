@@ -4,6 +4,7 @@ tags:
   - DL
   - 过拟合/overfitting
 ---
+# Deep Double Descent: Where Bigger Models and More Data Hurt
 https://arxiv.org/abs/1912.02292
 
 讨论了双重下降的现象。

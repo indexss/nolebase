@@ -26,12 +26,6 @@
       },
     },
 
-    
-    
-    vite: {
-      assetsInclude: ['**/*.pdf'], // 新增：将 PDF 文件类型包含为静态资源
-    },
-
     sitemap: {
       hostname: targetDomain
     },
