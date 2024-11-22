@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6f777219cb3c93ad",
+        "id": "2abc77628376b6dc",
         "type": "tabs",
         "children": [
           {
-            "id": "a138173ea897756d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Deep Double Descent Where Bigger Models and More Data Hurt"
-            }
-          },
-          {
-            "id": "0ddd572ef048e8c6",
+            "id": "dee736f041d546b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -35,8 +21,7 @@
               "title": "4 - Language Models and RNN"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,9 +238,13 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "0ddd572ef048e8c6",
+  "active": "dee736f041d546b4",
   "lastOpenFiles": [
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122022442.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/test111.pdf",
+    "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
+    "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/test1121.pdf",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122022424.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122022353.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122022334.webp",
@@ -263,17 +252,12 @@
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122005056.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122004204.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122001946.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/test1121.pdf",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/test111.pdf",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241121232526.webp",
     "👾 38965-machine-learning/README.md",
     "👾 38965-machine-learning/Intro.md",
     "👾 38965-machine-learning/Logistic-Regression.md",
     "👾 38965-machine-learning/SVM Classification.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241121205521.webp",
-    "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241121205107.webp",
     "❤️ 好的文章，爱来自Larry/砍价的时候，假装走开有用么？.md",
     "🤖 34255-artificial-intelligence-2/week-8-and-9-and-10-search-and-csp-and-game.md",
     "❤️ 好的文章，爱来自Larry/“我是爱知乎的，但我们不能假装一切都没有发生“.md",
