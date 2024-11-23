@@ -1,7 +1,7 @@
 # Language Models and RNN
 ## 训练Trick
 
-这里的内容是讲一些克服过拟合的trick的，但OpenAI的结果显示，其实不存在所谓的过拟合，存在double descent。我在里面也讨论了下面trick的内容。
+这里的内容是讲一些克服过拟合的trick的，但OpenAI的结果显示，其实不存在所谓的过拟合，只存在double descent。我在里面也讨论了下面trick的内容。
 论文链接： https://arxiv.org/abs/1912.02292
 而这篇paper我已经做过解读，可以参考： [Deep Double Descent Where Bigger Models and More Data Hurt](../🧐%20读读paper/Deep%20Double%20Descent%20Where%20Bigger%20Models%20and%20More%20Data%20Hurt.md)  
 ### 使用正则化应对过拟合
