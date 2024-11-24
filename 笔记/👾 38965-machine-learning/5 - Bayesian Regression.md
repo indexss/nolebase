@@ -3,7 +3,7 @@
 拿线形回归举例。频率派认为，参数w都是定的，而误差来自于不可学习的噪声epsilon
 贝叶斯派认为，参数w都是一个条件概率分布，而误差来自于w分布你选择不同的w。数据量越大，这个分布就越集中。
 贝叶斯派：
-$$P(\omega_0\mid y,X,\sigma^2)=\frac{P(y\mid X,\omega_0,\sigma^2)P(\omega_0)}{P(y\mid X,\sigma^2)}$$
+$$P(\omega\mid y,X)=\frac{P(y\mid X,\omega)P(\omega)}{P(y\mid X)} \rightarrow  P(\omega\mid y,X)\propto P(y\mid X,\omega)P(\omega)$$
 ## 概率视角下的线性回归
 我们认为，w是确定的，不确定性来自于噪声epsilon：
 $$\mathbf{y}=\hat{y}(\mathbf{x},\boldsymbol{\omega})+\epsilon $$
