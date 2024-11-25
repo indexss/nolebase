@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "❤️ 好的文章，爱来自Larry/How LSTM networks solve the problem of vanishing gradients.md",
+                "file": "🧠 32167-neural-computation/6 - gnn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How LSTM networks solve the problem of vanishing gradients"
+              "title": "6 - gnn"
             }
           },
           {
@@ -172,10 +172,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "❤️ 好的文章，爱来自Larry/How LSTM networks solve the problem of vanishing gradients.md"
+                "file": "🧠 32167-neural-computation/6 - gnn.md"
               },
               "icon": "lucide-list",
-              "title": "How LSTM networks solve the problem of vanishing gradients 的大纲"
+              "title": "6 - gnn 的大纲"
             }
           },
           {
@@ -254,20 +254,28 @@
   },
   "active": "e2dd6f092d1e4b5a",
   "lastOpenFiles": [
-    "❤️ 好的文章，爱来自Larry/assets/de01f4aefc3234b97fa0f3e8526a26b9_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/27e82674d500f76a12151fff3b1047d1_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/7267c17fca7a53e481cab9a7420f17b1_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/c230fd08b0a4ff02387846824f6cb57b_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/e3c0fb9465eb608efafa012cd69b7f32_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/e9dec41324a681379f525b75ac05867e_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/96efd65e16b6876fb415af82dba1fe35_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/aecf5ffaf1ad5578c4ed3df41d87c46d_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/7b17436a6183c49c256d7c387b0705da_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/f4d7f0a93cf4e6bafc635f415f9f79cb_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/8a6c81fb1503a83305a113fac9ccbf42_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/“我是爱知乎的，但我们不能假装一切都没有发生“.md",
-    "❤️ 好的文章，爱来自Larry/How LSTM networks solve the problem of vanishing gradients.md",
+    "🧠 32167-neural-computation/assets/Pasted image 20241125235016.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241125235008-1.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241125235007.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241125234752.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241125234426.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241125233532.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241125233429.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241125233118.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241125225108.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241125224011.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241125223423.webp",
+    "🧠 32167-neural-computation/assets",
+    "🧠 32167-neural-computation/1 - linear-models.md",
+    "🧠 32167-neural-computation/6 - gnn.md",
+    "🧠 32167-neural-computation/5 - rnn.md",
+    "🧠 32167-neural-computation/4 - cnn.md",
+    "🧠 32167-neural-computation/3 - backpropagation.md",
+    "🧠 32167-neural-computation/2 - gd-and-linear-classification.md",
     "👾 38965-machine-learning/8 - VC dimension.md",
+    "❤️ 好的文章，爱来自Larry/为什么大模型会「说胡话」？如何解决大模型的「幻觉」问题？.md",
+    "❤️ 好的文章，爱来自Larry/How LSTM networks solve the problem of vanishing gradients.md",
+    "❤️ 好的文章，爱来自Larry/“我是爱知乎的，但我们不能假装一切都没有发生“.md",
     "👾 38965-machine-learning/7 - Learning Feasibility.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/5 - Sequence to Sequence Models and Machine Translation.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
@@ -282,23 +290,15 @@
     "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
     "assets",
     "💬 CS224N-Natural Language Processing with Deep Learning/3 - Dependency Parsing.md",
-    "❤️ 好的文章，爱来自Larry/为什么大模型会「说胡话」？如何解决大模型的「幻觉」问题？.md",
     "🧐 读读paper/assets/dual_1912.02292v1.pdf",
     "🧐 读读paper/assets",
     "❤️ 好的文章，爱来自Larry/那么多人骨子里的善良为何要被戏称为“圣母”呢？.md",
     "❤️ 好的文章，爱来自Larry/砍价的时候，假装走开有用么？.md",
-    "❤️ 好的文章，爱来自Larry/机器学习中有哪些形式简单却很巧妙的idea？.md",
-    "❤️ 好的文章，爱来自Larry/有哪些越早知道越好的人生经验？.md",
-    "❤️ 好的文章，爱来自Larry/有哪些类似“左派搞最低工资、最高工时、强制保险，导致雇主不堪重负，工人失业了”的反常识的经济学现象？.md",
-    "❤️ 好的文章，爱来自Larry/有什么不错的历史书籍推荐？.md",
-    "❤️ 好的文章，爱来自Larry/我的收藏插件.md",
-    "❤️ 好的文章，爱来自Larry/懂王真的会把关税加到100％甚至以上吗？.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/1912.02292v1.pdf",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/test1121.pdf",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/test111.pdf",
     "🧐 读读paper",
     "smart-chats",
-    "❤️ 好的文章，爱来自Larry/assets/cj.js",
-    "🐧 38059-operating-systems-and-systems-programming/assets"
+    "❤️ 好的文章，爱来自Larry/assets/cj.js"
   ]
 }
