@@ -76,7 +76,7 @@ gates都是长度为n的向量，每一个时间步中，每个gates中的元素
 接下来看一下为什么说LSTM解决了梯度消失的问题。
 
 ### 梯度推导
-参考：[How LSTM networks solve the problem of vanishing gradients](../How%20LSTM%20networks%20solve%20the%20problem%20of%20vanishing%20gradients.md)
+参考：[How LSTM networks solve the problem of vanishing gradients](../❤️%20好的文章，爱来自Larry/How%20LSTM%20networks%20solve%20the%20problem%20of%20vanishing%20gradients.md)
 
 RNN中梯度爆炸的原因是我们需要计算递归导数$\frac{\partial h_{t}}{\partial h_{i}}$ 。其中，$\frac{\partial h_{t}}{\partial h_{t-1}}$ 会加剧Wh特征值范围的塌缩。如果Wh的特征值是0-1，那么梯度就快速消失了。如果大于1，那就快速爆炸了。
 而LSTM中，ht是根据ct算出的，所以ht的梯度并不直接依赖于ht-1。在LSTM中，直接传递梯度的是c。那么我们看看c的导数。

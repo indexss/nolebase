@@ -8,45 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dee736f041d546b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "👾 38965-machine-learning/6 - SVM Regression.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6 - SVM Regression"
-            }
-          },
-          {
-            "id": "b0f54acd22f4c113",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "How LSTM networks solve the problem of vanishing gradients.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "How LSTM networks solve the problem of vanishing gradients"
-            }
-          },
-          {
             "id": "e2dd6f092d1e4b5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
+                "file": "👾 38965-machine-learning/8 - VC dimension.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 - Language Models and RNN"
+              "title": "8 - VC dimension"
             }
           },
           {
@@ -199,9 +171,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "👾 38965-machine-learning/8 - VC dimension.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "8 - VC dimension 的大纲"
             }
           },
           {
@@ -278,28 +252,32 @@
       "graph:查看关系图谱": false
     }
   },
-  "active": "05a6f6641feeea67",
+  "active": "e2dd6f092d1e4b5a",
   "lastOpenFiles": [
-    "👾 38965-machine-learning/6 - SVM Regression.md",
-    "👾 38965-machine-learning/assets/Pasted image 20241124231752.webp",
-    "👾 38965-machine-learning/assets/Pasted image 20241124231519.webp",
-    "👾 38965-machine-learning/assets/Pasted image 20241124230909.webp",
-    "👾 38965-machine-learning/assets/Pasted image 20241124230907.webp",
-    "👾 38965-machine-learning/assets/Pasted image 20241124230644.webp",
-    "👾 38965-machine-learning/5 - Bayesian Regression.md",
-    "👾 38965-machine-learning/assets/Pasted image 20241124225405.webp",
-    "👾 38965-machine-learning/assets/Pasted image 20241124224754.webp",
-    "👾 38965-machine-learning/assets/Pasted image 20241124222632.webp",
-    "👾 38965-machine-learning/assets/Pasted image 20241124222539.webp",
-    "👾 38965-machine-learning/assets/3c50685d3b23abc81436fa8f9238f944_MD5.webp",
-    "👾 38965-machine-learning/4 - Linear Regression.md",
-    "👾 38965-machine-learning/README.md",
-    "👾 38965-machine-learning/3 - SVM Classification.md",
-    "👾 38965-machine-learning/2 - Logistic-Regression.md",
-    "👾 38965-machine-learning/1 - Intro.md",
+    "👾 38965-machine-learning/assets/Pasted image 20241125053900.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20241125052002.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20241125050628.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20241125050521.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20241125050257.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20241125045703.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20241125045436.webp",
+    "👾 38965-machine-learning/7 - Learning Feasibility.md",
+    "👾 38965-machine-learning/8 - VC dimension.md",
+    "👾 38965-machine-learning/assets/Pasted image 20241125043524.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20241125043235.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20241125043230.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20241125042431.webp",
+    "❤️ 好的文章，爱来自Larry/How LSTM networks solve the problem of vanishing gradients.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/5 - Sequence to Sequence Models and Machine Translation.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
-    "How LSTM networks solve the problem of vanishing gradients.md",
+    "👾 38965-machine-learning/1 - Intro.md",
+    "👾 38965-machine-learning/2 - Logistic-Regression.md",
+    "👾 38965-machine-learning/3 - SVM Classification.md",
+    "👾 38965-machine-learning/4 - Linear Regression.md",
+    "👾 38965-machine-learning/5 - Bayesian Regression.md",
+    "👾 38965-machine-learning/6 - SVM Regression.md",
+    "().md",
+    "👾 38965-machine-learning/README.md",
     "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
     "assets",
     "💬 CS224N-Natural Language Processing with Deep Learning/3 - Dependency Parsing.md",
@@ -315,9 +293,6 @@
     "❤️ 好的文章，爱来自Larry/有什么不错的历史书籍推荐？.md",
     "❤️ 好的文章，爱来自Larry/我的收藏插件.md",
     "❤️ 好的文章，爱来自Larry/懂王真的会把关税加到100％甚至以上吗？.md",
-    "❤️ 好的文章，爱来自Larry/如何判断你是否有精神洁癖？.md",
-    "❤️ 好的文章，爱来自Larry/假如泽连斯基去世了，战争会不会立即结束？.md",
-    "❤️ 好的文章，爱来自Larry/你有什么事是当程序员之后才懂的？.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/1912.02292v1.pdf",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/test1121.pdf",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/test111.pdf",
