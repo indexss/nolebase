@@ -2,7 +2,6 @@
 
 ## A simple, straightforward mathematical explanation  
 
-
 When diving into the theory behind Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks, two main questions arise:  
 探讨循环神经网络（RNNs）和长短期记忆网络（LSTM）背后的理论时，会出现两个主要问题：
 
