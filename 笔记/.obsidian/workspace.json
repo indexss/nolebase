@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠 32167-neural-computation/6 - gnn.md",
+                "file": "🧠 32167-neural-computation/7 - AE-VAE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 - gnn"
+              "title": "7 - AE-VAE"
             }
           },
           {
@@ -172,10 +172,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠 32167-neural-computation/6 - gnn.md"
+                "file": "🧠 32167-neural-computation/7 - AE-VAE.md"
               },
               "icon": "lucide-list",
-              "title": "6 - gnn 的大纲"
+              "title": "7 - AE-VAE 的大纲"
             }
           },
           {
@@ -254,20 +254,21 @@
   },
   "active": "e2dd6f092d1e4b5a",
   "lastOpenFiles": [
-    "🧠 32167-neural-computation/assets/Pasted image 20241125235016.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241125235008-1.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241125235007.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241125234752.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241125234426.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241125233532.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241125233429.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241125233118.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241125225108.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241125224011.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241125223423.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241126033947.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241126033933.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241126033921.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241126033842.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241126033708.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241126031750.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241126031714.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241126031114.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241126030918.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241126025911.webp",
+    "🧠 32167-neural-computation/assets/Pasted image 20241126025643.webp",
+    "🧠 32167-neural-computation/6 - gnn.md",
+    "🧠 32167-neural-computation/7 - AE-VAE.md",
     "🧠 32167-neural-computation/assets",
     "🧠 32167-neural-computation/1 - linear-models.md",
-    "🧠 32167-neural-computation/6 - gnn.md",
     "🧠 32167-neural-computation/5 - rnn.md",
     "🧠 32167-neural-computation/4 - cnn.md",
     "🧠 32167-neural-computation/3 - backpropagation.md",
@@ -293,7 +294,6 @@
     "🧐 读读paper/assets/dual_1912.02292v1.pdf",
     "🧐 读读paper/assets",
     "❤️ 好的文章，爱来自Larry/那么多人骨子里的善良为何要被戏称为“圣母”呢？.md",
-    "❤️ 好的文章，爱来自Larry/砍价的时候，假装走开有用么？.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/1912.02292v1.pdf",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/test1121.pdf",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/test111.pdf",
