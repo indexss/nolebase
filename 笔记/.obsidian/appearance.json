@@ -1,6 +1,7 @@
 {
   "theme": "moonstone",
   "cssTheme": "Minimal",
-  "textFontFamily": "Open Sans,PingFang SC",
-  "interfaceFontFamily": "Open Sans,PingFang SC"
+  "textFontFamily": "LXGW Bright GB",
+  "interfaceFontFamily": "Open Sans,PingFang SC",
+  "baseFontSize": 18
 }

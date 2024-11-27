@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/5 - Sequence to Sequence Models and Machine Translation.md",
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/6 - Attention.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5 - Sequence to Sequence Models and Machine Translation"
+              "title": "6 - Attention"
             }
           }
         ]
@@ -158,10 +158,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/5 - Sequence to Sequence Models and Machine Translation.md"
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/6 - Attention.md"
               },
               "icon": "lucide-list",
-              "title": "5 - Sequence to Sequence Models and Machine Translation 的大纲"
+              "title": "6 - Attention 的大纲"
             }
           },
           {
@@ -208,8 +208,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Smart Connections"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ]
@@ -238,21 +238,23 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "1150ea58d01613f2",
+  "active": "f9766e3d3ba1af92",
   "lastOpenFiles": [
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127101829.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127101815.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127101048.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127100731.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/6 - Attention.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127093900.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/5 - Sequence to Sequence Models and Machine Translation.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127092900.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127092557.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127091046.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127070318.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127060049.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127055843.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127055430.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127055020.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127051309.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127050229.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127050138.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127045621.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127042009.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127041937.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127041859.webp",
     "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/5 - Sequence to Sequence Models and Machine Translation.md",
     "🧠 32167-neural-computation/6 - GNN.md",
     "Untitled 1.md",
     "🧠 32167-neural-computation/Untitled 1.md",
@@ -275,8 +277,6 @@
     "❤️ 好的文章，爱来自Larry/为什么大模型会「说胡话」？如何解决大模型的「幻觉」问题？.md",
     "❤️ 好的文章，爱来自Larry/How LSTM networks solve the problem of vanishing gradients.md",
     "👾 38965-machine-learning/7 - Learning Feasibility.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
-    "👾 38965-machine-learning/1 - Intro.md",
     "assets",
     "🧐 读读paper/assets/dual_1912.02292v1.pdf",
     "🧐 读读paper/assets",

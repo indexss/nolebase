@@ -6,6 +6,7 @@ tags:
   - ML
 ---
 # Sequence to Sequence Models and Machine Translation
+
 ## 特征值推导 Vanilla RNN的梯度消失问题
 ![](assets/Pasted%20image%2020241123045744.webp)
 复习一下上次的知识。当J4想要对Wh求导的时候，由于Wh在第一步到第四步是共享的，所以是J对wh|i的加和：
@@ -181,3 +182,4 @@ $$P(y|x)=P(y_1|x)\cdot P(y_2|y_1,x)\cdot P(y_3|y_1,y_2,x)\cdots P(y_T|y_1,\ldots
 Multi-layer deep encoder-decoder machine translation net
 ![](assets/Pasted%20image%2020241127060049.webp)
 这里可以看到，conditioning，也就是对原文的编码可以算是bottleneck，成为了瓶颈，因为这么小的向量肯定让数据失真了。后续的注意力机制（Attention）被引入来缓解这一问题。
+
