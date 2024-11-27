@@ -109,3 +109,75 @@ $$\frac{\partial E_{k}}{\partial W}=\frac{\partial E_{k}}{\partial h_{k}}\frac{\
 - DenseNet（密集连接网络）：每一层直接连接到所有未来层，确保信息和梯度可以无障碍地流动。
 - HighwayNet（公路网络）类似于残差连接，但身份连接和变换层之间通过动态门控机制进行控制。灵感来源于LSTM的门控机制，但用于深度前馈网络或卷积网络。
 ![](assets/Pasted%20image%2020241123072128.webp)
+## RNNs其他用途
+单词标签：
+![](assets/Pasted%20image%2020241127041859.webp)
+用作嵌入模型
+![](assets/Pasted%20image%2020241127041937.webp)
+
+条件语言模型做语音识别
+![](assets/Pasted%20image%2020241127042009.webp)
+
+## 双向RNNs
+在传递的过程中，ht只包含t之前的信息，而t之后的信息是没有包含的。
+![](assets/Pasted%20image%2020241127045621.webp)
+如果想要包含，就要双向rnn：
+![](assets/Pasted%20image%2020241127050138.webp)
+公式表示是这样的：
+
+![](assets/Pasted%20image%2020241127050229.webp)
+
+注意：只有在可以访问**整个输入序列**时才适用。**不适用于语言建模（Language Modeling, LM）**，因为在语言建模任务中，模型通常只能使用左侧上下文（即过去的信息），而不能访问完整的输入序列。
+但当你想要embedding的时候，双向RNN就很棒，可以默认使用双向RNN。BERT默认就用的这个。
+
+## 多层RNNs
+较低层的RNN应该计算较低级别的特征，而较高层的RNN应该计算较高级别的特征。
+
+![](assets/Pasted%20image%2020241127051309.webp)
+多层RNN允许网络计算更复杂的表示，比单层的高维度encoding效果要好
+高性能的RNN网络大多都是多层的，只不过没有CNN或者FF那么深
+比如说，2017 Britz et al的文章表示在机翻任务重，2-4层是RNN encoder的最佳层数，4层是RNN decoder的最佳层数。
+- 2层一般比1层好很多，但3层可能只比2层好一点
+- 深层的RNN训练需要skip connections / dense connections (例如8层RNN)
+Transformer 网络中有大量类似跳跃连接的机制，后续会进一步学习。
+
+2013-2015年，LSTM达到SoTA，如手写识别，语音识别，机翻，parsing，图像字幕。但2019-2014年，Transformer主宰了整个NLP任务。
+
+## 机器翻译
+机器翻译的研究始于**20世纪50年代初**，这一时期的研究发生在“人工智能”（A.I.）这一术语被创造之前。
+机器翻译的研究得到了军事领域的大量资助，早期的机器翻译系统基本上是基于简单规则的系统，主要通过**单词替换**来完成翻译。
+语言的复杂性远超简单的单词替换，且在不同语言之间差异巨大。
+
+### 统计机器翻译
+在1990s到2010s，机翻的方法来源于统计学习。
+给定目标语言y，以及原语言x，根据贝叶斯公式，就有：
+$$\mathrm{argmax}_yP(y|x) = \mathrm{argmax}_yP(x|y)P(y)$$
+前面的P(y|x)是最终的翻译器模型，给定原语言给出目标语言，而后面的P(x|y)是给定目标语言翻译原语言，这其实不矛盾，因为这是一个语义对齐的过程。而P(y)代表了正常目标语言的分布，保证生成的目标语言是符合语法的。
+你大概可以想象到，维护这样一个系统有多复杂，有多少特征工程，以及人力消耗。
+
+### 神经网络机器翻译
+seq2seq模型在机翻任务中表现出众。
+![](assets/Pasted%20image%2020241127055020.webp)
+
+上面是测试时的架构。如果要训练的话，要用teaching force：
+![](assets/Pasted%20image%2020241127055843.webp)
+
+seq2seq的一个general notion是encoder decoder结构
+一个网络用语将输入转化成一种神经表示，而另一个网络负责处理神经表示得到输出。
+seq2seq在多项任务上都不错：
+- 总结（长文 -> 短文）
+- 对话
+- parsing
+- 代码生成
+
+同时，seq2seq模型是一个 条件语言模型的例子，因为他是基于source sentence X做的
+$$P(y|x)=P(y_1|x)\cdot P(y_2|y_1,x)\cdot P(y_3|y_1,y_2,x)\cdots P(y_T|y_1,\ldots,y_{T-1},x)$$
+每一项 P(yt∣y1,…,yt−1,x)表示在给定源语言句子 x 和目标句子中已生成单词 y1,…,yt−1​ 的情况下，生成下一个单词 yt​ 的概率。
+传统训练方法是使用大量的**双语平行语料**（源语言和目标语言的成对句子）来训练模型。
+而近期非监督 NMT（Unsupervised NMT）成为研究热点，使用未对齐的单语数据和数据增强等技术来训练模型。
+
+条件语言模型的优点是，直接建模P(y|x)，而不是像贝叶斯方法一样建模P(x|y) 以及P(y)。而且端到端训练，能够更好地捕捉源语言和目标语言之间的复杂关系。
+
+Multi-layer deep encoder-decoder machine translation net
+![](assets/Pasted%20image%2020241127060049.webp)
+这里可以看到，conditioning，也就是对原文的编码可以算是bottleneck，成为了瓶颈，因为这么小的向量肯定让数据失真了。后续的注意力机制（Attention）被引入来缓解这一问题。

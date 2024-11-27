@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2abc77628376b6dc",
+        "id": "aea736b320ab819d",
         "type": "tabs",
         "children": [
           {
-            "id": "e2dd6f092d1e4b5a",
+            "id": "f9766e3d3ba1af92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "❤️ 好的文章，爱来自Larry/Diffusion model｜扩散模型的历史.md",
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/5 - Sequence to Sequence Models and Machine Translation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diffusion model｜扩散模型的历史"
-            }
-          },
-          {
-            "id": "d98965c4c20a183f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Deep Double Descent Where Bigger Models and More Data Hurt"
+              "title": "5 - Sequence to Sequence Models and Machine Translation"
             }
           }
         ]
@@ -118,7 +104,7 @@
       {
         "id": "6fdc0afd9a8b2b2d",
         "type": "tabs",
-        "dimension": 46.98795180722892,
+        "dimension": 47.39336492890995,
         "children": [
           {
             "id": "a0fee5747b87e0c7",
@@ -172,14 +158,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "❤️ 好的文章，爱来自Larry/Diffusion model｜扩散模型的历史.md"
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/5 - Sequence to Sequence Models and Machine Translation.md"
               },
               "icon": "lucide-list",
-              "title": "Diffusion model｜扩散模型的历史 的大纲"
+              "title": "5 - Sequence to Sequence Models and Machine Translation 的大纲"
             }
           },
           {
-            "id": "cdc7e7f6bf3da5f9",
+            "id": "703a504465e30a7f",
+            "type": "leaf",
+            "state": {
+              "type": "smart-search-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          },
+          {
+            "id": "efd0372de782cc7c",
             "type": "leaf",
             "state": {
               "type": "chronology-calendar-view",
@@ -194,7 +190,7 @@
       {
         "id": "1e9050aab095232b",
         "type": "tabs",
-        "dimension": 53.01204819277109,
+        "dimension": 52.60663507109005,
         "children": [
           {
             "id": "1150ea58d01613f2",
@@ -207,17 +203,7 @@
             }
           },
           {
-            "id": "f2ac9c50a5973554",
-            "type": "leaf",
-            "state": {
-              "type": "smart-search-view",
-              "state": {},
-              "icon": "search",
-              "title": "Smart Search"
-            }
-          },
-          {
-            "id": "68ebccd712d46c3e",
+            "id": "bc44e0733f027df2",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -230,7 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,50 +232,51 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "publish:发布更改": false,
+      "graph:查看关系图谱": false,
       "obsidian42-brat:BRAT": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "graph:查看关系图谱": false
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "e2dd6f092d1e4b5a",
+  "active": "1150ea58d01613f2",
   "lastOpenFiles": [
-    "❤️ 好的文章，爱来自Larry/“我是爱知乎的，但我们不能假装一切都没有发生“.md",
-    "❤️ 好的文章，爱来自Larry/Diffusion model｜扩散模型的历史.md",
-    "❤️ 好的文章，爱来自Larry/assets/5805aa97d9781ee14f34a8aee9984b3c_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/ce3ec88340d0f7ede731005eea42192c_MD5.webp",
-    "🧠 32167-neural-computation/9 - Diffusion.md",
-    "🧠 32167-neural-computation/8 - GAN.md",
-    "🧠 32167-neural-computation/assets/Pasted image 20241126055630.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241126055620.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241126055610.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241126055515.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241126055448.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241126054955.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241126054943.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20241126051939.webp",
-    "🔐 30195-security-and-networks/week-5-networking-and-protocols.md",
-    "🧠 32167-neural-computation/7 - AE VAE.md",
-    "🧠 32167-neural-computation/1 - Linear Models.md",
-    "🧠 32167-neural-computation/2 - GD and Linear Classification.md",
-    "🧠 32167-neural-computation/3 - Backpropagation.md",
-    "🧠 32167-neural-computation/4 - CNN.md",
-    "🧠 32167-neural-computation/5 - RNN.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127060049.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127055843.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127055430.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127055020.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127051309.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127050229.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127050138.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127045621.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127042009.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127041937.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127041859.webp",
+    "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/5 - Sequence to Sequence Models and Machine Translation.md",
     "🧠 32167-neural-computation/6 - GNN.md",
+    "Untitled 1.md",
+    "🧠 32167-neural-computation/Untitled 1.md",
+    "🧠 32167-neural-computation/Untitled.md",
+    "🧠 32167-neural-computation/8 - GAN.md",
+    "Welcome to Reor.md",
+    "🧠 32167-neural-computation/7 - AE VAE.md",
+    "🧠 32167-neural-computation/5 - RNN.md",
+    "🧠 32167-neural-computation/4 - CNN.md",
+    "🧠 32167-neural-computation/3 - Backpropagation.md",
+    "🧠 32167-neural-computation/2 - GD and Linear Classification.md",
+    "🧠 32167-neural-computation/9 - Diffusion.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/1 - Word Vectors~.md",
+    "❤️ 好的文章，爱来自Larry/Diffusion model｜扩散模型的历史.md",
+    "❤️ 好的文章，爱来自Larry/“我是爱知乎的，但我们不能假装一切都没有发生“.md",
+    "🔐 30195-security-and-networks/week-5-networking-and-protocols.md",
+    "🧠 32167-neural-computation/1 - Linear Models.md",
     "🧠 32167-neural-computation/assets",
     "👾 38965-machine-learning/8 - VC dimension.md",
     "❤️ 好的文章，爱来自Larry/为什么大模型会「说胡话」？如何解决大模型的「幻觉」问题？.md",
     "❤️ 好的文章，爱来自Larry/How LSTM networks solve the problem of vanishing gradients.md",
     "👾 38965-machine-learning/7 - Learning Feasibility.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/5 - Sequence to Sequence Models and Machine Translation.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
     "👾 38965-machine-learning/1 - Intro.md",
-    "👾 38965-machine-learning/2 - Logistic-Regression.md",
-    "👾 38965-machine-learning/3 - SVM Classification.md",
-    "👾 38965-machine-learning/4 - Linear Regression.md",
-    "👾 38965-machine-learning/5 - Bayesian Regression.md",
-    "👾 38965-machine-learning/6 - SVM Regression.md",
-    "().md",
     "assets",
     "🧐 读读paper/assets/dual_1912.02292v1.pdf",
     "🧐 读读paper/assets",
