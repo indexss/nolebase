@@ -45,7 +45,7 @@ $$e_i=s^TWh_i$$
 W是一个可学习的权重矩阵，首先将源向量 hi 通过权重矩阵 W 进行线性变换，使其与目标向量 s 的维度匹配。权重矩阵 W 提供了额外的灵活性，可以学习到更复杂的映射关系。
 这种方法有时也被称为“**双线性注意力（bilinear attention）**”，因为它在 s 和 hi 之间引入了一个双线性变换。
 
-### Reduced-rank multiplicative attention
+### Reduced-rank multiplicative attention 以及 Additive attention
 ![](assets/Pasted%20image%2020241127101829.webp)
 
 Attention是一个通用的DL技术，Given a set of vector values, and a vector query, attention is a technique to compute a weighted sum of the values, dependent on the query.
