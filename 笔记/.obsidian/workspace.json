@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "aea736b320ab819d",
+        "id": "1466cb58d01e100b",
         "type": "tabs",
         "children": [
           {
-            "id": "f9766e3d3ba1af92",
+            "id": "368ce9776badbf1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "❤️ 好的文章，爱来自Larry/砍价的时候，假装走开有用么？.md",
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "砍价的时候，假装走开有用么？"
-            }
-          },
-          {
-            "id": "aacdc5d8e19d6265",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "❤️ 好的文章，爱来自Larry/为何英国人当年要来中国倾销鸦片？.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "为何英国人当年要来中国倾销鸦片？"
+              "title": "7 - Transformer"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -48,7 +33,6 @@
       {
         "id": "4a4fbe666aeeab08",
         "type": "tabs",
-        "dimension": 68.73767258382642,
         "children": [
           {
             "id": "fa4e2b6d3730ecc4",
@@ -92,12 +76,11 @@
         ]
       },
       {
-        "id": "4d57696a817526d0",
+        "id": "849e5866336517c7",
         "type": "tabs",
-        "dimension": 31.26232741617357,
         "children": [
           {
-            "id": "05a6f6641feeea67",
+            "id": "aacdc5d8e19d6265",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -173,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "❤️ 好的文章，爱来自Larry/为何英国人当年要来中国倾销鸦片？.md"
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md"
               },
               "icon": "lucide-list",
-              "title": "为何英国人当年要来中国倾销鸦片？ 的大纲"
+              "title": "7 - Transformer 的大纲"
             }
           },
           {
@@ -197,6 +180,16 @@
               "state": {},
               "icon": "clock",
               "title": "Chronology"
+            }
+          },
+          {
+            "id": "df9bdc8aa8448743",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Smart Connections"
             }
           }
         ],
@@ -247,37 +240,38 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "publish:发布更改": false,
-      "graph:查看关系图谱": false,
       "obsidian42-brat:BRAT": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "graph:查看关系图谱": false
     }
   },
-  "active": "aacdc5d8e19d6265",
+  "active": "368ce9776badbf1e",
   "lastOpenFiles": [
-    "❤️ 好的文章，爱来自Larry/assets/459e9d1573aa0f86f6b07386115d980c_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/1f1cb27f96a9cb2135e622f542e4ebc3_MD5.webp",
-    "❤️ 好的文章，爱来自Larry/assets/2a83ba6a91571c654936ee9c27cb71fa_MD5.webp",
-    "assets/459e9d1573aa0f86f6b07386115d980c_MD5.webp",
-    "assets/2a83ba6a91571c654936ee9c27cb71fa_MD5.webp",
-    "assets/1f1cb27f96a9cb2135e622f542e4ebc3_MD5.webp",
-    "assets",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128091502.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128091031.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128090955.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128090859.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128090415.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128090048.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128085409.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128085359.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128085056.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128084752.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128083810.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/6 - Attention.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md",
+    "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
+    "❤️ 好的文章，爱来自Larry/【LLM 10 大观念-1】缩放定律.md",
     "❤️ 好的文章，爱来自Larry/砍价的时候，假装走开有用么？.md",
     "❤️ 好的文章，爱来自Larry/为何英国人当年要来中国倾销鸦片？.md",
+    "assets",
     "🧠 32167-neural-computation/6 - GNN.md",
     "🧠 32167-neural-computation/7 - AE VAE.md",
     "🧠 32167-neural-computation/8 - GAN.md",
     "🧠 32167-neural-computation/9 - Diffusion.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/6 - Attention.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127101829.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127101815.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127101048.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127100731.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241127093900.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/5 - Sequence to Sequence Models and Machine Translation.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
-    "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
     "Untitled 1.md",
     "🧠 32167-neural-computation/Untitled 1.md",
     "🧠 32167-neural-computation/Untitled.md",
@@ -292,7 +286,6 @@
     "🔐 30195-security-and-networks/week-5-networking-and-protocols.md",
     "🧠 32167-neural-computation/1 - Linear Models.md",
     "🧠 32167-neural-computation/assets",
-    "👾 38965-machine-learning/8 - VC dimension.md",
     "🧐 读读paper/assets/dual_1912.02292v1.pdf",
     "🧐 读读paper/assets",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/1912.02292v1.pdf",
