@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md",
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7 - Transformer"
+              "title": "8 - Pretraining"
             }
           }
         ]
@@ -33,6 +33,7 @@
       {
         "id": "4a4fbe666aeeab08",
         "type": "tabs",
+        "dimension": 72.7810650887574,
         "children": [
           {
             "id": "fa4e2b6d3730ecc4",
@@ -78,6 +79,7 @@
       {
         "id": "849e5866336517c7",
         "type": "tabs",
+        "dimension": 27.218934911242602,
         "children": [
           {
             "id": "aacdc5d8e19d6265",
@@ -156,10 +158,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md"
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md"
               },
               "icon": "lucide-list",
-              "title": "7 - Transformer 的大纲"
+              "title": "8 - Pretraining 的大纲"
             }
           },
           {
@@ -248,19 +250,24 @@
   },
   "active": "368ce9776badbf1e",
   "lastOpenFiles": [
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128091502.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128091031.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128090955.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128090859.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128090415.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128090048.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128085409.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128085359.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128085056.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128084752.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241128083810.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/6 - Attention.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130112532.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130112328.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130112320.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130111741.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130110919.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130110643.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130110159.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130105811.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130105400.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130104905.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130104719.webp",
+    "申请/汇总.md",
+    "申请",
+    "❤️ 好的文章，爱来自Larry/LLM入门指南.md",
+    "❤️ 好的文章，爱来自Larry/有哪些越早知道越好的人生经验？.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/6 - Attention.md",
     "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
     "❤️ 好的文章，爱来自Larry/【LLM 10 大观念-1】缩放定律.md",
     "❤️ 好的文章，爱来自Larry/砍价的时候，假装走开有用么？.md",
@@ -281,10 +288,6 @@
     "🧠 32167-neural-computation/3 - Backpropagation.md",
     "🧠 32167-neural-computation/2 - GD and Linear Classification.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/1 - Word Vectors~.md",
-    "❤️ 好的文章，爱来自Larry/Diffusion model｜扩散模型的历史.md",
-    "❤️ 好的文章，爱来自Larry/“我是爱知乎的，但我们不能假装一切都没有发生“.md",
-    "🔐 30195-security-and-networks/week-5-networking-and-protocols.md",
-    "🧠 32167-neural-computation/1 - Linear Models.md",
     "🧠 32167-neural-computation/assets",
     "🧐 读读paper/assets/dual_1912.02292v1.pdf",
     "🧐 读读paper/assets",
@@ -292,7 +295,6 @@
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/test1121.pdf",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/test111.pdf",
     "🧐 读读paper",
-    "smart-chats",
-    "❤️ 好的文章，爱来自Larry/assets/cj.js"
+    "smart-chats"
   ]
 }
