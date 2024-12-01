@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/9 - Prompting, Instruction Finetuning, and DPO, RLHF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "8 - Pretraining"
+              "title": "9 - Prompting, Instruction Finetuning, and DPO, RLHF"
             }
           }
         ]
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 296.5
   },
   "right": {
     "id": "f12232ab6faa5dfa",
@@ -158,10 +158,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md"
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/9 - Prompting, Instruction Finetuning, and DPO, RLHF.md"
               },
               "icon": "lucide-list",
-              "title": "8 - Pretraining 的大纲"
+              "title": "9 - Prompting, Instruction Finetuning, and DPO, RLHF 的大纲"
             }
           },
           {
@@ -226,7 +226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5
+    "width": 362.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,19 +250,20 @@
   },
   "active": "368ce9776badbf1e",
   "lastOpenFiles": [
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130112532.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130112328.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130112320.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130111741.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201111245.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201111215.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201111123.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110816.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110801.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110615.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110402.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110340.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110206.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110159.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110018.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130110919.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130110643.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130110159.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130105811.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130105400.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130104905.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241130104719.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/9 - Prompting, Instruction Finetuning, and DPO, RLHF.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md",
     "申请/汇总.md",
     "申请",
     "❤️ 好的文章，爱来自Larry/LLM入门指南.md",
@@ -287,7 +288,6 @@
     "🧠 32167-neural-computation/4 - CNN.md",
     "🧠 32167-neural-computation/3 - Backpropagation.md",
     "🧠 32167-neural-computation/2 - GD and Linear Classification.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/1 - Word Vectors~.md",
     "🧠 32167-neural-computation/assets",
     "🧐 读读paper/assets/dual_1912.02292v1.pdf",
     "🧐 读读paper/assets",
