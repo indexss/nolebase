@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/9 - Prompting, Instruction Finetuning, and DPO, RLHF.md",
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9 - Prompting, Instruction Finetuning, and DPO, RLHF"
+              "title": "10 - Benchmarking and Evaluation"
             }
           }
         ]
@@ -158,10 +158,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/9 - Prompting, Instruction Finetuning, and DPO, RLHF.md"
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md"
               },
               "icon": "lucide-list",
-              "title": "9 - Prompting, Instruction Finetuning, and DPO, RLHF 的大纲"
+              "title": "10 - Benchmarking and Evaluation 的大纲"
             }
           },
           {
@@ -250,19 +250,20 @@
   },
   "active": "368ce9776badbf1e",
   "lastOpenFiles": [
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201111245.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201111215.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201111123.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110816.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110801.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110615.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110402.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110340.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110206.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110159.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241201110018.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202045020.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202044902.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202044730.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202044628.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202044553.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202044102.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202043734.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202043232.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202042906.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202042802.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202042738.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/9 - Prompting, Instruction Finetuning, and DPO, RLHF.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md",
     "申请/汇总.md",
     "申请",
@@ -287,7 +288,6 @@
     "🧠 32167-neural-computation/5 - RNN.md",
     "🧠 32167-neural-computation/4 - CNN.md",
     "🧠 32167-neural-computation/3 - Backpropagation.md",
-    "🧠 32167-neural-computation/2 - GD and Linear Classification.md",
     "🧠 32167-neural-computation/assets",
     "🧐 读读paper/assets/dual_1912.02292v1.pdf",
     "🧐 读读paper/assets",
