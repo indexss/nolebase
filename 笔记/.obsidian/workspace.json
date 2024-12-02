@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md",
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/11 - Efficient Neural Network Training.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 - Benchmarking and Evaluation"
+              "title": "11 - Efficient Neural Network Training"
             }
           }
         ]
@@ -33,7 +33,7 @@
       {
         "id": "4a4fbe666aeeab08",
         "type": "tabs",
-        "dimension": 72.7810650887574,
+        "dimension": 72.75419545903257,
         "children": [
           {
             "id": "fa4e2b6d3730ecc4",
@@ -79,7 +79,7 @@
       {
         "id": "849e5866336517c7",
         "type": "tabs",
-        "dimension": 27.218934911242602,
+        "dimension": 27.245804540967423,
         "children": [
           {
             "id": "aacdc5d8e19d6265",
@@ -158,10 +158,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md"
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/11 - Efficient Neural Network Training.md"
               },
               "icon": "lucide-list",
-              "title": "10 - Benchmarking and Evaluation 的大纲"
+              "title": "11 - Efficient Neural Network Training 的大纲"
             }
           },
           {
@@ -250,18 +250,19 @@
   },
   "active": "368ce9776badbf1e",
   "lastOpenFiles": [
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202045020.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202044902.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202044730.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202044628.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202044553.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202044102.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202043734.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202043232.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202042906.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202042802.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202042738.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202083255.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202083224.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202083152.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202083127.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202081901.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/7f54fe2c33adc63b5506a929d0206d38_MD5.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202081736.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/c83615e6801368cf7e20a8628fb16393_MD5.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202081636.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/ca88ba97671e8246a00d4b464e091235_MD5.webp",
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202081533.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/11 - Efficient Neural Network Training.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/9 - Prompting, Instruction Finetuning, and DPO, RLHF.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md",
@@ -287,7 +288,6 @@
     "Welcome to Reor.md",
     "🧠 32167-neural-computation/5 - RNN.md",
     "🧠 32167-neural-computation/4 - CNN.md",
-    "🧠 32167-neural-computation/3 - Backpropagation.md",
     "🧠 32167-neural-computation/assets",
     "🧐 读读paper/assets/dual_1912.02292v1.pdf",
     "🧐 读读paper/assets",
