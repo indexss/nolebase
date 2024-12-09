@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/11 - Efficient Neural Network Training.md",
+                "file": "💬 CS224N-Natural Language Processing with Deep Learning/12 - Reasoning and Agents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 - Efficient Neural Network Training"
+              "title": "12 - Reasoning and Agents"
+            }
+          },
+          {
+            "id": "8fed26ee46c11501",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🍚 菜谱/🐮 牛肋条盖饭.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🐮 牛肋条盖饭"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,10 +173,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/11 - Efficient Neural Network Training.md"
+                "file": "🍚 菜谱/🐮 牛肋条盖饭.md"
               },
               "icon": "lucide-list",
-              "title": "11 - Efficient Neural Network Training 的大纲"
+              "title": "🐮 牛肋条盖饭 的大纲"
             }
           },
           {
@@ -190,12 +205,12 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Smart Connections"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "1e9050aab095232b",
@@ -242,14 +257,24 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "publish:发布更改": false,
+      "graph:查看关系图谱": false,
       "obsidian42-brat:BRAT": false,
       "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "graph:查看关系图谱": false
+      "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "368ce9776badbf1e",
+  "active": "8fed26ee46c11501",
   "lastOpenFiles": [
+    "申请/未命名",
+    "🍚 菜谱/assets",
+    "💾 申请信息汇总/汇总.md",
+    "🍚 菜谱/🐮 牛肋条盖饭.md",
+    "🍚 菜谱",
+    "index.md",
+    "未命名.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/12 - Reasoning and Agents.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/11 - Efficient Neural Network Training.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202083255.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202083224.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202083152.webp",
@@ -260,14 +285,10 @@
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/c83615e6801368cf7e20a8628fb16393_MD5.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202081636.webp",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/ca88ba97671e8246a00d4b464e091235_MD5.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202081533.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/11 - Efficient Neural Network Training.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/9 - Prompting, Instruction Finetuning, and DPO, RLHF.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md",
-    "申请/汇总.md",
-    "申请",
+    "💾 申请信息汇总",
     "❤️ 好的文章，爱来自Larry/LLM入门指南.md",
     "❤️ 好的文章，爱来自Larry/有哪些越早知道越好的人生经验？.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/6 - Attention.md",
@@ -284,17 +305,11 @@
     "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
     "Untitled 1.md",
     "🧠 32167-neural-computation/Untitled 1.md",
-    "🧠 32167-neural-computation/Untitled.md",
-    "Welcome to Reor.md",
-    "🧠 32167-neural-computation/5 - RNN.md",
-    "🧠 32167-neural-computation/4 - CNN.md",
     "🧠 32167-neural-computation/assets",
     "🧐 读读paper/assets/dual_1912.02292v1.pdf",
     "🧐 读读paper/assets",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/1912.02292v1.pdf",
     "💬 CS224N-Natural Language Processing with Deep Learning/assets/test1121.pdf",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/test111.pdf",
-    "🧐 读读paper",
-    "smart-chats"
+    "💬 CS224N-Natural Language Processing with Deep Learning/assets/test111.pdf"
   ]
 }
