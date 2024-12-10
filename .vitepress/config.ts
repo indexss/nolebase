@@ -31,7 +31,7 @@
     },
 
     transformHtml: (html:string) => {
-      // 匹配路径中以 "assets/" 或 "./assets/" 开头的部分，并统一替换为 "/assets/"
+      // 匹配路径中以 "assets/" 或 "./assets/" 开头的部分，并统一替换为 "/assets/"""
       return html.replace(/(?:\.\/)?assets\//g, '/assets/');
     },
 
