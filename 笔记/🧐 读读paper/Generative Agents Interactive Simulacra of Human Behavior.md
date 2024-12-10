@@ -1,8 +1,2 @@
-# Generative Agents: Interactive Simulacra of Human Behavior
 123321
-
-[[🧐 读读paper/assets/2304.html]]
-![论文](assets/2304.html)
-
-123321
-321123
+[dual_1912.02292v1](assets/dual_1912.02292v1.pdf)

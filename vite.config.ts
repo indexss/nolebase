@@ -9,6 +9,8 @@ import { ThumbnailHashImages } from '@nolebase/vitepress-plugin-thumbnail-hash/v
 
 import { githubRepoLink } from './metadata'
 
+import { viteStaticCopy } from 'vite-plugin-static-copy'
+
 export default defineConfig(async () => {
   return {
     assetsInclude: ['**/*.pdf'],
@@ -50,6 +52,14 @@ export default defineConfig(async () => {
         dts: '.vitepress/components.d.ts',
       }),
       UnoCSS(),
+      viteStaticCopy({
+        targets: [
+          {
+            src: '笔记/**/assets/**/*',
+            dest: 'assets',
+          },
+        ],
+      }),
     ],
     ssr: {
       noExternal: [
