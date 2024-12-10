@@ -30,6 +30,11 @@
       hostname: targetDomain
     },
 
+    transformHtml: (html:string) => {
+      // 匹配路径中以 "assets/" 开头的部分，并在前面加斜杠
+      return html.replace(/(?<!\/)assets\//g, '/assets/');
+    },
+
     lang: 'zh-CN',
     title: siteName,
     description: siteDescription,
