@@ -22,7 +22,7 @@
     "build": "pnpm run docs:build",
     "serve": "pnpm run docs:serve",
     "docs:dev": "pnpm run update && vitepress dev",
-    "docs:build": "pnpm run update && vitepress build",
+    "docs:build": "pnpm run update && vitepress build && node copy-assets.js",
     "docs:serve": "vitepress serve",
     "update": "tsx scripts/update.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -80,6 +80,7 @@
   "packageManager": "pnpm@9.13.1+sha512.5ac37545851c55ec58521b6c285db6f848f93ca70889beb4145f5b40fe234e4ea4faee4dad12ac5c139e494374c65d9c3a6ec9a25954378fa286a250e68d2f20",
   "dependencies": {
     "@vercel/node": "^3.2.26",
+    "ts-node": "^10.9.2",
     "vite-plugin-static-copy": "^2.2.0"
   }
 }
