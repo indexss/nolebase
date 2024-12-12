@@ -60,21 +60,21 @@ export default defineConfig(async () => {
       //     },
       //   ],
       // }),
+      // src: '笔记/**/assets/**/*.{pdf,html}',
 
-      viteStaticCopy({
-        targets: [
-          {
-            // 只匹配 assets 文件夹下的 .pdf 和 .html 文件
-            src: '笔记/**/assets/**/*.{pdf,html}',
-            dest: '', // 起始目标目录为空，动态生成路径
-            rename: (filePath) => {
-              // 动态生成目标路径
-              const relativePath = filePath.split('笔记/')[1]; // 获取 `笔记` 之后的路径
-              return relativePath; // 保持源目录结构
-            },
-          },
-        ],
-      }),
+      // viteStaticCopy({
+      //   targets: [
+      //     {
+      //       src: '笔记/**/assets/*.{pdf,html}',
+      //       dest: '',
+      //       transform: (filePath) => {
+      //         // 提取相对路径并保留完整结构
+      //         const relativePath = filePath.replace(/.*笔记[\/\\]/, '');
+      //         return relativePath;
+      //       },
+      //     },
+      //   ],
+      // }),
 
     ],
     ssr: {
