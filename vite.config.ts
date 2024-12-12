@@ -52,14 +52,30 @@ export default defineConfig(async () => {
         dts: '.vitepress/components.d.ts',
       }),
       UnoCSS(),
+      // viteStaticCopy({
+      //   targets: [
+      //     {
+      //       src: '笔记/**/assets/**/*',
+      //       dest: 'assets',
+      //     },
+      //   ],
+      // }),
+
       viteStaticCopy({
         targets: [
           {
-            src: '笔记/**/assets/**/*',
-            dest: 'assets',
+            // 只匹配 assets 文件夹下的 .pdf 和 .html 文件
+            src: '笔记/**/assets/**/*.{pdf,html}',
+            dest: '', // 起始目标目录为空，动态生成路径
+            rename: (filePath) => {
+              // 动态生成目标路径
+              const relativePath = filePath.split('笔记/')[1]; // 获取 `笔记` 之后的路径
+              return relativePath; // 保持源目录结构
+            },
           },
         ],
       }),
+
     ],
     ssr: {
       noExternal: [
