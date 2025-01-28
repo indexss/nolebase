@@ -1,0 +1,1 @@
+("artificial intelligence" OR "machine learning" OR "deep learning")   AND   ("bias" OR "fairness" OR "algorithmic discrimination" OR "ethical AI")   -after:2022

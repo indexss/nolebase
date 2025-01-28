@@ -4,21 +4,97 @@
     "type": "split",
     "children": [
       {
-        "id": "1466cb58d01e100b",
+        "id": "05c5beadd1f9184e",
+        "type": "split",
+        "children": [
+          {
+            "id": "c47fc80bd637bfed",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "368ce9776badbf1e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "🧑‍🏫 TA/first.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "first"
+                }
+              }
+            ]
+          },
+          {
+            "id": "85d602e734754825",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "22a7bda5389829ed",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/linlishi/projects/nolebase/笔记",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "/bin/zsh",
+                        "name": "",
+                        "platforms": {
+                          "darwin": true,
+                          "linux": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": true,
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": {
+                        "columns": 85,
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % ls\r\n \u001b[4mindex.md\r\n\u001b[34;24m \u001b[1;4m'❤️ 好的文章，爱来自Larry'\r\n\u001b[22;24m \u001b[1;4m'🍚 菜谱'\r\n\u001b[22;24m \u001b[1;4m'🐧 38059-operating-systems-and-systems-programming'\r\n\u001b[22;24m \u001b[1;4m'👾 38965-machine-learning'\r\n\u001b[22;24m \u001b[1;4m'💬 CS224N-Natural Language Processing with Deep Learning'\r\n\u001b[22;24m \u001b[1;4m'💾 申请信息汇总'\r\n\u001b[22;24m \u001b[1;4m'📢 Intelligent Interactive System'\r\n\u001b[22;24m \u001b[1;4m'🔐 30195-security-and-networks'\r\n\u001b[22;24m \u001b[1;4m'🤖 34255-artificial-intelligence-2'\r\n\u001b[22;24m \u001b[1;4m'🧐 读读paper'\r\n\u001b[22;24m \u001b[1;4m'🧑‍🏫 TA'\r\n\u001b[22;24m \u001b[1;4m'🧠 32167-neural-computation'\r\n\u001b[0m(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ;s\r\nzsh: command not found: s\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ls\r\n \u001b[4m404.md\u001b[0m             \u001b[4mLICENSE-CC-BY-SA\u001b[0m  \u001b[34m \u001b[1;4mpublic\u001b[0m          \u001b[4mvercel.json\r\n\u001b[34;24m \u001b[1;4mapi\u001b[0m               \u001b[34m \u001b[1;4mmetadata\u001b[0m          \u001b[33m \u001b[1;4mREADME.md\u001b[0m      \u001b[33m \u001b[1;4mvite.config.ts\r\n\u001b[22;24m \u001b[1;4mcopy-assets.js\u001b[0m     \u001b[4mnetlify.toml\u001b[0m      \u001b[34m \u001b[1;4mscripts\u001b[0m        \u001b[34m \u001b[1;4m笔记\r\n\u001b[33;22;24m \u001b[1;4meslint.config.js\u001b[0m  \u001b[34m \u001b[1;4mnode_modules\u001b[0m       \u001b[4mtoc.md\u001b[0m         \u001b[34m \u001b[1;4m视图\r\n\u001b[0m \u001b[4mindex.md\u001b[0m          \u001b[33m \u001b[1;4mpackage.json\u001b[0m      \u001b[33m \u001b[1;4mtsconfig.json\u001b[0m   \u001b[4m'🔌 知识库插件列表.md'\r\n\u001b[0m \u001b[4mLICENSE\u001b[0m            \u001b[4mpnpm-lock.yaml\u001b[0m    \u001b[33m \u001b[1;4muno.config.ts\u001b[0m  \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ",
+                        "rows": 23
+                      }
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "终端：zsh"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "e827281ead3132c5",
         "type": "tabs",
         "children": [
           {
-            "id": "368ce9776badbf1e",
+            "id": "44e9f8a82717012c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧐 读读paper/Generative Agents Interactive Simulacra of Human Behavior.md",
+                "file": "🧑‍🏫 TA/First Meeting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Generative Agents Interactive Simulacra of Human Behavior"
+              "title": "First Meeting"
             }
           }
         ]
@@ -95,7 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 265.5
   },
   "right": {
     "id": "f12232ab6faa5dfa",
@@ -157,11 +233,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/12 - Reasoning and Agents.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "12 - Reasoning and Agents 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -195,7 +269,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       },
       {
         "id": "1e9050aab095232b",
@@ -226,7 +300,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 251.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,53 +323,52 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "368ce9776badbf1e",
+  "active": "22a7bda5389829ed",
   "lastOpenFiles": [
-    "assets/2312.html.md",
-    "🧐 读读paper/Generative Agents Interactive Simulacra of Human Behavior.md",
-    "assets/2312.pdf.md",
-    "🧐 读读paper/assets/165c96a71c942c4bf3d08696552f1c1e_MD5.webp",
-    "🧐 读读paper/assets/b462a88d659aac011cf9585612d1fb8d_MD5.webp",
-    "🧐 读读paper/assets/0c5faf63c87ddc773d0765aab9073857_MD5.webp",
-    "🧐 读读paper/assets/d75f86d42dfbfebbbcd2a2615d199ae2_MD5.webp",
-    "🧐 读读paper/assets/c5ba9ddf79217b338a683c37201a539b_MD5.webp",
-    "🧐 读读paper/assets/b0846ad71c3d0c4b135ed9c59c7492c6_MD5.webp",
-    "🧐 读读paper/assets/cbfbb21551fe7e9f3e5c0bea88ed5d1c_MD5.webp",
-    "🧐 读读paper/assets/4d4555c1de66236d71d240eaee49f8f4_MD5.webp",
-    "🧐 读读paper/assets/138f29b5389a2195188bb8e0d0655aef_MD5.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/12 - Reasoning and Agents.md",
+    "🧑‍🏫 TA/first.md",
+    "🧑‍🏫 TA/assets/ceed75239bd99c53e8934bf03e0da10d_MD5.png",
+    "🧑‍🏫 TA/assets/Pasted image 20250128002009.webp",
+    "🧑‍🏫 TA/assets/Pasted image 20250128001953.webp",
+    "🧑‍🏫 TA/First Meeting.md",
+    "🧑‍🏫 TA/assets/Pasted image 20250128000724.webp",
+    "🧑‍🏫 TA/assets/Pasted image 20250128000159.webp",
+    "🧑‍🏫 TA/First Meeting - optimal.md",
+    "🧑‍🏫 TA/assets/Pasted image 20250128000115.webp",
+    "🧑‍🏫 TA/assets/Pasted image 20250127235904.webp",
+    "🧑‍🏫 TA/assets/Pasted image 20250127235900.webp",
+    "🧑‍🏫 TA/email.md",
+    "📢 Intelligent Interactive System/pasa.md",
+    "📢 Intelligent Interactive System/多模态偏见：利用自然语言处理技术评估计算机视觉模型中的性别偏见.md",
+    "📢 Intelligent Interactive System/stable diffusion bias.md",
+    "📢 Intelligent Interactive System/diffusion bias.md",
+    "📢 Intelligent Interactive System/cv 生成模型bias.md",
+    "📢 Intelligent Interactive System/cv数据集bias.md",
+    "📢 Intelligent Interactive System/未命名",
+    "📢 Intelligent Interactive System/diffusion中bias解决方法1.md",
+    "📢 Intelligent Interactive System/cv bias综述 TPAMI.md",
+    "📢 Intelligent Interactive System/cv bias综述 中文.md",
+    "📢 Intelligent Interactive System/ai bias中文综述.md",
+    "📢 Intelligent Interactive System/google scholar搜索语.md",
+    "📢 Intelligent Interactive System/ai bias综述.md",
+    "📢 Intelligent Interactive System/ai bias短综述.md",
+    "📢 Intelligent Interactive System/ai bias老综述.md",
+    "📢 Intelligent Interactive System/ai bias综述2.md",
+    "📢 Intelligent Interactive System/Assignment 1 汇总.md",
+    "📢 Intelligent Interactive System/week 1 paper.md",
+    "📢 Intelligent Interactive System/week 1 elon video.md",
+    "🧐 读读paper/The Ethics of AI Ethics：An Evaluation of Guidelines.md",
+    "📢 Intelligent Interactive System",
+    "🧠 32167-neural-computation/6 - GNN.md",
+    "🧠 32167-neural-computation/4 - CNN.md",
+    "🧐 读读paper/assets/Pasted image 20250126231353.webp",
+    "assets/459e9d1573aa0f86f6b07386115d980c_MD5.webp",
+    "🧑‍🏫 TA/assets",
+    "🧑‍🏫 TA",
     "🧐 读读paper/assets/2304.html",
     "🧐 读读paper/2304.html",
-    "🍚 菜谱/🐮 牛肋条盖饭.md",
     "申请/未命名",
     "🍚 菜谱/assets",
-    "💾 申请信息汇总/汇总.md",
     "🍚 菜谱",
-    "index.md",
-    "未命名.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/11 - Efficient Neural Network Training.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241202083255.webp",
-    "💬 CS224N-Natural Language Processing with Deep Learning/9 - Prompting, Instruction Finetuning, and DPO, RLHF.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md",
-    "💾 申请信息汇总",
-    "❤️ 好的文章，爱来自Larry/LLM入门指南.md",
-    "❤️ 好的文章，爱来自Larry/有哪些越早知道越好的人生经验？.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/6 - Attention.md",
-    "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
-    "❤️ 好的文章，爱来自Larry/【LLM 10 大观念-1】缩放定律.md",
-    "❤️ 好的文章，爱来自Larry/砍价的时候，假装走开有用么？.md",
-    "❤️ 好的文章，爱来自Larry/为何英国人当年要来中国倾销鸦片？.md",
-    "assets",
-    "🧠 32167-neural-computation/6 - GNN.md",
-    "🧠 32167-neural-computation/7 - AE VAE.md",
-    "🧠 32167-neural-computation/8 - GAN.md",
-    "🧠 32167-neural-computation/9 - Diffusion.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/5 - Sequence to Sequence Models and Machine Translation.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
-    "🧠 32167-neural-computation/assets",
-    "🧐 读读paper/assets/dual_1912.02292v1.pdf",
-    "🧐 读读paper/assets"
+    "💾 申请信息汇总"
   ]
 }
