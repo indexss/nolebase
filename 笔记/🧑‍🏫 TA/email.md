@@ -72,3 +72,10 @@ Ruairi O'Rourke (rxo326@student.bham.ac.uk) from Team 34 mentioned that he has a
 Just a friendly reminder: I noticed that you guys haven’t booked a meeting time slot yet. If you’d like to schedule an **in-person meeting this Wednesday**, please be sure to reserve your preferred time **by tomorrow** to ensure availability.
 
 If you encounter any challenges in coordinating with your group members or need assistance with scheduling, feel free to reach out. Wishing you all a smooth and productive week ahead.
+
+
+我在上周五就通过邮件联系了team 33，并且在周一也再次联系了所有teammembers，但到目前为止没有一个人和我联系或者通过我的预约链接预约开会时间。我查看了他们的canvas team界面，里面也没有任何沟通的信息。我不清楚在这种情况下我是否应当做些什么
+
+Hi, just got 2 questions from team 34:
+1. ⁠Ellis Maullin-Davies from Team 34 said he's not supposed to be on this module and have been removed from the canvas group. The team is unsure if further steps are needed or if a replacement member will be assigned.
+2. Can a preferred name be used in documents like the readme and GDPR, or is only the legal name allowed?

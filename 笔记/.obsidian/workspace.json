@@ -4,35 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "05c5beadd1f9184e",
+        "id": "e54db3b61da678a9",
         "type": "split",
         "children": [
           {
-            "id": "c47fc80bd637bfed",
+            "id": "ed8b5f5c8ba96aee",
             "type": "tabs",
             "children": [
               {
-                "id": "368ce9776badbf1e",
+                "id": "ba54e48932abc855",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "📢 Intelligent Interactive System/week 1 paper.md",
+                    "file": "📢 Intelligent Interactive System/prompt.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "week 1 paper"
+                  "title": "prompt"
+                }
+              },
+              {
+                "id": "1082d8dcaf32f73c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "📢 Intelligent Interactive System/as1/VLM综述.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "VLM综述"
                 }
               }
             ]
           },
           {
-            "id": "85d602e734754825",
+            "id": "b5f7018981564d7e",
             "type": "tabs",
             "children": [
               {
-                "id": "22a7bda5389829ed",
+                "id": "fd47a63c6c8aa48d",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -63,9 +77,9 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 85,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % ls\r\n \u001b[4mindex.md\r\n\u001b[34;24m \u001b[1;4m'❤️ 好的文章，爱来自Larry'\r\n\u001b[22;24m \u001b[1;4m'🍚 菜谱'\r\n\u001b[22;24m \u001b[1;4m'🐧 38059-operating-systems-and-systems-programming'\r\n\u001b[22;24m \u001b[1;4m'👾 38965-machine-learning'\r\n\u001b[22;24m \u001b[1;4m'💬 CS224N-Natural Language Processing with Deep Learning'\r\n\u001b[22;24m \u001b[1;4m'💾 申请信息汇总'\r\n\u001b[22;24m \u001b[1;4m'📢 Intelligent Interactive System'\r\n\u001b[22;24m \u001b[1;4m'🔐 30195-security-and-networks'\r\n\u001b[22;24m \u001b[1;4m'🤖 34255-artificial-intelligence-2'\r\n\u001b[22;24m \u001b[1;4m'🧐 读读paper'\r\n\u001b[22;24m \u001b[1;4m'🧑‍🏫 TA'\r\n\u001b[22;24m \u001b[1;4m'🧠 32167-neural-computation'\r\n\u001b[0m(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ;s\r\nzsh: command not found: s\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ls\r\n \u001b[4m404.md\u001b[0m             \u001b[4mLICENSE-CC-BY-SA\u001b[0m  \u001b[34m \u001b[1;4mpublic\u001b[0m          \u001b[4mvercel.json\r\n\u001b[34;24m \u001b[1;4mapi\u001b[0m               \u001b[34m \u001b[1;4mmetadata\u001b[0m          \u001b[33m \u001b[1;4mREADME.md\u001b[0m      \u001b[33m \u001b[1;4mvite.config.ts\r\n\u001b[22;24m \u001b[1;4mcopy-assets.js\u001b[0m     \u001b[4mnetlify.toml\u001b[0m      \u001b[34m \u001b[1;4mscripts\u001b[0m        \u001b[34m \u001b[1;4m笔记\r\n\u001b[33;22;24m \u001b[1;4meslint.config.js\u001b[0m  \u001b[34m \u001b[1;4mnode_modules\u001b[0m       \u001b[4mtoc.md\u001b[0m         \u001b[34m \u001b[1;4m视图\r\n\u001b[0m \u001b[4mindex.md\u001b[0m          \u001b[33m \u001b[1;4mpackage.json\u001b[0m      \u001b[33m \u001b[1;4mtsconfig.json\u001b[0m   \u001b[4m'🔌 知识库插件列表.md'\r\n\u001b[0m \u001b[4mLICENSE\u001b[0m            \u001b[4mpnpm-lock.yaml\u001b[0m    \u001b[33m \u001b[1;4muno.config.ts\u001b[0m  \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git add .\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git commit -m \"upload\"\r\n[main df707df] upload\r\n 39 files changed, 2128 insertions(+), 53 deletions(-)\r\n delete mode 100644 笔记/assets/1f1cb27f96a9cb2135e622f542e4ebc3_MD5.webp\r\n delete mode 100644 笔记/assets/2312.html.md\r\n delete mode 100644 笔记/assets/2312.pdf.md\r\n delete mode 100644 笔记/assets/2a83ba6a91571c654936ee9c27cb71fa_MD5.webp\r\n delete mode 100644 笔记/assets/459e9d1573aa0f86f6b07386115d980c_MD5.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/Assignment 1 汇总.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/ai bias中文综述.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/ai bias短综述.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/ai bias综述.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/ai bias综述2.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/ai bias老综述.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/cv bias综述 TPAMI.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/cv bias综述 中文.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/cv 生成模型bias.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/cv数据集bias.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/diffusion bias.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/diffusion中bias解决方法1.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/google scholar搜索语.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/pasa.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/stable diffusion bias.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/week 1 elon video.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/week 1 paper.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/多模态偏见：利用自然语言处理技术评估计算机视觉模型中的性别偏见.md\r\n create mode 100644 笔记/🧐 读读paper/The Ethics of AI Ethics：An Evaluation of Guidelines.md\r\n create mode 100644 笔记/🧐 读读paper/assets/Pasted image 20250126231353.webp\r\n create mode 100644 笔记/🧑‍🏫 TA/First Meeting - optimal.md\r\n create mode 100644 笔记/🧑‍🏫 TA/First Meeting.md\r\n create mode 100644 笔记/🧑‍🏫 TA/assets/Pasted image 20250120222232.webp\r\n create mode 100644 笔记/🧑‍🏫 TA/assets/Pasted image 20250127235900.webp\r\n create mode 100644 笔记/🧑‍🏫 TA/assets/Pasted image 20250127235904.webp\r\n create mode 100644 笔记/🧑‍🏫 TA/assets/Pasted image 20250128000115.webp\r\n create mode 100644 笔记/🧑‍🏫 TA/assets/Pasted image 20250128000159.webp\r\n create mode 100644 笔记/🧑‍🏫 TA/assets/Pasted image 20250128000724.webp\r\n create mode 100644 笔记/🧑‍🏫 TA/assets/Pasted image 20250128001953.webp\r\n create mode 100644 笔记/🧑‍🏫 TA/assets/Pasted image 20250128002009.webp\r\n create mode 100644 笔记/🧑‍🏫 TA/assets/ceed75239bd99c53e8934bf03e0da10d_MD5.png\r\n create mode 100644 笔记/🧑‍🏫 TA/email.md\r\n create mode 100644 笔记/🧑‍🏫 TA/first.md\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git push\r\nTo github.com:indexss/nolebase.git\r\n \u001b[31m! [rejected]       \u001b[0m main -> main (fetch first)\r\n\u001b[31merror: failed to push some refs to 'github.com:indexss/nolebase.git'\r\n\u001b[33mhint: Updates were rejected because the remote contains work that you do\r\nhint: not have locally. This is usually caused by another repository pushing\r\nhint: to the same ref. You may want to first integrate the remote changes\r\nhint: (e.g., 'git pull ...') before pushing again.\r\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\r\n\u001b[0m(base) linlishi@Linlis-MacBook-Pro nolebase % git pull\r\nremote: Enumerating objects: 44, done.\r\nremote: Counting objects: 100% (17/17), done.\r\nremote: Total 44 (delta 16), reused 16 (delta 16), pack-reused 27 (from 1)\r\nUnpacking objects: 100% (44/44), 1.74 MiB | 3.28 MiB/s, done.\r\nFrom github.com:indexss/nolebase\r\n   613507e..4c51282  main       -> origin/main\r\n\u001b[33mhint: You have divergent branches and need to specify how to reconcile them.\r\nhint: You can do so by running one of the following commands sometime before\r\nhint: your next pull:\r\nhint: \r\nhint:   git config pull.rebase false  # merge\r\nhint:   git config pull.rebase true   # rebase\r\nhint:   git config pull.ff only       # fast-forward only\r\nhint: \r\nhint: You can replace \"git config\" with \"git config --global\" to set a default\r\nhint: preference for all repositories. You can also pass --rebase, --no-rebase,\r\nhint: or --ff-only on the command line to override the configured default per\r\nhint: invocation.\r\n\u001b[0mfatal: Need to specify how to reconcile divergent branches.\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git add .\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git commit -m \"test\"\r\n[main a8b3d31] test\r\n 1 file changed, 1 insertion(+), 1 deletion(-)\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git push\r\nTo github.com:indexss/nolebase.git\r\n \u001b[31m! [rejected]       \u001b[0m main -> main (non-fast-forward)\r\n\u001b[31merror: failed to push some refs to 'github.com:indexss/nolebase.git'\r\n\u001b[33mhint: Updates were rejected because the tip of your current branch is behind\r\nhint: its remote counterpart. Integrate the remote changes (e.g.\r\nhint: 'git pull ...') before pushing again.\r\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.\r\n\u001b[0m(base) linlishi@Linlis-MacBook-Pro nolebase % git push --force origin main\r\n\r\nEnumerating objects: 51, done.\r\nCounting objects: 100% (51/51), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (39/39), done.\r\nWriting objects: 100% (45/45), 669.07 KiB | 9.70 MiB/s, done.\r\nTotal 45 (delta 9), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (9/9), completed with 5 local objects.\r\nTo github.com:indexss/nolebase.git\r\n + 4c51282...a8b3d31 main -> main (forced update)\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % cd 笔记\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % open .\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % git add .\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git a",
-                        "rows": 23
+                        "columns": 145,
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % ls\r\n \u001b[4mindex.md\u001b[0m                                                    \u001b[34m \u001b[1;4m'💾 申请信息汇总'\u001b[0m                     \u001b[34m \u001b[1;4m'🧠 32167-neural-computation'\r\n\u001b[22;24m \u001b[1;4m'❤️ 好的文章，爱来自Larry'\u001b[0m                                   \u001b[34m \u001b[1;4m'📢 Intelligent Interactive System'\u001b[0m   \u001b[34m \u001b[1;4m'🧬 Evolutionary Computation'\r\n\u001b[22;24m \u001b[1;4m'🍚 菜谱'\u001b[0m                                                   \u001b[34m \u001b[1;4m'🔐 30195-security-and-networks'\u001b[0m      \r\n\u001b[34m \u001b[1;4m'🐧 38059-operating-systems-and-systems-programming'\u001b[0m        \u001b[34m \u001b[1;4m'🤖 34255-artificial-intelligence-2'\u001b[0m  \r\n\u001b[34m \u001b[1;4m'👾 38965-machine-learning'\u001b[0m                                 \u001b[34m \u001b[1;4m'🧐 读读paper'\u001b[0m                        \r\n\u001b[34m \u001b[1;4m'💬 CS224N-Natural Language Processing with Deep Learning'\u001b[0m  \u001b[34m \u001b[1;4m'🧑‍🏫 TA'\u001b[0m                             \r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ",
+                        "rows": 26
                       }
                     }
                   },
@@ -78,26 +92,6 @@
           }
         ],
         "direction": "horizontal"
-      },
-      {
-        "id": "e827281ead3132c5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "44e9f8a82717012c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🧑‍🏫 TA/First Meeting.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "First Meeting"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -171,7 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 279.5024719238281
   },
   "right": {
     "id": "f12232ab6faa5dfa",
@@ -300,8 +294,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -323,52 +316,53 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "22a7bda5389829ed",
+  "active": "fd47a63c6c8aa48d",
   "lastOpenFiles": [
-    "📢 Intelligent Interactive System/week 1 paper.md",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250128003450.webp",
-    "📢 Intelligent Interactive System/assets",
+    "📢 Intelligent Interactive System/prompt.md",
+    "📢 Intelligent Interactive System/as1/VLM综述.md",
+    "📢 Intelligent Interactive System/as1/assignment 1文章.md",
+    "📢 Intelligent Interactive System/as1/VLM偏见大赏.md",
+    "📢 Intelligent Interactive System/as1/cv bias综述 TPAMI.md",
+    "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
+    "📢 Intelligent Interactive System/as1/cv数据集bias.md",
+    "📢 Intelligent Interactive System/cv bias综述 欧洲.md",
+    "📢 Intelligent Interactive System/as1/CV领域bias表现和来源.md",
+    "🧑‍🏫 TA/week 2 meeting.md",
+    "📢 Intelligent Interactive System/as1/cv bias综述 中文.md",
+    "📢 Intelligent Interactive System/as1/Assignment 1 汇总.md",
     "🧑‍🏫 TA/first.md",
-    "🧑‍🏫 TA/assets/ceed75239bd99c53e8934bf03e0da10d_MD5.png",
-    "🧑‍🏫 TA/assets/Pasted image 20250128002009.webp",
-    "🧑‍🏫 TA/assets/Pasted image 20250128001953.webp",
+    "📢 Intelligent Interactive System/as1/CV领域公平的定义.md",
+    "📢 Intelligent Interactive System/Week 1 Intro & ResponsibleAI~.md",
+    "📢 Intelligent Interactive System/assets/image-20250202221421271.png",
+    "🧬 Evolutionary Computation/Week 1 Intro & Randomised Algorithms.md",
+    "📢 Intelligent Interactive System/CV领域公平的定义.md",
+    "📢 Intelligent Interactive System/as1/cv 生成模型bias.md",
+    "📢 Intelligent Interactive System/Week 2 Cooperation.md",
     "🧑‍🏫 TA/First Meeting.md",
-    "🧑‍🏫 TA/assets/Pasted image 20250128000724.webp",
-    "🧑‍🏫 TA/assets/Pasted image 20250128000159.webp",
-    "🧑‍🏫 TA/First Meeting - optimal.md",
-    "🧑‍🏫 TA/assets/Pasted image 20250128000115.webp",
-    "🧑‍🏫 TA/assets/Pasted image 20250127235904.webp",
-    "🧑‍🏫 TA/assets/Pasted image 20250127235900.webp",
-    "🧑‍🏫 TA/email.md",
-    "📢 Intelligent Interactive System/pasa.md",
-    "📢 Intelligent Interactive System/多模态偏见：利用自然语言处理技术评估计算机视觉模型中的性别偏见.md",
-    "📢 Intelligent Interactive System/stable diffusion bias.md",
-    "📢 Intelligent Interactive System/diffusion bias.md",
-    "📢 Intelligent Interactive System/cv 生成模型bias.md",
-    "📢 Intelligent Interactive System/cv数据集bias.md",
-    "📢 Intelligent Interactive System/未命名",
-    "📢 Intelligent Interactive System/diffusion中bias解决方法1.md",
-    "📢 Intelligent Interactive System/cv bias综述 TPAMI.md",
-    "📢 Intelligent Interactive System/cv bias综述 中文.md",
-    "📢 Intelligent Interactive System/ai bias中文综述.md",
-    "📢 Intelligent Interactive System/google scholar搜索语.md",
-    "📢 Intelligent Interactive System/ai bias综述.md",
-    "📢 Intelligent Interactive System/ai bias短综述.md",
-    "📢 Intelligent Interactive System/ai bias老综述.md",
-    "📢 Intelligent Interactive System/ai bias综述2.md",
-    "📢 Intelligent Interactive System/Assignment 1 汇总.md",
-    "📢 Intelligent Interactive System/week 1 elon video.md",
-    "🧐 读读paper/The Ethics of AI Ethics：An Evaluation of Guidelines.md",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250130231029.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250130230438.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250130224826.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250130224132.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250130222521.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250130221954.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250130221041.webp",
+    "📢 Intelligent Interactive System/Week 1 Intro & ResponsibleAI.md",
+    "🧬 Evolutionary Computation/assets/Pasted image 20250130195647.webp",
+    "🧬 Evolutionary Computation/assets/Pasted image 20250130195301.webp",
+    "📢 Intelligent Interactive System/as1/ai bias中文综述.md",
+    "📢 Intelligent Interactive System/as1/week 1 paper.md",
+    "📢 Intelligent Interactive System/as1/多模态偏见：利用自然语言处理技术评估计算机视觉模型中的性别偏见.md",
+    "📢 Intelligent Interactive System/as1",
+    "📢 Intelligent Interactive System/as1/week 1 elon video.md",
+    "📢 Intelligent Interactive System/as1/stable diffusion bias.md",
+    "🧬 Evolutionary Computation/assets",
+    "🧬 Evolutionary Computation",
+    "📢 Intelligent Interactive System/assets",
     "📢 Intelligent Interactive System",
-    "🧠 32167-neural-computation/6 - GNN.md",
-    "🧠 32167-neural-computation/4 - CNN.md",
-    "🧐 读读paper/assets/Pasted image 20250126231353.webp",
     "🧑‍🏫 TA/assets",
     "🧑‍🏫 TA",
     "🧐 读读paper/assets/2304.html",
     "🧐 读读paper/2304.html",
-    "申请/未命名",
-    "🍚 菜谱/assets",
-    "🍚 菜谱"
+    "申请/未命名"
   ]
 }

@@ -1,0 +1,1 @@
+1. I tried to reach out Team 33 two times, one on last Friday, one on yesterday. But actually no one respond my email and they did not use my booking link too. My allocated lab session is on Wed so I try to arrange most meeting work at that time, so I don't know what to do.

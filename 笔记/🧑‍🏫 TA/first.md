@@ -201,3 +201,7 @@ git rebase
 
 ## S1 ranking
 - It's just an internal benchmark. Even if you come in last place, as long as you've done some work, it won't affect your final score.
+
+
+## Sophisticated Project
+- can read / write data from dataset on your website
