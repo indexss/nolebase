@@ -4,49 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e54db3b61da678a9",
+        "id": "670c5067e46ea052",
         "type": "split",
         "children": [
           {
-            "id": "ed8b5f5c8ba96aee",
+            "id": "b4166f70966157a9",
             "type": "tabs",
             "children": [
               {
-                "id": "ba54e48932abc855",
+                "id": "ab23f33c268854ab",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "📢 Intelligent Interactive System/prompt.md",
+                    "file": "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "prompt"
-                }
-              },
-              {
-                "id": "1082d8dcaf32f73c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "📢 Intelligent Interactive System/as1/VLM综述.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "VLM综述"
+                  "title": "Week 3 Evolutionary Algorithm Basis"
                 }
               }
             ]
           },
           {
-            "id": "b5f7018981564d7e",
+            "id": "f3038d53880a0bec",
             "type": "tabs",
             "children": [
               {
-                "id": "fd47a63c6c8aa48d",
+                "id": "97537548829d0ed3",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -77,8 +63,8 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 145,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % ls\r\n \u001b[4mindex.md\u001b[0m                                                    \u001b[34m \u001b[1;4m'💾 申请信息汇总'\u001b[0m                     \u001b[34m \u001b[1;4m'🧠 32167-neural-computation'\r\n\u001b[22;24m \u001b[1;4m'❤️ 好的文章，爱来自Larry'\u001b[0m                                   \u001b[34m \u001b[1;4m'📢 Intelligent Interactive System'\u001b[0m   \u001b[34m \u001b[1;4m'🧬 Evolutionary Computation'\r\n\u001b[22;24m \u001b[1;4m'🍚 菜谱'\u001b[0m                                                   \u001b[34m \u001b[1;4m'🔐 30195-security-and-networks'\u001b[0m      \r\n\u001b[34m \u001b[1;4m'🐧 38059-operating-systems-and-systems-programming'\u001b[0m        \u001b[34m \u001b[1;4m'🤖 34255-artificial-intelligence-2'\u001b[0m  \r\n\u001b[34m \u001b[1;4m'👾 38965-machine-learning'\u001b[0m                                 \u001b[34m \u001b[1;4m'🧐 读读paper'\u001b[0m                        \r\n\u001b[34m \u001b[1;4m'💬 CS224N-Natural Language Processing with Deep Learning'\u001b[0m  \u001b[34m \u001b[1;4m'🧑‍🏫 TA'\u001b[0m                             \r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ",
+                        "columns": 152,
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro projects % cd nolebase\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ls\r\n \u001b[4m404.md\u001b[0m          \u001b[33m \u001b[1;4meslint.config.js\u001b[0m   \u001b[4mLICENSE-CC-BY-SA\u001b[0m  \u001b[34m \u001b[1;4mnode_modules\u001b[0m    \u001b[34m \u001b[1;4mpublic\u001b[0m      \u001b[4mtoc.md\u001b[0m          \u001b[4mvercel.json\u001b[0m     \u001b[34m \u001b[1;4m视图\r\n\u001b[22;24m \u001b[1;4mapi\u001b[0m              \u001b[4mindex.md\u001b[0m          \u001b[34m \u001b[1;4mmetadata\u001b[0m          \u001b[33m \u001b[1;4mpackage.json\u001b[0m    \u001b[33m \u001b[1;4mREADME.md\u001b[0m  \u001b[33m \u001b[1;4mtsconfig.json\u001b[0m  \u001b[33m \u001b[1;4mvite.config.ts\u001b[0m   \u001b[4m'🔌 知识库插件列表.md'\r\n\u001b[33;24m \u001b[1;4mcopy-assets.js\u001b[0m   \u001b[4mLICENSE\u001b[0m            \u001b[4mnetlify.toml\u001b[0m       \u001b[4mpnpm-lock.yaml\u001b[0m  \u001b[34m \u001b[1;4mscripts\u001b[0m    \u001b[33m \u001b[1;4muno.config.ts\u001b[0m  \u001b[34m \u001b[1;4m笔记\u001b[0m            \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git",
                         "rows": 26
                       }
                     }
@@ -165,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5024719238281
+    "width": 353.5024719238281
   },
   "right": {
     "id": "f12232ab6faa5dfa",
@@ -261,6 +247,16 @@
               "icon": "lucide-file",
               "title": "插件不再活动"
             }
+          },
+          {
+            "id": "8213f5ce55bbe8fc",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
         "currentTab": 3
@@ -294,7 +290,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 332.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -311,58 +307,58 @@
       "obsidian-full-calendar:Open Full Calendar": false,
       "publish:发布更改": false,
       "graph:查看关系图谱": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian42-brat:BRAT": false,
       "smart-connections:Open: View Smart Connections": false,
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "fd47a63c6c8aa48d",
+  "active": "97537548829d0ed3",
   "lastOpenFiles": [
+    "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
+    "🧬 Evolutionary Computation/assets/Pasted image 20250207230344.webp",
+    "🧬 Evolutionary Computation/assets/Pasted image 20250207224920.webp",
+    "💡 Idea/问题记录板.md",
+    "index.md",
+    "未命名.md",
+    "💡 Idea/LLM辩论赛.md",
+    "💡 Idea",
+    "🧬 Evolutionary Computation/assets/Pasted image 20250207213315.webp",
+    "🧬 Evolutionary Computation/assets/Pasted image 20250207213127.webp",
+    "🧬 Evolutionary Computation/assets/Pasted image 20250207213038.webp",
+    "🧬 Evolutionary Computation/assets/Pasted image 20250207212954.webp",
+    "🧬 Evolutionary Computation/assets/Pasted image 20250207212932.webp",
+    "🧬 Evolutionary Computation/assets/Pasted image 20250207211246.webp",
+    "🧬 Evolutionary Computation/assets/Pasted image 20250207210117.webp",
+    "🧬 Evolutionary Computation/assets/Pasted image 20250207201503.webp",
+    "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
+    "🧑‍🏫 TA/week 3 meeting.md",
+    "📢 Intelligent Interactive System/as1/VLM实操.md",
+    "📢 Intelligent Interactive System/as1/VLM大纲.md",
+    "📢 Intelligent Interactive System/as1/assets",
+    "🧑‍🏫 TA/week 2 meeting.md",
+    "📢 Intelligent Interactive System/Week 2 Cooperation.md",
     "📢 Intelligent Interactive System/prompt.md",
-    "📢 Intelligent Interactive System/as1/VLM综述.md",
     "📢 Intelligent Interactive System/as1/assignment 1文章.md",
+    "📢 Intelligent Interactive System/as1/Assignment 1 汇总.md",
+    "📢 Intelligent Interactive System/as1/总结VLM.md",
+    "📢 Intelligent Interactive System/as1/VLM综述.md",
+    "📢 Intelligent Interactive System/未命名.md",
     "📢 Intelligent Interactive System/as1/VLM偏见大赏.md",
     "📢 Intelligent Interactive System/as1/cv bias综述 TPAMI.md",
-    "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
     "📢 Intelligent Interactive System/as1/cv数据集bias.md",
     "📢 Intelligent Interactive System/cv bias综述 欧洲.md",
     "📢 Intelligent Interactive System/as1/CV领域bias表现和来源.md",
-    "🧑‍🏫 TA/week 2 meeting.md",
     "📢 Intelligent Interactive System/as1/cv bias综述 中文.md",
-    "📢 Intelligent Interactive System/as1/Assignment 1 汇总.md",
     "🧑‍🏫 TA/first.md",
     "📢 Intelligent Interactive System/as1/CV领域公平的定义.md",
-    "📢 Intelligent Interactive System/Week 1 Intro & ResponsibleAI~.md",
-    "📢 Intelligent Interactive System/assets/image-20250202221421271.png",
-    "🧬 Evolutionary Computation/Week 1 Intro & Randomised Algorithms.md",
-    "📢 Intelligent Interactive System/CV领域公平的定义.md",
-    "📢 Intelligent Interactive System/as1/cv 生成模型bias.md",
-    "📢 Intelligent Interactive System/Week 2 Cooperation.md",
-    "🧑‍🏫 TA/First Meeting.md",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250130231029.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250130230438.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250130224826.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250130224132.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250130222521.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250130221954.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250130221041.webp",
-    "📢 Intelligent Interactive System/Week 1 Intro & ResponsibleAI.md",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250130195647.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250130195301.webp",
-    "📢 Intelligent Interactive System/as1/ai bias中文综述.md",
-    "📢 Intelligent Interactive System/as1/week 1 paper.md",
-    "📢 Intelligent Interactive System/as1/多模态偏见：利用自然语言处理技术评估计算机视觉模型中的性别偏见.md",
     "📢 Intelligent Interactive System/as1",
-    "📢 Intelligent Interactive System/as1/week 1 elon video.md",
-    "📢 Intelligent Interactive System/as1/stable diffusion bias.md",
     "🧬 Evolutionary Computation/assets",
     "🧬 Evolutionary Computation",
     "📢 Intelligent Interactive System/assets",
     "📢 Intelligent Interactive System",
     "🧑‍🏫 TA/assets",
     "🧑‍🏫 TA",
-    "🧐 读读paper/assets/2304.html",
-    "🧐 读读paper/2304.html",
-    "申请/未命名"
+    "🧐 读读paper/assets/2304.html"
   ]
 }
