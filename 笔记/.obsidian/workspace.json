@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "670c5067e46ea052",
+        "id": "2eca04017c7fe99a",
         "type": "split",
         "children": [
           {
-            "id": "b4166f70966157a9",
+            "id": "63bf76272e4efe0a",
             "type": "tabs",
             "children": [
               {
-                "id": "ab23f33c268854ab",
+                "id": "a8ffab857dc5bd14",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
+                    "file": "🔐 30195-security-and-networks/week-3-symmetric-cryptography.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Week 3 Evolutionary Algorithm Basis"
+                  "title": "week-3-symmetric-cryptography"
                 }
               }
             ]
           },
           {
-            "id": "f3038d53880a0bec",
+            "id": "2f2b7c07e740cf98",
             "type": "tabs",
             "children": [
               {
-                "id": "97537548829d0ed3",
+                "id": "430f6459607272d4",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -63,8 +63,8 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 152,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro projects % cd nolebase\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ls\r\n \u001b[4m404.md\u001b[0m          \u001b[33m \u001b[1;4meslint.config.js\u001b[0m   \u001b[4mLICENSE-CC-BY-SA\u001b[0m  \u001b[34m \u001b[1;4mnode_modules\u001b[0m    \u001b[34m \u001b[1;4mpublic\u001b[0m      \u001b[4mtoc.md\u001b[0m          \u001b[4mvercel.json\u001b[0m     \u001b[34m \u001b[1;4m视图\r\n\u001b[22;24m \u001b[1;4mapi\u001b[0m              \u001b[4mindex.md\u001b[0m          \u001b[34m \u001b[1;4mmetadata\u001b[0m          \u001b[33m \u001b[1;4mpackage.json\u001b[0m    \u001b[33m \u001b[1;4mREADME.md\u001b[0m  \u001b[33m \u001b[1;4mtsconfig.json\u001b[0m  \u001b[33m \u001b[1;4mvite.config.ts\u001b[0m   \u001b[4m'🔌 知识库插件列表.md'\r\n\u001b[33;24m \u001b[1;4mcopy-assets.js\u001b[0m   \u001b[4mLICENSE\u001b[0m            \u001b[4mnetlify.toml\u001b[0m       \u001b[4mpnpm-lock.yaml\u001b[0m  \u001b[34m \u001b[1;4mscripts\u001b[0m    \u001b[33m \u001b[1;4muno.config.ts\u001b[0m  \u001b[34m \u001b[1;4m笔记\u001b[0m            \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git",
+                        "columns": 128,
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ls\r\n \u001b[4m404.md\u001b[0m             \u001b[4mindex.md\u001b[0m           \u001b[4mnetlify.toml\u001b[0m    \u001b[34m \u001b[1;4mpublic\u001b[0m     \u001b[33m \u001b[1;4mtsconfig.json\u001b[0m   \u001b[34m \u001b[1;4m笔记\r\n\u001b[22;24m \u001b[1;4mapi\u001b[0m                \u001b[4mLICENSE\u001b[0m           \u001b[34m \u001b[1;4mnode_modules\u001b[0m    \u001b[33m \u001b[1;4mREADME.md\u001b[0m  \u001b[33m \u001b[1;4muno.config.ts\u001b[0m   \u001b[34m \u001b[1;4m视图\r\n\u001b[33;22;24m \u001b[1;4mcopy-assets.js\u001b[0m     \u001b[4mLICENSE-CC-BY-SA\u001b[0m  \u001b[33m \u001b[1;4mpackage.json\u001b[0m    \u001b[34m \u001b[1;4mscripts\u001b[0m     \u001b[4mvercel.json\u001b[0m      \u001b[4m'🔌 知识库插件列表.md'\r\n\u001b[33;24m \u001b[1;4meslint.config.js\u001b[0m  \u001b[34m \u001b[1;4mmetadata\u001b[0m           \u001b[4mpnpm-lock.yaml\u001b[0m   \u001b[4mtoc.md\u001b[0m     \u001b[33m \u001b[1;4mvite.config.ts\u001b[0m  \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ",
                         "rows": 26
                       }
                     }
@@ -97,7 +97,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -151,7 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5024719238281
+    "width": 299.5024719238281
   },
   "right": {
     "id": "f12232ab6faa5dfa",
@@ -213,19 +214,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "📢 Intelligent Interactive System/as1/VLM实操.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "703a504465e30a7f",
-            "type": "leaf",
-            "state": {
-              "type": "smart-search-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "title": "VLM实操 的大纲"
             }
           },
           {
@@ -239,16 +232,6 @@
             }
           },
           {
-            "id": "df9bdc8aa8448743",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
             "id": "8213f5ce55bbe8fc",
             "type": "leaf",
             "state": {
@@ -259,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "1e9050aab095232b",
@@ -274,16 +257,6 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
-            }
-          },
-          {
-            "id": "bc44e0733f027df2",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
             }
           }
         ]
@@ -313,45 +286,99 @@
       "smart-connections:Open: Smart Chat Conversation": false
     }
   },
-  "active": "97537548829d0ed3",
+  "floating": {
+    "id": "26715ba3d58bcf6a",
+    "type": "floating",
+    "children": [
+      {
+        "id": "2c10d8c7e3806c9c",
+        "type": "window",
+        "children": [
+          {
+            "id": "77564e11d1d837a6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d1e2c509d660ec6f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "📢 Intelligent Interactive System/as1/总结VLM.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "总结VLM"
+                }
+              },
+              {
+                "id": "817adcbc7415f1d2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "📢 Intelligent Interactive System/as1/VLM综述.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "VLM综述"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1469,
+        "y": 503,
+        "width": 1453,
+        "height": 933,
+        "maximize": false,
+        "zoom": -0.5
+      }
+    ]
+  },
+  "active": "430f6459607272d4",
   "lastOpenFiles": [
-    "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250207230344.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250207224920.webp",
-    "💡 Idea/问题记录板.md",
-    "index.md",
-    "未命名.md",
-    "💡 Idea/LLM辩论赛.md",
-    "💡 Idea",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250207213315.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250207213127.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250207213038.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250207212954.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250207212932.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250207211246.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250207210117.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250207201503.webp",
+    "🔐 30195-security-and-networks/week-3-symmetric-cryptography.md",
+    "🔐 30195-security-and-networks/week-6-tls-and-tor.md",
+    "🔐 30195-security-and-networks/week-7-web-attacks-part-1.md",
+    "🔐 30195-security-and-networks/week-10-buffer-overflow.md",
+    "🔐 30195-security-and-networks/week-4-asymmetric-cryptography.md",
+    "🔐 30195-security-and-networks/week-2-hash-macs-authenticated-encryption-access-control.md",
+    "🔐 30195-security-and-networks/week-1-intro-to-security.md",
+    "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
+    "🧑‍🏫 TA/week 4 meeting.md",
     "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
-    "🧑‍🏫 TA/week 3 meeting.md",
-    "📢 Intelligent Interactive System/as1/VLM实操.md",
-    "📢 Intelligent Interactive System/as1/VLM大纲.md",
-    "📢 Intelligent Interactive System/as1/assets",
-    "🧑‍🏫 TA/week 2 meeting.md",
-    "📢 Intelligent Interactive System/Week 2 Cooperation.md",
-    "📢 Intelligent Interactive System/prompt.md",
+    "📢 Intelligent Interactive System/as1/bias术语.md",
+    "💡 Idea/问题记录板.md",
     "📢 Intelligent Interactive System/as1/assignment 1文章.md",
-    "📢 Intelligent Interactive System/as1/Assignment 1 汇总.md",
+    "📢 Intelligent Interactive System/as1/VLM实操.md",
     "📢 Intelligent Interactive System/as1/总结VLM.md",
+    "📢 Intelligent Interactive System/as1/as1想法.md",
     "📢 Intelligent Interactive System/as1/VLM综述.md",
-    "📢 Intelligent Interactive System/未命名.md",
-    "📢 Intelligent Interactive System/as1/VLM偏见大赏.md",
-    "📢 Intelligent Interactive System/as1/cv bias综述 TPAMI.md",
-    "📢 Intelligent Interactive System/as1/cv数据集bias.md",
+    "📢 Intelligent Interactive System/as1/Assignment 1 汇总.md",
+    "📢 Intelligent Interactive System/as1/ai bias中文综述.md",
+    "📢 Intelligent Interactive System/as1/ai bias老综述.md",
+    "📢 Intelligent Interactive System/as1/ai bias综述2.md",
+    "📢 Intelligent Interactive System/as1/ai bias综述.md",
+    "📢 Intelligent Interactive System/as1/ai bias短综述.md",
+    "📢 Intelligent Interactive System/prompt.md",
     "📢 Intelligent Interactive System/cv bias综述 欧洲.md",
-    "📢 Intelligent Interactive System/as1/CV领域bias表现和来源.md",
-    "📢 Intelligent Interactive System/as1/cv bias综述 中文.md",
-    "🧑‍🏫 TA/first.md",
-    "📢 Intelligent Interactive System/as1/CV领域公平的定义.md",
+    "📢 Intelligent Interactive System/as1/week 1 paper.md",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250207234119.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250207233902.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250207233758.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250207233411.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250207233400.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250207233351.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250207232757.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250207232709.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250207232450.webp",
+    "📢 Intelligent Interactive System/assets/4c7ebb2717b4dd260021359f42986f75_MD5.webp",
+    "💡 Idea",
+    "📢 Intelligent Interactive System/as1/assets",
     "📢 Intelligent Interactive System/as1",
     "🧬 Evolutionary Computation/assets",
     "🧬 Evolutionary Computation",
