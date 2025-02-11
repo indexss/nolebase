@@ -1,7 +1,6 @@
 # Week 3 Cooperation & Human Decision Making
 ## 阿克塞尔罗德的计算机锦标赛
 著名的博弈论实验，他邀请来自不同学科的研究者提交计算机程序，以竞争“囚徒困境”博弈的最佳策略。
-![已上传的图片](assets/4c7ebb2717b4dd260021359f42986f75_MD5.png)
  **友好策略（Nice Strategies，粉色区域）**
 - 这些策略具有 **合作性（不主动背叛）**，并且整体得分很高。
 - **“以牙还牙”（Tit for Tat）策略** 由 **Anatol Rapoport** 提交，在比赛中表现最佳。

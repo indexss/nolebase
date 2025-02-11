@@ -17,12 +17,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "🔐 30195-security-and-networks/week-3-symmetric-cryptography.md",
+                    "file": "📢 Intelligent Interactive System/Week 3 Cooperation & Human Decision Making.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "week-3-symmetric-cryptography"
+                  "title": "Week 3 Cooperation & Human Decision Making"
                 }
               }
             ]
@@ -64,7 +64,7 @@
                       },
                       "serial": {
                         "columns": 128,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ls\r\n \u001b[4m404.md\u001b[0m             \u001b[4mindex.md\u001b[0m           \u001b[4mnetlify.toml\u001b[0m    \u001b[34m \u001b[1;4mpublic\u001b[0m     \u001b[33m \u001b[1;4mtsconfig.json\u001b[0m   \u001b[34m \u001b[1;4m笔记\r\n\u001b[22;24m \u001b[1;4mapi\u001b[0m                \u001b[4mLICENSE\u001b[0m           \u001b[34m \u001b[1;4mnode_modules\u001b[0m    \u001b[33m \u001b[1;4mREADME.md\u001b[0m  \u001b[33m \u001b[1;4muno.config.ts\u001b[0m   \u001b[34m \u001b[1;4m视图\r\n\u001b[33;22;24m \u001b[1;4mcopy-assets.js\u001b[0m     \u001b[4mLICENSE-CC-BY-SA\u001b[0m  \u001b[33m \u001b[1;4mpackage.json\u001b[0m    \u001b[34m \u001b[1;4mscripts\u001b[0m     \u001b[4mvercel.json\u001b[0m      \u001b[4m'🔌 知识库插件列表.md'\r\n\u001b[33;24m \u001b[1;4meslint.config.js\u001b[0m  \u001b[34m \u001b[1;4mmetadata\u001b[0m           \u001b[4mpnpm-lock.yaml\u001b[0m   \u001b[4mtoc.md\u001b[0m     \u001b[33m \u001b[1;4mvite.config.ts\u001b[0m  \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ",
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ls\r\n \u001b[4m404.md\u001b[0m             \u001b[4mindex.md\u001b[0m           \u001b[4mnetlify.toml\u001b[0m    \u001b[34m \u001b[1;4mpublic\u001b[0m     \u001b[33m \u001b[1;4mtsconfig.json\u001b[0m   \u001b[34m \u001b[1;4m笔记\r\n\u001b[22;24m \u001b[1;4mapi\u001b[0m                \u001b[4mLICENSE\u001b[0m           \u001b[34m \u001b[1;4mnode_modules\u001b[0m    \u001b[33m \u001b[1;4mREADME.md\u001b[0m  \u001b[33m \u001b[1;4muno.config.ts\u001b[0m   \u001b[34m \u001b[1;4m视图\r\n\u001b[33;22;24m \u001b[1;4mcopy-assets.js\u001b[0m     \u001b[4mLICENSE-CC-BY-SA\u001b[0m  \u001b[33m \u001b[1;4mpackage.json\u001b[0m    \u001b[34m \u001b[1;4mscripts\u001b[0m     \u001b[4mvercel.json\u001b[0m      \u001b[4m'🔌 知识库插件列表.md'\r\n\u001b[33;24m \u001b[1;4meslint.config.js\u001b[0m  \u001b[34m \u001b[1;4mmetadata\u001b[0m           \u001b[4mpnpm-lock.yaml\u001b[0m   \u001b[4mtoc.md\u001b[0m     \u001b[33m \u001b[1;4mvite.config.ts\u001b[0m  \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git add .\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git commit -m \"test\"\r\n[main 0c35a1a] test\r\n 23 files changed, 1353 insertions(+), 86 deletions(-)\r\n create mode 100644 笔记/.obsidian/plugins/automatic-renumbering/main.js\r\n create mode 100644 笔记/.obsidian/plugins/automatic-renumbering/manifest.json\r\n create mode 100644 笔记/📢 Intelligent Interactive System/Week 3 Cooperation & Human Decision Making.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/4c7ebb2717b4dd260021359f42986f75_MD5.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207232450.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207232709.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207232757.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207233351.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207233400.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207233411.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207233758.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207233902.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207234119.webp\r\n delete mode 100644 笔记/📢 Intelligent Interactive System/未命名.md\r\n create mode 100644 笔记/🧑‍🏫 TA/week 4 meeting.md\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git push\r\nEnumerating objects: 50, done.\r\nCounting objects: 100% (50/50), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (33/33), done.\r\nWriting objects: 100% (33/33), 295.98 KiB | 5.48 MiB/s, done.\r\nTotal 33 (delta 13), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (13/13), completed with 13 local objects.\r\nTo github.com:indexss/nolebase.git\r\n   3a10e80..0c35a1a  main -> main\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % find 4c7ebb2717b4dd260021359f42986f75_MD5.png \r\nfind: 4c7ebb2717b4dd260021359f42986f75_MD5.png: No such file or directory\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % find\u001b[7mfind . -name \"4c7ebb2717b4dd260021359f42986f75_MD5.png\"\r\n. 代表当前目录\r\n`-name\r\n\r\n\r\n\u001b[0m(base) linlishi@Linlis-MacBook-Pro nolebase % \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % find . -name \"4c7ebb2717b4dd260021359f42986f75_MD5.png\"\r\n\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % find . -iname \"4c7ebb2717b4dd260021359f42986f75_MD5.png\"\r\n\r\n(base) linlishi@Linlis-MacBook-Pro nolebase %        \u001b[7D",
                         "rows": 26
                       }
                     }
@@ -341,6 +341,10 @@
   },
   "active": "430f6459607272d4",
   "lastOpenFiles": [
+    "📢 Intelligent Interactive System/Week 3 Cooperation & Human Decision Making.md",
+    "📢 Intelligent Interactive System/as1/ai bias综述.md",
+    "📢 Intelligent Interactive System/as1/ai bias短综述.md",
+    "📢 Intelligent Interactive System/as1/ai bias中文综述.md",
     "🔐 30195-security-and-networks/week-3-symmetric-cryptography.md",
     "🔐 30195-security-and-networks/week-6-tls-and-tor.md",
     "🔐 30195-security-and-networks/week-7-web-attacks-part-1.md",
@@ -359,14 +363,10 @@
     "📢 Intelligent Interactive System/as1/as1想法.md",
     "📢 Intelligent Interactive System/as1/VLM综述.md",
     "📢 Intelligent Interactive System/as1/Assignment 1 汇总.md",
-    "📢 Intelligent Interactive System/as1/ai bias中文综述.md",
     "📢 Intelligent Interactive System/as1/ai bias老综述.md",
     "📢 Intelligent Interactive System/as1/ai bias综述2.md",
-    "📢 Intelligent Interactive System/as1/ai bias综述.md",
-    "📢 Intelligent Interactive System/as1/ai bias短综述.md",
     "📢 Intelligent Interactive System/prompt.md",
     "📢 Intelligent Interactive System/cv bias综述 欧洲.md",
-    "📢 Intelligent Interactive System/as1/week 1 paper.md",
     "📢 Intelligent Interactive System/assets/Pasted image 20250207234119.webp",
     "📢 Intelligent Interactive System/assets/Pasted image 20250207233902.webp",
     "📢 Intelligent Interactive System/assets/Pasted image 20250207233758.webp",
