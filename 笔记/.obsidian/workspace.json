@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2eca04017c7fe99a",
+        "id": "80f42e5320ac9c88",
         "type": "split",
         "children": [
           {
-            "id": "63bf76272e4efe0a",
+            "id": "e8f4fc2ed9c7d025",
             "type": "tabs",
             "children": [
               {
-                "id": "a8ffab857dc5bd14",
+                "id": "bf15545747a6cd0c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "📢 Intelligent Interactive System/as1/week 1 paper.md",
+                    "file": "🧬 Evolutionary Computation/Week 5 Multi Objective Optimization.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "week 1 paper"
+                  "title": "Week 5 Multi Objective Optimization"
                 }
               }
             ]
           },
           {
-            "id": "2f2b7c07e740cf98",
+            "id": "972ebcad29a41dc5",
             "type": "tabs",
             "children": [
               {
-                "id": "430f6459607272d4",
+                "id": "d09d49504dc379cd",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -63,8 +63,8 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 128,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ls\r\n \u001b[4m404.md\u001b[0m             \u001b[4mindex.md\u001b[0m           \u001b[4mnetlify.toml\u001b[0m    \u001b[34m \u001b[1;4mpublic\u001b[0m     \u001b[33m \u001b[1;4mtsconfig.json\u001b[0m   \u001b[34m \u001b[1;4m笔记\r\n\u001b[22;24m \u001b[1;4mapi\u001b[0m                \u001b[4mLICENSE\u001b[0m           \u001b[34m \u001b[1;4mnode_modules\u001b[0m    \u001b[33m \u001b[1;4mREADME.md\u001b[0m  \u001b[33m \u001b[1;4muno.config.ts\u001b[0m   \u001b[34m \u001b[1;4m视图\r\n\u001b[33;22;24m \u001b[1;4mcopy-assets.js\u001b[0m     \u001b[4mLICENSE-CC-BY-SA\u001b[0m  \u001b[33m \u001b[1;4mpackage.json\u001b[0m    \u001b[34m \u001b[1;4mscripts\u001b[0m     \u001b[4mvercel.json\u001b[0m      \u001b[4m'🔌 知识库插件列表.md'\r\n\u001b[33;24m \u001b[1;4meslint.config.js\u001b[0m  \u001b[34m \u001b[1;4mmetadata\u001b[0m           \u001b[4mpnpm-lock.yaml\u001b[0m   \u001b[4mtoc.md\u001b[0m     \u001b[33m \u001b[1;4mvite.config.ts\u001b[0m  \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git add .\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git commit -m \"test\"\r\n[main 0c35a1a] test\r\n 23 files changed, 1353 insertions(+), 86 deletions(-)\r\n create mode 100644 笔记/.obsidian/plugins/automatic-renumbering/main.js\r\n create mode 100644 笔记/.obsidian/plugins/automatic-renumbering/manifest.json\r\n create mode 100644 笔记/📢 Intelligent Interactive System/Week 3 Cooperation & Human Decision Making.md\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/4c7ebb2717b4dd260021359f42986f75_MD5.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207232450.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207232709.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207232757.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207233351.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207233400.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207233411.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207233758.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207233902.webp\r\n create mode 100644 笔记/📢 Intelligent Interactive System/assets/Pasted image 20250207234119.webp\r\n delete mode 100644 笔记/📢 Intelligent Interactive System/未命名.md\r\n create mode 100644 笔记/🧑‍🏫 TA/week 4 meeting.md\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git push\r\nEnumerating objects: 50, done.\r\nCounting objects: 100% (50/50), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (33/33), done.\r\nWriting objects: 100% (33/33), 295.98 KiB | 5.48 MiB/s, done.\r\nTotal 33 (delta 13), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (13/13), completed with 13 local objects.\r\nTo github.com:indexss/nolebase.git\r\n   3a10e80..0c35a1a  main -> main\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % find 4c7ebb2717b4dd260021359f42986f75_MD5.png \r\nfind: 4c7ebb2717b4dd260021359f42986f75_MD5.png: No such file or directory\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % find\u001b[7mfind . -name \"4c7ebb2717b4dd260021359f42986f75_MD5.png\"\r\n. 代表当前目录\r\n`-name\r\n\r\n\r\n\u001b[0m(base) linlishi@Linlis-MacBook-Pro nolebase % \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % find . -name \"4c7ebb2717b4dd260021359f42986f75_MD5.png\"\r\n\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % find . -iname \"4c7ebb2717b4dd260021359f42986f75_MD5.png\"\r\n\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git add .\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git commit -m \"testtest\"\r\n[main dc47827] testtest\r\n 2 files changed, 7 insertions(+), 8 deletions(-)\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % git push\r\nEnumerating objects: 13, done.\r\nCounting objects: 100% (13/13), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (7/7), done.\r\nWriting objects: 100% (7/7), 1.29 KiB | 1.29 MiB/s, done.\r\nTotal 7 (delta 6), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (6/6), completed with 6 local objects.\r\nTo github.com:indexss/nolebase.git\r\n   0c35a1a..dc47827  main -> main\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ls\r\n \u001b[4m404.md\u001b[0m             \u001b[4mindex.md\u001b[0m           \u001b[4mnetlify.toml\u001b[0m    \u001b[34m \u001b[1;4mpublic\u001b[0m     \u001b[33m \u001b[1;4mtsconfig.json\u001b[0m   \u001b[34m \u001b[1;4m笔记\r\n\u001b[22;24m \u001b[1;4mapi\u001b[0m                \u001b[4mLICENSE\u001b[0m           \u001b[34m \u001b[1;4mnode_modules\u001b[0m    \u001b[33m \u001b[1;4mREADME.md\u001b[0m  \u001b[33m \u001b[1;4muno.config.ts\u001b[0m   \u001b[34m \u001b[1;4m视图\r\n\u001b[33;22;24m \u001b[1;4mcopy-assets.js\u001b[0m     \u001b[4mLICENSE-CC-BY-SA\u001b[0m  \u001b[33m \u001b[1;4mpackage.json\u001b[0m    \u001b[34m \u001b[1;4mscripts\u001b[0m     \u001b[4mvercel.json\u001b[0m      \u001b[4m'🔌 知识库插件列表.md'\r\n\u001b[33;24m \u001b[1;4meslint.config.js\u001b[0m  \u001b[34m \u001b[1;4mmetadata\u001b[0m           \u001b[4mpnpm-lock.yaml\u001b[0m   \u001b[4mtoc.md\u001b[0m     \u001b[33m \u001b[1;4mvite.config.ts\u001b[0m  \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % cd 笔记\r\n\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % \r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % ls\r\n \u001b[4mindex.md\u001b[0m                                                    \u001b[34m \u001b[1;4m'📢 Intelligent Interactive System'\r\n\u001b[22;24m \u001b[1;4m'❤️ 好的文章，爱来自Larry'\u001b[0m                                   \u001b[34m \u001b[1;4m'🔐 30195-security-and-networks'\r\n\u001b[22;24m \u001b[1;4m'🍚 菜谱'\u001b[0m                                                   \u001b[34m \u001b[1;4m'🤖 34255-artificial-intelligence-2'\r\n\u001b[22;24m \u001b[1;4m'🐧 38059-operating-systems-and-systems-programming'\u001b[0m        \u001b[34m \u001b[1;4m'🧐 读读paper'\r\n\u001b[22;24m \u001b[1;4m'👾 38965-machine-learning'\u001b[0m                                 \u001b[34m \u001b[1;4m'🧑‍🏫 TA'\r\n\u001b[22;24m \u001b[1;4m'💡 Idea'\u001b[0m                                                   \u001b[34m \u001b[1;4m'🧠 32167-neural-computation'\r\n\u001b[22;24m \u001b[1;4m'💬 CS224N-Natural Language Processing with Deep Learning'\u001b[0m  \u001b[34m \u001b[1;4m'🧬 Evolutionary Computation'\r\n\u001b[22;24m \u001b[1;4m'💾 申请信息汇总'\u001b[0m                                           \r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % cd\u001b[1C📢\\ Intelligent\\ Interactive\\ System/\r\n(base) linlishi@Linlis-MacBook-Pro 📢 Intelligent Interactive System % ls\r\n\u001b[34m \u001b[1;4mas1\u001b[0m      \u001b[4m'cv bias综述 欧洲.md'\u001b[0m   \u001b[4m'Week 1 Intro & ResponsibleAI.md'\u001b[0m   \u001b[4m'Week 3 Cooperation & Human Decision Making.md'\r\n\u001b[34;24m \u001b[1;4massets\u001b[0m   \u001b[4mprompt.md\u001b[0m               \u001b[4m'Week 2 Cooperation.md'\u001b[0m            \r\n(base) linlishi@Linlis-MacBook-Pro 📢 Intelligent Interactive System % cd as1\r\n(base) linlishi@Linlis-MacBook-Pro as1 % ls\r\n \u001b[4m'ai bias中文综述.md'\u001b[0m     \u001b[4m'cv bias综述 TPAMI.md'\u001b[0m        \u001b[4m'stable diffusion bias.md'\r\n\u001b[0m \u001b[4m'ai bias短综述.md'\u001b[0m       \u001b[4m'cv bias综述 中文.md'\u001b[0m         \u001b[4mVLM偏见大赏.md\r\n\u001b[0m \u001b[4m'ai bias综述.md'\u001b[0m         \u001b[4mcv数据集bias.md\u001b[0m               \u001b[4mVLM大纲.md\r\n\u001b[0m \u001b[4m'ai bias综述2.md'\u001b[0m        \u001b[4m'cv 生成模型bias.md'\u001b[0m          \u001b[4mVLM实操.md\r\n\u001b[0m \u001b[4m'ai bias老综述.md'\u001b[0m       \u001b[4mCV领域bias表现和来源.md\u001b[0m       \u001b[4mVLM综述.md\r\n\u001b[0m \u001b[4mas1想法.md\u001b[0m               \u001b[4mCV领域公平的定义.md\u001b[0m           \u001b[4m'week 1 elon video.md'\r\n\u001b[34;24m \u001b[1;4massets\u001b[0m                   \u001b[4m'diffusion bias.md'\u001b[0m           \u001b[4m'week 1 paper.md'\r\n\u001b[0m \u001b[4m'assignment 1文章.md'\u001b[0m    \u001b[4mdiffusion中bias解决方法1.md\u001b[0m   \u001b[4m多模态偏见：利用自然语言处理技术评估计算机视觉模型中的性别偏见.md\r\n\u001b[0m \u001b[4m'Assignment 1 汇总.md'\u001b[0m   \u001b[4m'google scholar搜索语.md'\u001b[0m     \u001b[4m总结VLM.md\r\n\u001b[0m \u001b[4mbias术语.md\u001b[0m              \u001b[4mpasa.md\u001b[0m                      \r\n(base) linlishi@Linlis-MacBook-Pro as1 % pwd\r\n/Users/linlishi/projects/nolebase/笔记/📢 Intelligent Interactive System/as1\r\n(base) linlishi@Linlis-MacBook-Pro as1 % git rm -r --cached \"/Users/linlishi/projects/nolebase/笔记/📢 Intelligent Interactive System/as1\"\r\n\r\nrm '笔记/📢 Intelligent Interactive System/as1/Assignment 1 汇总.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/CV领域bias表现和来源.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/CV领域公平的定义.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/VLM偏见大赏.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/VLM大纲.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/VLM实操.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/VLM综述.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/ai bias中文综述.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/ai bias短综述.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/ai bias综述.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/ai bias综述2.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/ai bias老综述.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/as1想法.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/assignment 1文章.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/bias术语.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/cv bias综述 TPAMI.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/cv bias综述 中文.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/cv 生成模型bias.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/cv数据集bias.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/diffusion bias.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/diffusion中bias解决方法1.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/google scholar搜索语.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/pasa.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/stable diffusion bias.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/week 1 elon video.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/week 1 paper.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/多模态偏见：利用自然语言处理技术评估计算机视觉模型中的性别偏见.md'\r\nrm '笔记/📢 Intelligent Interactive System/as1/总结VLM.md'\r\n(base) linlishi@Linlis-MacBook-Pro as1 % open ..\r\n(base) linlishi@Linlis-MacBook-Pro as1 % cursor ../..\r\n(base) linlishi@Linlis-MacBook-Pro as1 % cursor ../../..\r\n(base) linlishi@Linlis-MacBook-Pro as1 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro 📢 Intelligent Interactive System % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ",
+                        "columns": 143,
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % ls\r\n \u001b[4mfolder-alias.json\u001b[0m                                           \u001b[34m \u001b[1;4m'💾 申请信息汇总'\u001b[0m                     \u001b[34m \u001b[1;4m'🧬 Evolutionary Computation'\r\n\u001b[0m \u001b[4mindex.md\u001b[0m                                                    \u001b[34m \u001b[1;4m'📢 Intelligent Interactive System'\u001b[0m   \r\n\u001b[34m \u001b[1;4m'❤️ 好的文章，爱来自Larry'\u001b[0m                                   \u001b[34m \u001b[1;4m'🔌 数电复健'\u001b[0m                         \r\n\u001b[34m \u001b[1;4m'🍚 菜谱'\u001b[0m                                                   \u001b[34m \u001b[1;4m'🔐 30195-security-and-networks'\u001b[0m      \r\n\u001b[34m \u001b[1;4m'🐧 38059-operating-systems-and-systems-programming'\u001b[0m        \u001b[34m \u001b[1;4m'🤖 34255-artificial-intelligence-2'\u001b[0m  \r\n\u001b[34m \u001b[1;4m'👾 38965-machine-learning'\u001b[0m                                 \u001b[34m \u001b[1;4m'🧐 读读paper'\u001b[0m                        \r\n\u001b[34m \u001b[1;4m'💡 Idea'\u001b[0m                                                   \u001b[34m \u001b[1;4m'🧑‍🏫 TA'\u001b[0m                             \r\n\u001b[34m \u001b[1;4m'💬 CS224N-Natural Language Processing with Deep Learning'\u001b[0m  \u001b[34m \u001b[1;4m'🧠 32167-neural-computation'\u001b[0m         \r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..   \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ls\r\n \u001b[4m404.md\u001b[0m             \u001b[4mfolder-alias.json\u001b[0m  \u001b[34m \u001b[1;4mmetadata\u001b[0m       \u001b[4mpnpm-lock.yaml\u001b[0m   \u001b[4mtoc.md\u001b[0m         \u001b[33m \u001b[1;4mvite.config.ts\r\n\u001b[34;22;24m \u001b[1;4mapi\u001b[0m                \u001b[4mindex.md\u001b[0m            \u001b[4mnetlify.toml\u001b[0m  \u001b[34m \u001b[1;4mpublic\u001b[0m          \u001b[33m \u001b[1;4mtsconfig.json\u001b[0m  \u001b[34m \u001b[1;4m笔记\r\n\u001b[33;22;24m \u001b[1;4mcopy-assets.js\u001b[0m     \u001b[4mLICENSE\u001b[0m            \u001b[34m \u001b[1;4mnode_modules\u001b[0m  \u001b[33m \u001b[1;4mREADME.md\u001b[0m       \u001b[33m \u001b[1;4muno.config.ts\u001b[0m  \u001b[34m \u001b[1;4m视图\r\n\u001b[33;22;24m \u001b[1;4meslint.config.js\u001b[0m   \u001b[4mLICENSE-CC-BY-SA\u001b[0m   \u001b[33m \u001b[1;4mpackage.json\u001b[0m  \u001b[34m \u001b[1;4mscripts\u001b[0m          \u001b[4mvercel.json\u001b[0m     \u001b[4m'🔌 知识库插件列表.md'\r\n\u001b[0m(base) linlishi@Linlis-MacBook-Pro nolebase % git   \u001b[2D",
                         "rows": 26
                       }
                     }
@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:过拟合",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -203,7 +203,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
@@ -215,10 +217,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📢 Intelligent Interactive System/as1/VLM实操.md"
+                "file": "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VLM实操 的大纲"
+              "title": "Week 6 EDA and Genetic Programming 的大纲"
             }
           },
           {
@@ -263,7 +268,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -277,115 +282,59 @@
       "omnisearch:Omnisearch": false,
       "chronology:Open Chronology": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
       "publish:发布更改": false,
       "graph:查看关系图谱": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian42-brat:BRAT": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "obsidian42-brat:BRAT": false
     }
   },
-  "floating": {
-    "id": "26715ba3d58bcf6a",
-    "type": "floating",
-    "children": [
-      {
-        "id": "2c10d8c7e3806c9c",
-        "type": "window",
-        "children": [
-          {
-            "id": "77564e11d1d837a6",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d1e2c509d660ec6f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "📢 Intelligent Interactive System/as1/总结VLM.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "总结VLM"
-                }
-              },
-              {
-                "id": "817adcbc7415f1d2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "📢 Intelligent Interactive System/as1/VLM综述.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "VLM综述"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1469,
-        "y": 503,
-        "width": 1453,
-        "height": 933,
-        "maximize": false,
-        "zoom": -0.5
-      }
-    ]
-  },
-  "active": "430f6459607272d4",
+  "active": "d09d49504dc379cd",
   "lastOpenFiles": [
-    "folder-alias.json",
-    "📢 Intelligent Interactive System/as1/week 1 paper.md",
-    "📢 Intelligent Interactive System/Week 3 Cooperation & Human Decision Making.md",
-    "📢 Intelligent Interactive System/as1/ai bias综述.md",
-    "📢 Intelligent Interactive System/as1/ai bias短综述.md",
-    "📢 Intelligent Interactive System/as1/ai bias中文综述.md",
-    "🔐 30195-security-and-networks/week-3-symmetric-cryptography.md",
-    "🔐 30195-security-and-networks/week-6-tls-and-tor.md",
-    "🔐 30195-security-and-networks/week-7-web-attacks-part-1.md",
-    "🔐 30195-security-and-networks/week-10-buffer-overflow.md",
-    "🔐 30195-security-and-networks/week-4-asymmetric-cryptography.md",
-    "🔐 30195-security-and-networks/week-2-hash-macs-authenticated-encryption-access-control.md",
-    "🔐 30195-security-and-networks/week-1-intro-to-security.md",
-    "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
-    "🧑‍🏫 TA/week 4 meeting.md",
+    "🧬 Evolutionary Computation/Week 5 Multi Objective Optimization.md",
+    "📢 Intelligent Interactive System/Week 3 Cooperation & Human AI Decision Making.md",
+    "📢 Intelligent Interactive System/Week 2 Cooperation.md",
+    "📢 Intelligent Interactive System/Week 1 Intro & ResponsibleAI.md",
+    "📢 Intelligent Interactive System/as2/as2大纲.md",
+    "🧑‍🏫 TA/week 5 meeting.md",
+    "🧑‍🏫 TA/week 2 meeting.md",
+    "📢 Intelligent Interactive System/Week 5 Unsupervised Learning.md",
+    "📢 Intelligent Interactive System/as2",
+    "📢 Intelligent Interactive System/未命名.md",
+    "🤖 34255-artificial-intelligence-2/智能座舱系统.md",
+    "🧬 Evolutionary Computation/Week 4 Constraint Handling.md",
+    "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
     "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
-    "📢 Intelligent Interactive System/as1/bias术语.md",
-    "💡 Idea/问题记录板.md",
-    "📢 Intelligent Interactive System/as1/assignment 1文章.md",
-    "📢 Intelligent Interactive System/as1/VLM实操.md",
-    "📢 Intelligent Interactive System/as1/总结VLM.md",
-    "📢 Intelligent Interactive System/as1/as1想法.md",
+    "🔌 数电复健/器械.md",
+    "🔌 数电复健/C位技巧.md",
+    "🔌 数电复健/assets/Pasted image 20250223171205.webp",
+    "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
+    "🧬 Evolutionary Computation/assets/Pasted image 20250303171313.webp",
+    "Attachments/Pasted image 20250303170912.webp",
+    "🔌 数电复健/assets/Pasted image 20250303170912.webp",
+    "🔌 数电复健/assets/Pasted image 20250303165826.webp",
+    "🔌 数电复健/assets/Pasted image 20250303164413.webp",
+    "🔌 数电复健/assets/Pasted image 20250303164045.webp",
+    "🔌 数电复健/assets/Pasted image 20250303164003.webp",
+    "🔌 数电复健/assets/Pasted image 20250303162937.webp",
+    "🔌 数电复健/assets/Pasted image 20250303162831.webp",
+    "🧠 32167-neural-computation/6 - GNN.md",
+    "🧠 32167-neural-computation/Untitled 1.md",
+    "🔌 数电复健/assets",
+    "🔌 数电复健",
+    "📢 Intelligent Interactive System/Week 4 Supervised Learning.md",
+    "index.md",
+    "csypaper.pdf",
+    "Attachments",
+    "🧑‍🏫 TA/First Meeting.md",
+    "🧬 Evolutionary Computation/AS1.md",
+    "🧑‍🏫 TA/First Meeting - optimal.md",
+    "🧑‍🏫 TA/week 3 meeting.md",
+    "🧑‍🏫 TA/week 4 meeting.md",
     "📢 Intelligent Interactive System/as1/VLM综述.md",
-    "📢 Intelligent Interactive System/as1/Assignment 1 汇总.md",
-    "📢 Intelligent Interactive System/as1/ai bias老综述.md",
-    "📢 Intelligent Interactive System/as1/ai bias综述2.md",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250207234119.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250207233902.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250207233758.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250207233411.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250207233400.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250207233351.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250207232757.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250207232709.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250207232450.webp",
-    "📢 Intelligent Interactive System/assets/4c7ebb2717b4dd260021359f42986f75_MD5.webp",
+    "folder-alias.json",
     "💡 Idea",
     "📢 Intelligent Interactive System/as1/assets",
     "📢 Intelligent Interactive System/as1",
-    "🧬 Evolutionary Computation/assets",
-    "🧬 Evolutionary Computation",
-    "📢 Intelligent Interactive System/assets",
-    "📢 Intelligent Interactive System",
-    "🧑‍🏫 TA/assets",
-    "🧑‍🏫 TA",
-    "🧐 读读paper/assets/2304.html"
+    "🧬 Evolutionary Computation/assets"
   ]
 }

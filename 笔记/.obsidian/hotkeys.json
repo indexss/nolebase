@@ -6,5 +6,15 @@
       ],
       "key": "J"
     }
+  ],
+  "obsidian-paste-to-current-indentation:paste-in-mode-MarkdownBlockquote": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "V"
+    }
   ]
 }
