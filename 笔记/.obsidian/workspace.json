@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "80f42e5320ac9c88",
+        "id": "d1ad0bacecab7f0e",
         "type": "split",
         "children": [
           {
@@ -17,22 +17,22 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "🧬 Evolutionary Computation/Week 5 Multi Objective Optimization.md",
+                    "file": "❤️ 好的文章，爱来自Larry/朋友圈.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Week 5 Multi Objective Optimization"
+                  "title": "朋友圈"
                 }
               }
             ]
           },
           {
-            "id": "972ebcad29a41dc5",
+            "id": "d07daf0447eff783",
             "type": "tabs",
             "children": [
               {
-                "id": "d09d49504dc379cd",
+                "id": "51eb12a0913644fa",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -64,7 +64,7 @@
                       },
                       "serial": {
                         "columns": 143,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % ls\r\n \u001b[4mfolder-alias.json\u001b[0m                                           \u001b[34m \u001b[1;4m'💾 申请信息汇总'\u001b[0m                     \u001b[34m \u001b[1;4m'🧬 Evolutionary Computation'\r\n\u001b[0m \u001b[4mindex.md\u001b[0m                                                    \u001b[34m \u001b[1;4m'📢 Intelligent Interactive System'\u001b[0m   \r\n\u001b[34m \u001b[1;4m'❤️ 好的文章，爱来自Larry'\u001b[0m                                   \u001b[34m \u001b[1;4m'🔌 数电复健'\u001b[0m                         \r\n\u001b[34m \u001b[1;4m'🍚 菜谱'\u001b[0m                                                   \u001b[34m \u001b[1;4m'🔐 30195-security-and-networks'\u001b[0m      \r\n\u001b[34m \u001b[1;4m'🐧 38059-operating-systems-and-systems-programming'\u001b[0m        \u001b[34m \u001b[1;4m'🤖 34255-artificial-intelligence-2'\u001b[0m  \r\n\u001b[34m \u001b[1;4m'👾 38965-machine-learning'\u001b[0m                                 \u001b[34m \u001b[1;4m'🧐 读读paper'\u001b[0m                        \r\n\u001b[34m \u001b[1;4m'💡 Idea'\u001b[0m                                                   \u001b[34m \u001b[1;4m'🧑‍🏫 TA'\u001b[0m                             \r\n\u001b[34m \u001b[1;4m'💬 CS224N-Natural Language Processing with Deep Learning'\u001b[0m  \u001b[34m \u001b[1;4m'🧠 32167-neural-computation'\u001b[0m         \r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..   \r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ls\r\n \u001b[4m404.md\u001b[0m             \u001b[4mfolder-alias.json\u001b[0m  \u001b[34m \u001b[1;4mmetadata\u001b[0m       \u001b[4mpnpm-lock.yaml\u001b[0m   \u001b[4mtoc.md\u001b[0m         \u001b[33m \u001b[1;4mvite.config.ts\r\n\u001b[34;22;24m \u001b[1;4mapi\u001b[0m                \u001b[4mindex.md\u001b[0m            \u001b[4mnetlify.toml\u001b[0m  \u001b[34m \u001b[1;4mpublic\u001b[0m          \u001b[33m \u001b[1;4mtsconfig.json\u001b[0m  \u001b[34m \u001b[1;4m笔记\r\n\u001b[33;22;24m \u001b[1;4mcopy-assets.js\u001b[0m     \u001b[4mLICENSE\u001b[0m            \u001b[34m \u001b[1;4mnode_modules\u001b[0m  \u001b[33m \u001b[1;4mREADME.md\u001b[0m       \u001b[33m \u001b[1;4muno.config.ts\u001b[0m  \u001b[34m \u001b[1;4m视图\r\n\u001b[33;22;24m \u001b[1;4meslint.config.js\u001b[0m   \u001b[4mLICENSE-CC-BY-SA\u001b[0m   \u001b[33m \u001b[1;4mpackage.json\u001b[0m  \u001b[34m \u001b[1;4mscripts\u001b[0m          \u001b[4mvercel.json\u001b[0m     \u001b[4m'🔌 知识库插件列表.md'\r\n\u001b[0m(base) linlishi@Linlis-MacBook-Pro nolebase % git   \u001b[2D",
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % git add .\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % git commit -m \"test\"\r\nfatal: Unable to create '/Users/linlishi/projects/nolebase/.git/index.lock': File exists.\r\n\r\nAnother git process seems to be running in this repository, e.g.\r\nan editor opened by 'git commit'. Please make sure all processes\r\nare terminated then try again. If it still fails, a git process\r\nmay have crashed in this repository earlier:\r\nremove the file manually to continue.\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ",
                         "rows": 26
                       }
                     }
@@ -152,7 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5024719238281
+    "width": 225.50247192382812
   },
   "right": {
     "id": "f12232ab6faa5dfa",
@@ -268,7 +268,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 275.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -288,8 +288,10 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "d09d49504dc379cd",
+  "active": "51eb12a0913644fa",
   "lastOpenFiles": [
+    "❤️ 好的文章，爱来自Larry/朋友圈.md",
+    "未命名.md",
     "🧬 Evolutionary Computation/Week 5 Multi Objective Optimization.md",
     "📢 Intelligent Interactive System/Week 3 Cooperation & Human AI Decision Making.md",
     "📢 Intelligent Interactive System/Week 2 Cooperation.md",
@@ -329,8 +331,6 @@
     "🧬 Evolutionary Computation/AS1.md",
     "🧑‍🏫 TA/First Meeting - optimal.md",
     "🧑‍🏫 TA/week 3 meeting.md",
-    "🧑‍🏫 TA/week 4 meeting.md",
-    "📢 Intelligent Interactive System/as1/VLM综述.md",
     "folder-alias.json",
     "💡 Idea",
     "📢 Intelligent Interactive System/as1/assets",
