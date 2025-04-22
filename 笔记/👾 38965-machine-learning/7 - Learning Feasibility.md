@@ -44,6 +44,7 @@ $$P\left(\left|E_{in}(g)-E_{out}(g)\right|>\epsilon\right)\leq2Me^{-2\epsilon^2N
 - 如果f很复杂，那么霍夫丁不等式是不受影响的，但这意味着Ein很难变小。所以即使Eout和Ein很相近，也没啥用
 ### Generalization bound
 我们如果重写霍夫丁不等式，可以写成：
+（前提，以概率至少 $1-\delta$，所以能脱掉P）
 $$2Me^{-2\epsilon^2N}=\delta\quad\Rightarrow\quad\epsilon=\sqrt{\frac1{2N}\log\frac{2M}\delta}$$
 $$E_{{\mathrm{in}}}(g)-\epsilon\leq E_{{\mathrm{out}}}(g)\leq E_{{\mathrm{in}}}(g)+\epsilon.$$
 $$E_{{\mathrm{in}}}(g)-\sqrt{\frac{1}{2N}\log\frac{2M}{\delta}}\leq E_{{\mathrm{out}}}(g)\leq E_{{\mathrm{in}}}(g)+\sqrt{\frac{1}{2N}\log\frac{2M}{\delta}}.$$

@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "bf94a7c6038976fb",
+        "id": "f849c67c9c69f587",
         "type": "split",
         "children": [
           {
@@ -17,22 +17,22 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "🧬 Evolutionary Computation/Week 10 Runtime Analyse.md",
+                    "file": "👾 38965-machine-learning/9 - Bias and Variance.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Week 10 Runtime Analyse"
+                  "title": "9 - Bias and Variance"
                 }
               }
             ]
           },
           {
-            "id": "61396d85176a9fb8",
+            "id": "e5345fc3f9aacdc0",
             "type": "tabs",
             "children": [
               {
-                "id": "93d01ae2ee2a4c67",
+                "id": "fd7484f39046cde1",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -63,15 +63,15 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 173,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % cd .\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % cd ..\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % ga\r\nzsh: command not found: ga\r\n(base) linlishi@Linlis-MacBook-Pro nolebase % fish\r\nWelcome to fish, the friendly interactive shell\r\nType \u001b[32mhelp\u001b[0m for instructions on how to use fish\r\n\u001b[92mlinlishi\u001b[0m@Linlis-MacBook-Pro \u001b[32m~/p/nolebase\u001b[0m (main)> \u001b[91mg\u001b[90mcc\u001b[114C\u001b[32;1m(base) \u001b[123D\u001b[0m",
+                        "columns": 142,
+                        "data": "(base) linlishi@Linlis-MBP 笔记 % export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890\r\n(base) linlishi@Linlis-MBP 笔记 % curl cip.cc\r\n(base) linlishi@Linlis-MBP 笔记 % curl cip.cc\r\nIP\u001b[6C: 38.175.103.173\r\n地址\u001b[4C: 美国 密苏里州 克莱县\r\n\r\n数据二\u001b[2C: 美国密苏里州克莱县 | Cogent\r\n\r\n数据三\u001b[2C: 美国 | 科进\r\n\r\nURL\u001b[5C: http://www.cip.cc/38.175.103.173\r\n(base) linlishi@Linlis-MBP 笔记 % git add ",
                         "rows": 26
                       }
                     }
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "终端：~/p/nolebase"
+                  "title": "终端：zsh"
                 }
               }
             ]
@@ -246,7 +246,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "1e9050aab095232b",
@@ -287,46 +287,46 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "93d01ae2ee2a4c67",
+  "active": "fd7484f39046cde1",
   "lastOpenFiles": [
+    "👾 38965-machine-learning/9 - Bias and Variance.md",
+    "👾 38965-machine-learning/assets/Pasted image 20250422212932.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20250422212809.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20250422212806.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20250422212425.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20250422212209.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20250422212207.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20250422212206.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20250422202953.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20250422200200.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20250422200048.webp",
+    "👾 38965-machine-learning/8 - VC dimension.md",
+    "毕业论文.md",
+    "👾 38965-machine-learning/7 - Learning Feasibility.md",
+    "👾 38965-machine-learning/1 - Intro.md",
+    "👾 38965-machine-learning/2 - Logistic-Regression.md",
+    "index.md",
+    "📢 Intelligent Interactive System/Week 5 Unsupervised Learning.md",
+    "📢 Intelligent Interactive System/Week 4 Supervised Learning.md",
+    "📢 Intelligent Interactive System/Week 3 Cooperation & Human AI Decision Making.md",
+    "📢 Intelligent Interactive System/Week 2 Cooperation.md",
+    "📢 Intelligent Interactive System/Week 1 Intro & ResponsibleAI.md",
     "🧬 Evolutionary Computation/Week 10 Runtime Analyse.md",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250402181248.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250402181246.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250402180455.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250402172828.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250402160912.webp",
-    "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
-    "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250402160309.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250401220205.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250401220144.webp",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250401215501.webp",
     "🧬 Evolutionary Computation/Week 9  No Free Lunch Theorem.md",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250401210351.webp",
-    "🧬 Evolutionary Computation/Week 8 Co-Evolution.md",
     "🧬 Evolutionary Computation/Week 5 Multi Objective Optimization.md",
     "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
+    "🧬 Evolutionary Computation/Week 4 Constraint Handling.md",
+    "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
+    "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
+    "🧬 Evolutionary Computation/Week 1 Intro & Randomised Algorithms.md",
+    "🧬 Evolutionary Computation/Week 8 Co-Evolution.md",
     "🧬 Evolutionary Computation/Week 7 Consolidation Week.md",
-    "毕业论文.md",
     "assets",
     "📢 Intelligent Interactive System/as1/diffusion bias.md",
     "📢 Intelligent Interactive System/as1/总结VLM.md",
     "📢 Intelligent Interactive System/as2/as2大纲.md",
     "📢 Intelligent Interactive System/as2/assets",
-    "❤️ 好的文章，爱来自Larry/朋友圈.md",
-    "📢 Intelligent Interactive System/Week 3 Cooperation & Human AI Decision Making.md",
-    "📢 Intelligent Interactive System/Week 2 Cooperation.md",
-    "📢 Intelligent Interactive System/Week 1 Intro & ResponsibleAI.md",
-    "🧑‍🏫 TA/week 5 meeting.md",
-    "🧑‍🏫 TA/week 2 meeting.md",
-    "📢 Intelligent Interactive System/Week 5 Unsupervised Learning.md",
     "📢 Intelligent Interactive System/as2",
-    "📢 Intelligent Interactive System/未命名.md",
-    "🤖 34255-artificial-intelligence-2/智能座舱系统.md",
-    "🧬 Evolutionary Computation/Week 4 Constraint Handling.md",
-    "🔌 数电复健/器械.md",
-    "🔌 数电复健/C位技巧.md",
-    "🧠 32167-neural-computation/6 - GNN.md",
     "🔌 数电复健/assets",
     "🔌 数电复健",
     "csypaper.pdf",
