@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "1932b7bb9bec3fa2",
+        "id": "ac8bdd14db077a5e",
         "type": "split",
         "children": [
           {
@@ -28,11 +28,11 @@
             ]
           },
           {
-            "id": "ee47bcd691f7a2c8",
+            "id": "9287d3b0ae9e3d57",
             "type": "tabs",
             "children": [
               {
-                "id": "54e9ac09ad5e85a2",
+                "id": "8a9ef1362c68b616",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -64,7 +64,7 @@
                       },
                       "serial": {
                         "columns": 142,
-                        "data": "(base) linlishi@Linlis-MBP 笔记 % ls\r\n \u001b[4mfolder-alias.json\u001b[0m                                           \u001b[34m \u001b[1;4m'💾 申请信息汇总'\r\n\u001b[0m \u001b[4mindex.md\u001b[0m                                                    \u001b[34m \u001b[1;4m'📢 Intelligent Interactive System'\r\n\u001b[22;24m \u001b[1;4m'❤️ 好的文章，爱来自Larry'\u001b[0m                                   \u001b[34m \u001b[1;4m'🔌 数电复健'\r\n\u001b[0m \u001b[4m毕业论文.md\u001b[0m                                                 \u001b[34m \u001b[1;4m'🔐 30195-security-and-networks'\r\n\u001b[22;24m \u001b[1;4m'🍚 菜谱'\u001b[0m                                                   \u001b[34m \u001b[1;4m'🤖 34255-artificial-intelligence-2'\r\n\u001b[22;24m \u001b[1;4m'🐧 38059-operating-systems-and-systems-programming'\u001b[0m        \u001b[34m \u001b[1;4m'🧐 读读paper'\r\n\u001b[22;24m \u001b[1;4m'👾 38965-machine-learning'\u001b[0m                                 \u001b[34m \u001b[1;4m'🧑‍🏫 TA'\r\n\u001b[22;24m \u001b[1;4m'💡 Idea'\u001b[0m                                                   \u001b[34m \u001b[1;4m'🧠 32167-neural-computation'\r\n\u001b[22;24m \u001b[1;4m'💬 CS224N-Natural Language Processing with Deep Learning'\u001b[0m  \u001b[34m \u001b[1;4m'🧬 Evolutionary Computation'\r\n\u001b[0m(base) linlishi@Linlis-MBP 笔记 % cd ..\r\n(base) linlishi@Linlis-MBP nolebase % ls\r\n \u001b[4m404.md\u001b[0m             \u001b[4mfolder-alias.json\u001b[0m  \u001b[34m \u001b[1;4mmetadata\u001b[0m       \u001b[4mpnpm-lock.yaml\u001b[0m   \u001b[4mtoc.md\u001b[0m         \u001b[33m \u001b[1;4mvite.config.ts\r\n\u001b[34;22;24m \u001b[1;4mapi\u001b[0m                \u001b[4mindex.md\u001b[0m            \u001b[4mnetlify.toml\u001b[0m  \u001b[34m \u001b[1;4mpublic\u001b[0m          \u001b[33m \u001b[1;4mtsconfig.json\u001b[0m  \u001b[34m \u001b[1;4m笔记\r\n\u001b[33;22;24m \u001b[1;4mcopy-assets.js\u001b[0m     \u001b[4mLICENSE\u001b[0m            \u001b[34m \u001b[1;4mnode_modules\u001b[0m  \u001b[33m \u001b[1;4mREADME.md\u001b[0m       \u001b[33m \u001b[1;4muno.config.ts\u001b[0m  \u001b[34m \u001b[1;4m视图\r\n\u001b[33;22;24m \u001b[1;4meslint.config.js\u001b[0m   \u001b[4mLICENSE-CC-BY-SA\u001b[0m   \u001b[33m \u001b[1;4mpackage.json\u001b[0m  \u001b[34m \u001b[1;4mscripts\u001b[0m          \u001b[4mvercel.json\u001b[0m     \u001b[4m'🔌 知识库插件列表.md'\r\n\u001b[0m(base) linlishi@Linlis-MBP nolebase % git add .\r\n(base) linlishi@Linlis-MBP nolebase % cd 笔记      \r\n(base) linlishi@Linlis-MBP 笔记 % ",
+                        "data": "(base) linlishi@Linlis-MBP 笔记 % git add",
                         "rows": 26
                       }
                     }
@@ -287,16 +287,16 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "54e9ac09ad5e85a2",
+  "active": "8a9ef1362c68b616",
   "lastOpenFiles": [
     "👾 38965-machine-learning/12 - Validation.md",
+    "👾 38965-machine-learning/11 - Regularisation.md",
     "👾 38965-machine-learning/assets/Pasted image 20250423220526.webp",
     "👾 38965-machine-learning/assets/Pasted image 20250423220136.webp",
     "👾 38965-machine-learning/7 - Learning Feasibility.md",
     "👾 38965-machine-learning/8 - VC dimension.md",
     "👾 38965-machine-learning/assets/Pasted image 20250423203935.webp",
     "👾 38965-machine-learning/assets/Pasted image 20250423182327.webp",
-    "👾 38965-machine-learning/11 - Regularisation.md",
     "👾 38965-machine-learning/assets/Pasted image 20250423180146.webp",
     "👾 38965-machine-learning/5 - Bayesian Regression.md",
     "👾 38965-machine-learning/assets/Pasted image 20250423164352.webp",

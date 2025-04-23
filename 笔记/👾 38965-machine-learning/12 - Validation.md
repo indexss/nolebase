@@ -9,7 +9,8 @@
 我们有几种方法来做模型选择
 - 根据Ein选：这是最容易过拟合的方法，几乎更复杂的模型永远会得到更好的结果
 - Etest选择。如果有测试集的话，就对每个候选算法Am在D上训练处gm，在Dtest上算出Etest，选Etest最小的那个模型
-	- 根据**有限样本版 Hoeffding+并 union bound**，对这M个候选假设同时推界，都能保证（以高概率）$$E_{\mathrm{out}}(g_{m^{*}})\leq E_{\mathrm{test}}(g_{m^{*}})+O{\left(\sqrt{\frac{\log M}{N_{\mathrm{test}}}}\right)}.$$
+	- 根据**有限样本版 Hoeffding+并 union bound**，对这M个候选假设同时推界，都能保证（以高概率）
+	  $$E_{\mathrm{out}}(g_{m^{*}})\leq E_{\mathrm{test}}(g_{m^{*}})+O{\left(\sqrt{\frac{\log M}{N_{\mathrm{test}}}}\right)}.$$
 	- 但是哪里来的全新测试集？一旦把它当做模型选择就算作弊。任何后来用它报告的测试误差，都已经被“调过”模型，对它过拟合了一次。
 
 ## 实战做法 - Validation Set
@@ -60,10 +61,13 @@ $$\sigma_{\mathrm{val}}^{2}=\begin{array}{c}\frac{1}{K}p(1-p)\end{array}\leq\beg
 ### 是否泛化
 验证误差是否能很好的泛化到Eout呢？
 - 均值：无偏估计。**验证误差的期望**正好等于模型的**真实泛化误差**，是一个**无偏估计**。
-- 方差：O(1/K)。$$\sigma_{\mathrm{val}}^2=\mathrm{~Var}{\left[\frac{1}{K}\sum_{n=1}^Ke(g^-(x_n),y_n)\right]}=\mathrm{~}\frac{1}{K^2}\sum_{n=1}^K\mathrm{Var}{\left[e(g^-(x_n),y_n)\right]}=\mathrm{~}\frac{1}{K}\mathrm{Var}{\left[e(g^-(x),y)\right]}=O{\left(\frac{1}{K}\right)}.$$
+- 方差：O(1/K)。
+  $$\sigma_{\mathrm{val}}^2=\mathrm{~Var}{\left[\frac{1}{K}\sum_{n=1}^Ke(g^-(x_n),y_n)\right]}=\mathrm{~}\frac{1}{K^2}\sum_{n=1}^K\mathrm{Var}{\left[e(g^-(x_n),y_n)\right]}=\mathrm{~}\frac{1}{K}\mathrm{Var}{\left[e(g^-(x),y)\right]}=O{\left(\frac{1}{K}\right)}.$$
 - Hoeffding 不等式的应用
-	- 因为Eval(g-)是K个Bernoulli 变量的平均，由 Hoeffding 不等式可推出：$$E_{\mathrm{out}}(g^{-})\leq E_{\mathrm{val}}(g^{-})+O{\left(\frac{1}{\sqrt{K}}\right)}.$$也就是说，只要验证集足够大，验证误差不仅无偏，而且波动很小，能够以 $O(1/\sqrt{K})$ 的速度收敛到泛化误差。
-- 对于**固定假设**h的Hoeffding保证是：$$E_{\mathrm{out}}(h)\leq E_{\mathrm{in}}(h)+O{\left(\frac{1}{\sqrt{N}}\right)},$$ N是训练集大小，而**验证误差**的 Hoeffding 保证只依赖于验证集大小K，
+	- 因为Eval(g-)是K个Bernoulli 变量的平均，由 Hoeffding 不等式可推出：
+	  $$E_{\mathrm{out}}(g^{-})\leq E_{\mathrm{val}}(g^{-})+O{\left(\frac{1}{\sqrt{K}}\right)}.$$也就是说，只要验证集足够大，验证误差不仅无偏，而且波动很小，能够以 $O(1/\sqrt{K})$ 的速度收敛到泛化误差。
+- 对于**固定假设**h的Hoeffding保证是：
+  $$E_{\mathrm{out}}(h)\leq E_{\mathrm{in}}(h)+O{\left(\frac{1}{\sqrt{N}}\right)},$$ N是训练集大小，而**验证误差**的 Hoeffding 保证只依赖于验证集大小K，
 
 结论：把数据分成训练集和验证集后，用验证集来估计并选择模型时，
 - 验证误差的期望正好是该模型的真实错误（无偏）。
@@ -105,7 +109,8 @@ $$E_{\mathrm{cv~}}=\frac{1}{N}\sum_{n=1}^Ne_n.$$
 - 对泛化误差的估计更稳定、无偏。
 缺点：
 - 需要训练 N次，计算量通常会很大。
-	- 在带L2正则的岭回归场景，Ecv有快速计算公式。岭回归有解析解：$$w^*(\lambda)=\left(A^\top A+\lambda I\right)^{-1}A^\top y,$$ 我们定义帽子矩阵：$$H(\lambda)=A{\left(A^\top A+\lambda I\right)}^{-1}A^\top,\quad\hat{y}=Hy,$$ 那么Ecv的速算公式就是：$$E_{\mathrm{loocv}}=\frac{1}{N}\sum_{n=1}^N\left(\frac{\hat{y}_n-y_n}{1-H_{nn}(\lambda)}\right)^2,$$ 能O(Nd\^2)地计算出所有留一误差, 而不用训练N次。我们可以用使得Ecv最小的lambda作为模型。
+	- 在带L2正则的岭回归场景，Ecv有快速计算公式。岭回归有解析解：
+	  $$w^*(\lambda)=\left(A^\top A+\lambda I\right)^{-1}A^\top y,$$ 我们定义帽子矩阵：$$H(\lambda)=A{\left(A^\top A+\lambda I\right)}^{-1}A^\top,\quad\hat{y}=Hy,$$ 那么Ecv的速算公式就是：$$E_{\mathrm{loocv}}=\frac{1}{N}\sum_{n=1}^N\left(\frac{\hat{y}_n-y_n}{1-H_{nn}(\lambda)}\right)^2,$$ 能O(Nd\^2)地计算出所有留一误差, 而不用训练N次。我们可以用使得Ecv最小的lambda作为模型。
 
 我们来证明Ecv是一个Eout的无偏估计。我们记：
 $$g^{(D)}=\text{ 在全数据集 }D\text{ 上训练得到的模型,}$$
