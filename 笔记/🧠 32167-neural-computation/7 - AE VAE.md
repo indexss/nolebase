@@ -91,3 +91,15 @@ VAE的讲解就结束了，下面看一些VAE的成果：
 ![](assets/Pasted%20image%2020241126033933.webp)
 
 ![](assets/Pasted%20image%2020241126033947.webp)
+
+### VAE的Loss怎么来的？
+我们其实就是想要知道ptheta(x)，也就是真实图像的分布
+但我们只知道给定z和x的联合分布，也就是：
+$$p_\theta(x,z)=p(z)\mathrm{~}p_\theta(x\mid z)$$
+我们希望最大化数据的对数边缘似然：
+$$\log p_\theta(x)=\log\int p_\theta(x,z)\mathrm{~d}z$$
+直观上就是“在我们这个模型（参数为 θ ）下，观测到数据 x 有多大概率”。
+而这个积分并不好求，所以我们用Jensens 不等式：
+$$\begin{aligned}\log p_\theta(x)&=\log\int q_\phi(z\mid x)\frac{p_\theta(x,z)}{q_\phi(z\mid x)}\mathrm{~d}z\\&\geq\int q_\phi(z\mid x)\left.\log\frac{p_\theta(x,z)}{q_\phi(z\mid x)}\right.\mathrm{d}z\mathrm{~=~}\mathcal{L}(\theta,\phi;x)\mathrm{~,}\end{aligned}$$
+其中$$\boxed{\mathcal{L}(\theta,\phi;x)=\mathbb{E}_{q_\phi(z\mid x)}{\left[\log p_\theta(x\mid z)\right]}\mathrm{~-~KL}{\left(q_\phi(z\mid x)\parallel p(z)\right)}}$$
+这玩意就是我们的Loss，也叫ELBO，Evidence Lower BOund
