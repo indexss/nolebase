@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "2d5179d50692b410",
+        "id": "50eec6163103868b",
         "type": "split",
         "children": [
           {
@@ -17,22 +17,22 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "🧠 32167-neural-computation/11 - Language Modeling.md",
+                    "file": "📢 Intelligent Interactive System/Week 7-8 Recommender System.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "11 - Language Modeling"
+                  "title": "Week 7-8 Recommender System"
                 }
               }
             ]
           },
           {
-            "id": "aac0a5e1c8de7484",
+            "id": "6118f31016fc8f0a",
             "type": "tabs",
             "children": [
               {
-                "id": "de74b4ebdbbff893",
+                "id": "204a4b86497f3d08",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -64,7 +64,7 @@
                       },
                       "serial": {
                         "columns": 182,
-                        "data": "(base) linlishi@Linlis-MBP 笔记 % git ad \u001b[1D",
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % ",
                         "rows": 28
                       }
                     }
@@ -287,58 +287,27 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "floating": {
-    "id": "7103486857f84ccc",
-    "type": "floating",
-    "children": [
-      {
-        "id": "7573036554fd326c",
-        "type": "window",
-        "children": [
-          {
-            "id": "30984da50a059049",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9160c0527ebe098a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "8 - Pretraining"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2476,
-        "y": -150,
-        "width": 821,
-        "height": 818,
-        "maximize": false,
-        "zoom": -0.5
-      }
-    ]
-  },
-  "active": "de74b4ebdbbff893",
+  "active": "204a4b86497f3d08",
   "lastOpenFiles": [
+    "📢 Intelligent Interactive System/Week 7-8 Recommender System.md",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250428213749.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250428213332.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250428212116.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250428212108.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250428211114.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250428204304.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250428204206.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250428180335.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250428180328.webp",
+    "📢 Intelligent Interactive System/assets/Pasted image 20250428180129.webp",
+    "📢 Intelligent Interactive System/Week 4 Supervised Learning.md",
+    "📢 Intelligent Interactive System/Week 5 Unsupervised Learning.md",
+    "📢 Intelligent Interactive System/Week 11 Human Ethics.md",
+    "📢 Intelligent Interactive System/Week 10 Reinforcement Learning.md",
+    "📢 Intelligent Interactive System/Week 9 Markov Decision Processes.md",
+    "prompt收集/coding.md",
     "🧠 32167-neural-computation/11 - Language Modeling.md",
-    "🧠 32167-neural-computation/assets/Pasted image 20250425203123.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20250425203041.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20250425202951.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20250425202938.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20250425202928.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20250425202916.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20250425202909.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20250425202800.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20250425202748.webp",
-    "🧠 32167-neural-computation/assets/Pasted image 20250425202710.webp",
+    "prompt收集",
     "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/3 - Dependency Parsing.md",
@@ -356,13 +325,6 @@
     "🧠 32167-neural-computation/7 - AE VAE.md",
     "🧠 32167-neural-computation/2 - GD and Linear Classification.md",
     "🧠 32167-neural-computation/1 - Linear Models.md",
-    "毕业论文.md",
-    "index.md",
-    "👾 38965-machine-learning/11 - Regularisation.md",
-    "👾 38965-machine-learning/12 - Validation.md",
-    "👾 38965-machine-learning/7 - Learning Feasibility.md",
-    "👾 38965-machine-learning/8 - VC dimension.md",
-    "👾 38965-machine-learning/5 - Bayesian Regression.md",
     "assets",
     "📢 Intelligent Interactive System/as2/assets",
     "📢 Intelligent Interactive System/as2",
@@ -371,7 +333,6 @@
     "csypaper.pdf",
     "Attachments",
     "folder-alias.json",
-    "💡 Idea",
-    "📢 Intelligent Interactive System/as1/assets"
+    "💡 Idea"
   ]
 }

@@ -139,7 +139,7 @@ LDA经过训练之后，得到了3个主题的高频词分布：
 主题 2: election, government, policy, law, president
 主题 3: football, game, player, goal, team
 
-LDA在经过训练之后，已经提前知道了一堆词和一堆主题的对应关系，也就是说LDA知道了P(单词|主题)，然后LDA拿到一个文章后，对每个词，不断通过贝叶斯反推不断计算P(主题|单词)来为每个词分配到一个合适的主题
+LDA在经过训练之后，已经提前知道了一堆词和一堆主题的对应关系，也就是说LDA知道了P(单词|主题)，以及P(主题|文章)，然后LDA拿到一个文章后，对每个词，不断通过贝叶斯反推不断计算P(主题|单词)来为每个词分配到一个合适的主题
 
 当我们拿到一篇文章，这里用一句话举例子：
 AI is transforming government policy and sports analytics.
@@ -152,6 +152,26 @@ AI is transforming government policy and sports analytics.
 	- 通过计算 **P(主题 | 文档)** 和 **P(单词 | 主题)**，不断调整每个单词的主题归属。
 3. 主题 1 可能含有 "AI, neural network, model, deep learning" → **其中AI的概率最高，那么这个主题就叫AI**。主题 2 可能含有 "government, policy, election, law" → 其中goverment概率最高，那这个主题就叫goverment。
 
+### 重新写一下LDA的训练以及推理过程
+LDA模型假设一个模型是先选定主题分布 $\theta_d$ ，再针对每个词位置抽词。
+其中，主题-词分布为：
+$$\phi_{k,v}=P(w=v\mid z=k),$$
+z为主题，k为主题编号，w为词，v为词编号。
+文章-主题分布为：
+$$\theta_{d,k}=P(z=k\mid d),$$
+d为给定文章。
+#### 训练
+LDA训练只需要一堆文章语料，以及所期望的k的数量（主题数量），不需要其对应的主题，或者分布。
+训练过程中，先随机把语料中的每个词分配一个主题标签z，然后对每个词做一些基于Gibbs 采样的迭代更新。反正训练结果是得到了：
+主题–词分布，给定主题k，我就能知道其词v的分布：
+$$\phi_{k,v}=\frac{n_{k,v}+\beta}{n_k+V\beta}.$$
+以及文档–主题分布，给定文章d，我就能知道其主题的分布：
+$$\theta_{d,k}=\frac{n_{d,k}+\alpha}{N_d+K\alpha}.$$
+#### 推理
+**目标**：给定一篇未见过的文档，计算它的 $\theta_d$
+首先我们把文章拆成语料，然后在文章上做Gibbs 采样，直到收敛。
+接下来，我们就能得到：
+$$\theta_{d,k}=\frac{n_{d,k}+\alpha}{N_d+K\alpha}.$$
 
 
 
