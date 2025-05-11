@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "3d369e3f515fa063",
+        "id": "dc1f8f4d9c7faf8a",
         "type": "split",
         "children": [
           {
@@ -26,6 +26,18 @@
                 }
               },
               {
+                "id": "0efff799e8397f2f",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "🧠 32167-neural-computation/assets/Pasted image 20250507131022.webp"
+                  },
+                  "icon": "lucide-image",
+                  "title": "Pasted image 20250507131022"
+                }
+              },
+              {
                 "id": "da70a4dfbe5260b1",
                 "type": "leaf",
                 "state": {
@@ -42,11 +54,11 @@
             ]
           },
           {
-            "id": "aa963060dbd94a3c",
+            "id": "a752f8ad2f96227f",
             "type": "tabs",
             "children": [
               {
-                "id": "cf9d90fd2dc165a0",
+                "id": "373665b59b6bec48",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -78,7 +90,7 @@
                       },
                       "serial": {
                         "columns": 120,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % g      \u001b[6D",
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % git add",
                         "rows": 26
                       }
                     }
@@ -301,9 +313,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "cf9d90fd2dc165a0",
+  "active": "373665b59b6bec48",
   "lastOpenFiles": [
     "🧠 32167-neural-computation/复习课.md",
+    "🧠 32167-neural-computation/assets/Pasted image 20250507131022.webp",
+    "🧠 32167-neural-computation/README.md",
+    "🧠 32167-neural-computation/Revision.md",
     "👾 38965-machine-learning/bookwork.md",
     "👾 38965-machine-learning/11 - Regularisation.md",
     "👾 38965-machine-learning/assets/Pasted image 20250510211037.webp",
@@ -324,12 +339,10 @@
     "👾 38965-machine-learning/assets/Pasted image 20250510102647.webp",
     "👾 38965-machine-learning/assets/Pasted image 20250510102646.webp",
     "👾 38965-machine-learning/assets/Pasted image 20250510102644.webp",
-    "👾 38965-machine-learning/assets/771BDFB5-8791-4B44-A4C7-55E637F2B103.webp",
     "👾 38965-machine-learning/12 - Validation.md",
     "🧠 32167-neural-computation/4 - CNN.md",
     "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
     "🧬 Evolutionary Computation/Week 8 Co-Evolution.md",
-    "🧠 32167-neural-computation/Revision.md",
     "🧠 32167-neural-computation/3 - Backpropagation.md",
     "👾 38965-machine-learning/10 - Overfitting.md",
     "🧬 Evolutionary Computation/考前.md",
@@ -337,7 +350,6 @@
     "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
     "毕业论文.md",
     "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
-    "🧬 Evolutionary Computation/Week 1 Intro & Randomised Algorithms.md",
     "assets",
     "prompt收集",
     "📢 Intelligent Interactive System/as2/assets",
