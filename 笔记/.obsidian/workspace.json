@@ -4,49 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "744abb808faa69ed",
+        "id": "3d369e3f515fa063",
         "type": "split",
         "children": [
           {
-            "id": "e9188a565af909a5",
+            "id": "561a0e323c286308",
             "type": "tabs",
             "children": [
               {
-                "id": "e8e062c3cd7f3511",
+                "id": "b535ff726b92aff5",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "📢 Intelligent Interactive System/Week 10 Reinforcement Learning.md",
+                    "file": "🧠 32167-neural-computation/复习课.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Week 10 Reinforcement Learning"
+                  "title": "复习课"
                 }
               },
               {
-                "id": "15edd35e02e64490",
+                "id": "da70a4dfbe5260b1",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "🧠 32167-neural-computation/11 - Language Modeling.md",
+                    "file": "👾 38965-machine-learning/11 - Regularisation.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "11 - Language Modeling"
+                  "title": "11 - Regularisation"
                 }
               }
             ]
           },
           {
-            "id": "d09571aa168ce385",
+            "id": "aa963060dbd94a3c",
             "type": "tabs",
             "children": [
               {
-                "id": "35e9747beabe7c42",
+                "id": "cf9d90fd2dc165a0",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -77,9 +77,9 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 182,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % ",
-                        "rows": 28
+                        "columns": 120,
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % g      \u001b[6D",
+                        "rows": 26
                       }
                     }
                   },
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.50247192382812
+    "width": 414.5024719238281
   },
   "right": {
     "id": "f12232ab6faa5dfa",
@@ -301,45 +301,45 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "35e9747beabe7c42",
+  "active": "cf9d90fd2dc165a0",
   "lastOpenFiles": [
-    "📢 Intelligent Interactive System/Week 10 Reinforcement Learning.md",
-    "📢 Intelligent Interactive System/Week 9 Markov Decision Processes.md",
-    "📢 Intelligent Interactive System/Week 11 Human Ethics.md",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250428235851.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250428235845.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250428235837.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250428235832.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250428234816.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250428234531.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250428234253.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250428233300.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250428233203.webp",
-    "📢 Intelligent Interactive System/assets/Pasted image 20250428232524.webp",
-    "📢 Intelligent Interactive System/Week 3 Cooperation & Human AI Decision Making.md",
-    "🧠 32167-neural-computation/11 - Language Modeling.md",
-    "🧬 Evolutionary Computation/Week 1 Intro & Randomised Algorithms.md",
-    "🧬 Evolutionary Computation/AS1.md",
-    "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
-    "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
-    "🧬 Evolutionary Computation/Week 4 Constraint Handling.md",
-    "🧬 Evolutionary Computation/Week 5 Multi Objective Optimization.md",
-    "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
-    "🧬 Evolutionary Computation/Week 7 Consolidation Week.md",
-    "🧬 Evolutionary Computation/Week 8 Co-Evolution.md",
-    "🧬 Evolutionary Computation/Week 9  No Free Lunch Theorem.md",
-    "🧬 Evolutionary Computation/Week 10 Runtime Analyse.md",
+    "🧠 32167-neural-computation/复习课.md",
+    "👾 38965-machine-learning/bookwork.md",
+    "👾 38965-machine-learning/11 - Regularisation.md",
+    "👾 38965-machine-learning/assets/Pasted image 20250510211037.webp",
+    "👾 38965-machine-learning/8 - VC dimension.md",
+    "👾 38965-machine-learning/6 - SVM Regression.md",
+    "👾 38965-machine-learning/4 - Linear Regression.md",
+    "👾 38965-machine-learning/5 - Bayesian Regression.md",
+    "👾 38965-machine-learning/7 - Learning Feasibility.md",
+    "👾 38965-machine-learning/assets/Pasted image 20250510204011.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20250510201745.webp",
+    "👾 38965-machine-learning/assets/9AB221B9-C7D5-41C6-B431-B827796B93DB.webp",
+    "👾 38965-machine-learning/2 - Logistic-Regression.md",
+    "👾 38965-machine-learning/3 - SVM Classification.md",
+    "👾 38965-machine-learning/9 - Bias and Variance.md",
     "📢 Intelligent Interactive System/Week 7-8 Recommender System.md",
-    "📢 Intelligent Interactive System/Week 4 Supervised Learning.md",
-    "📢 Intelligent Interactive System/Week 5 Unsupervised Learning.md",
-    "prompt收集/coding.md",
-    "prompt收集",
-    "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/3 - Dependency Parsing.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/2 - Neural Network and Backpropagation.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/1 - Word Vectors.md",
+    "👾 38965-machine-learning/assets/Pasted image 20250510104054.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20250510102752.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20250510102647.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20250510102646.webp",
+    "👾 38965-machine-learning/assets/Pasted image 20250510102644.webp",
+    "👾 38965-machine-learning/assets/771BDFB5-8791-4B44-A4C7-55E637F2B103.webp",
+    "👾 38965-machine-learning/12 - Validation.md",
+    "🧠 32167-neural-computation/4 - CNN.md",
+    "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
+    "🧬 Evolutionary Computation/Week 8 Co-Evolution.md",
+    "🧠 32167-neural-computation/Revision.md",
+    "🧠 32167-neural-computation/3 - Backpropagation.md",
+    "👾 38965-machine-learning/10 - Overfitting.md",
+    "🧬 Evolutionary Computation/考前.md",
+    "🧬 Evolutionary Computation/Week 10 Runtime Analyse.md",
+    "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
+    "毕业论文.md",
+    "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
+    "🧬 Evolutionary Computation/Week 1 Intro & Randomised Algorithms.md",
     "assets",
+    "prompt收集",
     "📢 Intelligent Interactive System/as2/assets",
     "📢 Intelligent Interactive System/as2",
     "🔌 数电复健/assets",
