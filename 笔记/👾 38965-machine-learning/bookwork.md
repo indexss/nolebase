@@ -4,10 +4,10 @@
 	- 非线性特征转换是一个向量函数，它使用至少一个非线性函数来转换问题的输入空间。特别地，特征转换是一个向量函数Φ，它接收一个输入向量x，其中x∈Rd，d≥1是问题输入空间的维度。在非线性特征转换中，至少一个函数φ(x)i∈Φ(x)是一个非线性函数。
 - 解释为什么用牛顿拉弗逊
 - KKT条件有什么
-	- 鞍点
+	- 鞍点, 对w，松弛slack以及b都是0
 	- af=0互补松弛
 	- fx<=0 a>=0 可行性
-		- 可能用到的：ay之和为0
+		- 可能用到的：ay之和为0，如果是软SVM的话a是box constrain \[0,C\]，C是对slack的惩罚力度
 - 牛顿拉弗逊Newton-Raphson 不适用于非凸目标函数，因为虽然它在凸函数中快速收敛到局部最小值，但在非凸设置中也可能收敛到局部最小值、鞍点甚至最大值。与梯度下降类似，当损失函数具有多个最小值或其他不规则性时，它容易受到这些问题的影响。
 - 高斯分布？
 	- $$f(x)=\frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}$$
@@ -64,3 +64,18 @@
 - Ecv是留一loss。Leave-One-Out CV
 - N/5的validation，那么一个超参数组的训练就是在4/5上训练的时间。记得最后+1
 - 5-fold validation，一个超参数组的训练就是4/5上训练的时间再乘5.
+![](assets/Pasted%20image%2020250513120502.webp)
+![](assets/Pasted%20image%2020250513120532.webp)
+![](assets/Pasted%20image%2020250513120540.webp)
+- 软SVM为什么an在0到C的时候就是支撑向量，在an为C的时候就可能是可能不是？
+	- 首先，互补松弛
+		- $$a^{(n)}(1-\xi^{(n)}-y^{(n)}(\mathbf{w}^T\phi(\mathbf{x}^{(n)})+b))=0,\mathrm{~}\forall n\in\{1,2,\cdots,N\}$$
+		- an目前大于0，而对slack的驻点，也就是求导为0，得到：
+		- $$\frac{\partial L}{\partial \xi}=C-\alpha_{n}-\beta_n=0\Rightarrow\beta_{n}=C-a_{n}$$
+		- 根据 beta也大于0，得到an的盒约束0到C
+		- 而beta是用来约束slack的，也就是beta乘slack，互补松弛得到也为0。
+		- 当an为0到C的时候，beta不为0，所以slack为0，而由于an不为0，slack不为0，所以yhx为0，所以是支撑向量，正好在边界上
+		- 当an为C的时候，beta为0，所以slack可为0可不为0，所以可以不在边界上，也可以在。
+- ![](assets/Pasted%20image%2020250514211130.webp)
+- Kernel内积计算 1+xTx
+	- 什么是Kernel Function？
