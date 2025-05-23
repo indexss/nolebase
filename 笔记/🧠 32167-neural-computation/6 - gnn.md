@@ -17,6 +17,7 @@ tags:
 **Incoming neighbors**, Nin​(i) 节点 i 的入邻居集合，表示指向 i 的节点集合 j，满足 (j,i)∈E
 
 你可以用矩阵表示有向图，无向图（对角对称），带权重图（有向图的1变成权重）。
+
 ## GNN 任务初识
 
 > [!note] 
@@ -26,12 +27,16 @@ tags:
 
 ### 节点分类
 ![](assets/Pasted%20image%2020241125222307.webp)
+
 ### 图分类
 ![](assets/Pasted%20image%2020241125222352.webp)
+
 ### 连接预测
 ![](assets/Pasted%20image%2020241125222434.webp)
+
 ### 有时会做池化
 ![](assets/Pasted%20image%2020241125222551.webp)
+
 ## Message Passing
 
 ### 一般形式介绍
@@ -49,6 +54,7 @@ tags:
 
 如果总结出一个更一般的形式，就是这样的：
 ![](assets/Pasted%20image%2020241125223423.webp)
+
 ### GCNConv
 首先，我们介绍一个Graph Convolution Network的message passing的设计。
 $$\boldsymbol{h}_i^{(k+1)}=\sigma\left(\sum_{j\in\{i\}\cup N(i)}\frac{e_{ij}}{\sqrt{\hat{d}_i\hat{d}_j}}\Theta^\mathrm{T}\boldsymbol{h}_j^{(k)}\right)$$
@@ -73,7 +79,6 @@ $$m_j^{(k)}=\text{MLP}_\Theta\left(h_i^{(k)}\parallel(h_j^{(k)}-h_i^{(k)})\right
 EdgeConv还有一种变体叫做**DynamicEdgeConv**。其特殊性在，上面的N(i)并不是固定的，而是通过每次计算hi之后通过计算相似度计算出来的。相当于动态计算了图关系。
 EdgeConv可以做点云分割：
 ![](assets/Pasted%20image%2020241125233429.webp)
-
 
 ### 形式总结
 ![](assets/Pasted%20image%2020241125233532.webp)

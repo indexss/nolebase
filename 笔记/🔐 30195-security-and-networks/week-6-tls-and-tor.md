@@ -23,7 +23,7 @@ SSL (Secure Sockets Layer) 被更名为 TLS (Transport Layer Security)。
 
 TLS跑在应用层和传输层（TCP/UDP）之间，加密解密操作对应用层透明。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (3) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 ### X.509 Standard for Certificates
 
@@ -35,23 +35,23 @@ TLS跑在应用层和传输层（TCP/UDP）之间，加密解密操作对应用�
 
 ### TLS流程
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### TLS-DHE流程
 
 引入DHE来获得Forward Secrecy。S知道x，C知道y
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### TLS Cipher Suites
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### TLS Handshake
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### TLS Weeknesses
 
@@ -97,7 +97,7 @@ VPN通过加密和证书确保安全，目标服务器只能看到VPN提供者�
 
 每个Node仅知道前一个节点的ip和后一个节点的ip，每个node的公钥是已知的，源ip只有node1知道，目标ip只有node3知道，用户选择3个代理（node）。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Tor完整流程
 

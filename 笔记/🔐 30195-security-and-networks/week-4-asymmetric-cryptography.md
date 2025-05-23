@@ -32,7 +32,7 @@ tags:
 
 加密和解密用同一个key，就是对称加密，但是，像下图的情况，就需要很多个key，具体来说，每个人需要维护n-1把key，总共需要n(n-1)/2把：
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Asymmetric Encryption: Public Key Encryption
 
@@ -44,7 +44,7 @@ tags:
 
 公钥加密流程：
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 现在，n个人的交流，只需要维持n个公钥和n个私钥
 
@@ -52,7 +52,7 @@ tags:
 
 由于公钥私钥可以互相加解密，所以可以利用这一特性签名：
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 签名者用私钥签名，校对者用公钥检查看文档是否被修改，从而判定是否接受这份文件。
 
@@ -60,7 +60,7 @@ tags:
 
 由于公钥是公开的，所以需要一个第三方权威机构来维护公钥的分发查询，这个叫作PKI。
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 1、接收者A向注册权威处注册 2、注册权威告诉服务器生成一个证书，其中包含公私钥  3、公私钥发回A 4、将A的公钥放在数据库中 5、发送者B在数据库中拿到A的公钥 6、用A的公钥加密对A的信息
 
@@ -74,7 +74,7 @@ tags:
 
 ### Diffie-Hellman Key Exchange
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 流程描述：
 
@@ -93,7 +93,7 @@ tags:
 
 Diffie-Hellman只有在只能被窃听的不可靠信道上才是安全的，如果这个信道上的信息可以被拦截，修改，那么就可以对其实施Man in the Middle攻击。
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 可以看到，在Alice和Bob中间插个人是对Alice和Bob透明的，Adversary有g^ac mod p 和 g^bd mod p，相当于把两个双面锁箱连接到了一起，Alice和Bob无法察觉信息已经被盗取。
 
@@ -107,9 +107,9 @@ Diffie-Hellman只有在只能被窃听的不可靠信道上才是安全的，如
 
 最流行的公钥加密算法，1977年被发明，在TLS和PKI中广泛运用
 
-<figure><img src="../.gitbook/assets/image (18) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (18) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (19) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (19) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 注意！这个流程是要背下来的！
@@ -141,7 +141,7 @@ p = 3, q = 11, N = 33 Φ(N) = 2\*10 = 20\
 e取7, d取3，PK = (e=7, N=33) SK  = (e=7, d=3, N=33)\
 注意到Z\*N如图：
 
-<figure><img src="../.gitbook/assets/image (20) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (20) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 假设明文m = 4，c=4^7 mod 33 = 16\
 而解密 m = 16^3 mod 33 = 4，对的上
@@ -156,7 +156,7 @@ e取7, d取3，PK = (e=7, N=33) SK  = (e=7, d=3, N=33)\
 
 ### 数字签名大体流程
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 自然语言描述一下，1^k中的k相当于我们前面说的λ，超参数，生成公私钥。Sign函数通过拿到原文M，用私钥解密生成一个签名σ，附加到M后。
 
@@ -164,7 +164,7 @@ e取7, d取3，PK = (e=7, N=33) SK  = (e=7, d=3, N=33)\
 
 ### 数字签名模式设计：RSA Full Domain Hash
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * 需要一个公共哈希函数H，可以把一串内容哈希到小于N且与N互质的数组内。
 * key的生成就是用RSA的生成函数，pk = (e,N), sk = (d,N)

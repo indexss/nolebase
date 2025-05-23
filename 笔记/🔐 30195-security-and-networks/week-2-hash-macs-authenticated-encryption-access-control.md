@@ -37,7 +37,7 @@ A hash of any message is a short string generated from that message.
 
     推导：
 
-    <figure><img src="../.gitbook/assets/image (13) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="./assets/image (13) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 3.  Prefix collision attack:&#x20;
 
     攻击者可以选择两个不同的前缀p1和p2,然后附在不同的字符串m1,m2前面，那么有：
@@ -86,7 +86,7 @@ MACs思想：use a key to ensure that message has not been changed
 
 例子：
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 可以看到，MACs实际上就是数字签名的对称加密版本。
 
@@ -100,7 +100,7 @@ Length extension attack：Add data to a MAC withoud knowing the key.
 
 #### CBC
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>CBC mode</p></figcaption></figure>
+<figure><img src="./assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>CBC mode</p></figcaption></figure>
 
 
 IV与块同长，第一个IV随机选择，不需要保密，后面的IV均为前一个的密文。
@@ -112,9 +112,9 @@ CBC解密基于这个式子：对于 A1 xor A2 = B1, 那么有B1 xor A2 = A1
 
 CBC MAC：
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (15) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (15) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 注意！\[LI Security and Networks 2022-23]
@@ -130,13 +130,13 @@ CBC MAC：
 
 Hash MAC:
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (16) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (16) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 ### Broken Hash to MAC 用CBC MAC替换垃圾的Hash MAC
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (7) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 一般用AES加密。块加密模式还有CBC，ECB和CTR，后面会提到。
 
@@ -155,7 +155,7 @@ CCM全称为CTR with CBC-MAC，CCM不复杂，但被证实是安全的。过程�
 1. 用AES CBC生成MAC（Tag）
 2. 原文P并行通过CTR加密，等Tag算好后也用CTR加密，由于CTR可以并行执行，所以把密文拼接起来就行。
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (14) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Access Control
 
@@ -165,7 +165,7 @@ Access Control就是Linux中的文件权限管理，分别管理创建者，同�
 
 这是一个有关所有实例权限的矩阵，问题是维持这一个矩阵十分困难，且矩阵被破坏后，所有的控制权就都丧失了，代价太大，应当分布式存储。
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (8) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Access Control Lists (ACLs)
 
@@ -173,18 +173,18 @@ Access Control就是Linux中的文件权限管理，分别管理创建者，同�
 
 UNIX中的ACL：
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (9) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 目录权限指示符含义：\
 
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (10) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 程序指示符：
 
 有时会看到s。
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (11) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 在主人运行位上的s是setuid，运行该程序的人会在程序运行的时候以主人的身份运行。
 
@@ -224,13 +224,13 @@ windows将密码哈希存储在system32/config/SAM，这个文件要Admin等级�
 ### 密码窃取与保护措施
 
 1. 用户名和密码可能会被钓鱼。最好的防护方法：
-   1. 多因素认证: multi-factor authentication
-   2. 公钥认证
-2. 密码注入：通过拿到硬盘找到密码文件，注入自己的hash。
-   1. 全盘加密
-3.  电池安全：BIOS权限很大，通过蛮力破解BIOS密码几乎不可能，但扣掉电池可以重设密码。
+   2. 多因素认证: multi-factor authentication
+   3. 公钥认证
+4. 密码注入：通过拿到硬盘找到密码文件，注入自己的hash。
+   5. 全盘加密
+6.  电池安全：BIOS权限很大，通过蛮力破解BIOS密码几乎不可能，但扣掉电池可以重设密码。
 
-    <figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="./assets/image (12) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 总解决方法：
 

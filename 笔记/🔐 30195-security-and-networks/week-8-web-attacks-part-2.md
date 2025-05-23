@@ -75,7 +75,7 @@ JS可以注入一个假的登录页面，拿到用户的账号密码，然后GG
 
 #### 发现问题 1
 
-<figure><img src="../.gitbook/assets/image (44).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (44).png" alt="" width="563"><figcaption></figcaption></figure>
 
 清除输入值中的`<script>`标签，通过将任何出现的`<script>`标签（及其内容）替换为文字“SCRIPT BLOCKED”。
 
@@ -93,11 +93,11 @@ JS可以注入一个假的登录页面，拿到用户的账号密码，然后GG
 
 那么就会：
 
-<figure><img src="../.gitbook/assets/image (45).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (45).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### PHP提供消毒函数
 
-<figure><img src="../.gitbook/assets/image (46).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (46).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Cross Site Request Forgery (CSRF)
 
@@ -124,19 +124,19 @@ JS可以注入一个假的登录页面，拿到用户的账号密码，然后GG
 
 XML使用时可以添加 external entity 从而访问外部文件，这就可以被利用。
 
-<figure><img src="../.gitbook/assets/image (47).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (47).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Broken Access Control
 
 垃圾的权限管理有可能会带来攻击。比如，在该用post的时候用了get：
 
-<figure><img src="../.gitbook/assets/image (48).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (48).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Path Traversal
 
 用户可能可以手动访问服务器的任何文件：
 
-<figure><img src="../.gitbook/assets/image (49).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (49).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Fix
 
