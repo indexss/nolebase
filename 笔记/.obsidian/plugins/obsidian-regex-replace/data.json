@@ -1,0 +1,10 @@
+{
+  "findText": "(?<=<img\\s+src=\")\\.\\.\\/\\.gitbook\\/assets\\/([^\"]+)(?=\")",
+  "replaceText": "./assets/$1",
+  "useRegEx": true,
+  "selOnly": false,
+  "caseInsensitive": false,
+  "processLineBreak": false,
+  "processTab": false,
+  "prefillFind": false
+}

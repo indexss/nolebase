@@ -11,11 +11,11 @@ tags:
 
 Machine Learning可以看作是AI的一个子领域
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 监督学习
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 而输入空间X可以是以下的空间：
 

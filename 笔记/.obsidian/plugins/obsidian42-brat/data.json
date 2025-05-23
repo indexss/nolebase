@@ -1,5 +1,7 @@
 {
-  "pluginList": [],
+  "pluginList": [
+    "obsidian-canzi/Enhanced-editing"
+  ],
   "pluginSubListFrozenVersion": [],
   "themesList": [],
   "updateAtStartup": true,

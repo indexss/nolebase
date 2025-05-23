@@ -12,5 +12,8 @@
   "obsidian-style-settings",
   "obsidian-local-images-plus",
   "dataview",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "Enhanced-editing",
+  "obsidian-linter",
+  "obsidian-regex-replace"
 ]

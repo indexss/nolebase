@@ -16,5 +16,21 @@
       ],
       "key": "V"
     }
+  ],
+  "Enhanced-editing:del-lines": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "l"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "K"
+    }
   ]
 }

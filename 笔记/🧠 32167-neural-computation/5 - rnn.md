@@ -14,37 +14,37 @@ RNN是一种经典用于处理序列的模型。Transformer也可以处理序列
 
 ### 序列任务的分类：n对n
 
-<figure><img src="../.gitbook/assets/image (116).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (116).png" alt="" width="563"><figcaption></figcaption></figure>
 
 我们如果可以利用前一次预测的隐藏内容（隐藏h），那么就可以处理序列内容。
 
-<figure><img src="../.gitbook/assets/image (117).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (117).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ## Vanilla RNN
 
-<figure><img src="../.gitbook/assets/image (118).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (118).png" alt="" width="563"><figcaption></figcaption></figure>
 
 具体来说，内部是这样的，在每个时间步重复使用相同的权重矩阵：
 
-<figure><img src="../.gitbook/assets/image (119).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (119).png" alt="" width="563"><figcaption></figcaption></figure>
 
 序列模型的要求以及rnn都满足了。
 
-<figure><img src="../.gitbook/assets/image (120).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (120).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## 序列模型问题：预测下一个单词
 
 任务定义：
 
-<figure><img src="../.gitbook/assets/image (121).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (121).png" alt="" width="563"><figcaption></figcaption></figure>
 
 单词想要被网络接受，就需要embedding
 
-<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
 ## 时间上的反向传播 Backpropagation Through Time(BPTT)
 
-<figure><img src="../.gitbook/assets/image (123).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (123).png" alt="" width="563"><figcaption></figcaption></figure>
 
 由于长序列，这种网络很容易梯度爆炸，或者梯度消失。
 
@@ -56,21 +56,21 @@ RNN是一种经典用于处理序列的模型。Transformer也可以处理序列
 
 普通RNN长这样：
 
-<figure><img src="../.gitbook/assets/image (124).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (124).png" alt="" width="563"><figcaption></figcaption></figure>
 
 而LSTM长这样
 
-<figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (127).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (127).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (129).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (129).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (130).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (130).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (131).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (131).png" alt="" width="563"><figcaption></figcaption></figure>
 
 1. 保持与输出不同的单元状态
 2. 使用门控制信息流
@@ -89,19 +89,19 @@ RNN是一种经典用于处理序列的模型。Transformer也可以处理序列
 
 * 情感分类
 
-<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./assets/image (132).png" alt=""><figcaption></figcaption></figure>
 
 * 机器翻译
 
-<figure><img src="../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
 * 音乐生成
 
-<figure><img src="../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./assets/image (134).png" alt=""><figcaption></figcaption></figure>
 
 * 图片描述
 
-<figure><img src="../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="./assets/image (135).png" alt=""><figcaption></figcaption></figure>
 
 ## 总结
 

@@ -15,7 +15,7 @@ tags:
 
 就是简单的梯度下降。
 
-<figure><img src="../.gitbook/assets/image (26).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (26).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Stochastic Gradient Descent (SGD)
 
@@ -32,10 +32,10 @@ $$
 我们可以只计算一个样本的梯度，然后假设这个梯度是有代表性的。
 
 1. 在第t个iter，我们随机抽取一个样本index <- \{ 1..n \}
-1. 我们计算随机梯度 $$ \nabla C_i(w^{(t)}) $$
-1. 用这一个梯度代替整个梯度&#x20;
+2. 我们计算随机梯度 $$ \nabla C_i(w^{(t)}) $$
+3. 用这一个梯度代替整个梯度&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 如果想要少的迭代次数，且样本数量较少，想精准一点，选择GD。
 
@@ -49,11 +49,11 @@ SGD一般使用一个动态的学习率，公式为 $$\eta_t = \frac{c}{\sqrt t}
 
 我们这次选择一批进行更新
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 b是batch size。
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 对于批次的抽样，可以放回，也可以不放回。
 
@@ -63,11 +63,11 @@ b是batch size。
 
 任务定义：
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 &#x20;我们理想中的Loss是0-1 loss。具体来说，就是这样：
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 这看起来很好，但是问题就是在于，这玩意不连续。所以我们要换一个损失函数，
 
@@ -79,22 +79,22 @@ margin为正，代表正确预测。负为错误，而margin的绝对值表示�
 
 我们这里定义 surrogate Loss function如下（代理损失函数）：
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (6) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 loss变小，margin正的越大，越达成目标。
 
 在这里，为了详细一点，我们对其进行梯度下降。注意，这里对Ci进行了加和，从而得到了C。
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (7) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 这里我们先对Ci求梯度。
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (8) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 如果只用SGD，那么迭代方式就是这样：
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (9) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 有趣的点是，我们前面说过，我们这里定义margin就是 $$y_i h(x_i)$$。在这样定义的情况下，我们可以知道，wt+1的margin一定大于wt的， 证明很简单：
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="./assets/image (10) (1).png" alt="" width="563"><figcaption></figcaption></figure>
