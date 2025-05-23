@@ -64,7 +64,7 @@
                       },
                       "serial": {
                         "columns": 149,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % ",
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % find . -type f \\( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.svg' -o -iname '*.webp' -o -iname '*.ico' \\) -print0 \\\r\n  | xargs -0 identify -format \"%f %w %h\\n\" \\\r\n  | awk '$2==350 && $3==150'\r\nidentify: improper image header `./👾 38965-machine-learning/assets/image (50).png' @ error/png.c/ReadPNGImage/3947.\r\nidentify: improper image header `./🧠 32167-neural-computation/assets/image (50).png' @ error/png.c/ReadPNGImage/3947.\r\nidentify: improper image header `./🔐 30195-security-and-networks/assets/image (50).png' @ error/png.c/ReadPNGImage/3947.\r\nidentify: improper image header `./.gitbook/assets/image (50).png' @ error/png.c/ReadPNGImage/3947.\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % ",
                         "rows": 26
                       }
                     }
@@ -291,6 +291,7 @@
   "active": "9d2c88f1c303a601",
   "lastOpenFiles": [
     "👾 38965-machine-learning/2 - Logistic-Regression.md",
+    "👾 38965-machine-learning/assets/image (50).png",
     "👾 38965-machine-learning/1 - Intro.md",
     "🐧 38059-operating-systems-and-systems-programming/week-8-process.md",
     "🐧 38059-operating-systems-and-systems-programming/week-7-memory-management-and-kernel-programming.md",
@@ -319,14 +320,12 @@
     "🔐 30195-security-and-networks/assets/image (133).png",
     "🔐 30195-security-and-networks/assets/image (132).png",
     "🔐 30195-security-and-networks/assets/image (131).png",
-    "🔐 30195-security-and-networks/assets/image (130).png",
     "🔐 30195-security-and-networks/assets",
     "🤖 34255-artificial-intelligence-2/week-1-intro-and-mle.md",
     "🤖 34255-artificial-intelligence-2/week-2-and-3-lr-and-info-theory-and-tree.md",
     "🤖 34255-artificial-intelligence-2/week-4-bayesian-network.md",
     "🤖 34255-artificial-intelligence-2/week-8-and-9-and-10-search-and-csp-and-game.md",
     "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
-    "🧬 Evolutionary Computation/Week 1 Intro & Randomised Algorithms.md",
     "🧱 科学上网知识总结/assets",
     "🧱 科学上网知识总结",
     "assets",
