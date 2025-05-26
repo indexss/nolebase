@@ -79,3 +79,31 @@
 - ![](assets/Pasted%20image%2020250514211130.webp)
 - Kernel内积计算 1+xTx
 	- 什么是Kernel Function？
+
+
+
+$$
+\Pr\!\Bigl(\exists\,h\in\mathcal H:\;
+       |E_{\text{in}}(h)-E_{\text{out}}(h)|>\epsilon\Bigr)
+\;\le\;
+2\,m_{\mathcal H}(N)\,
+      \exp\!\bigl(-2\epsilon^{2}N\bigr).
+$$
+$$
+
+\Pr\!\Bigl(\exists\,h\in\mathcal H:\;
+       |E_{\text{in}}(h)-E_{\text{out}}(h)|>\epsilon\Bigr)
+\;\le\;
+4\,m_{\mathcal H}(2N)\,
+      \exp\!\bigl(-\tfrac18\,\epsilon^{2}N\bigr).
+
+
+
+$$
+- 为什么用IRLS不用梯度下降？
+	- (a) 迭代加权最小二乘法（IRLS）更好。因为该算法使用二阶泰勒多项式(Taylor polynomial of degree 2)来近似(approximate)损失函数。通过将泰勒多项式的梯度设为零，就可以得到它的极小值。由于原损失函数本身就是一个二次函数，这种近似是完全精确的。因此，泰勒多项式的极小值也就是原函数的极小值，算法能够在一步之内找到最优解。
+	- 相比之下，梯度下降法沿着最陡下降方向更新权重。然而，由于该损失函数在参数空间中呈椭圆形，这样的更新步长并不会直接指向最优点。它们很可能在 w0 方向上越过最优值。尽管只要选择合适的学习率，梯度下降最终也能收敛到最优解，但通常需要多次迭代（权重更新）才能到达最优点。
+
+
+
+![](assets/Pasted%20image%2020250526155924.webp)
