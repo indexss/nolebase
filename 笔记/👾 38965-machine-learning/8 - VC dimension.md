@@ -78,6 +78,8 @@ w数量的增长速度  $1+\tilde{d} = C_{Q+d}^d = O(Q^d)$
 而根据经验又有 $1 + \tilde{d} \approx d_{VC}(\mathcal{H}_{\Phi_Q})$，所以增长很快
 而VC维也是有一个上限的。$$d_{\mathrm{VC}}(\mathcal{H}_{\Phi_Q})\leq\tilde{d}+1$$
 这是因为，你的自由调整度就是d+1，所以你最多就能调整自己shatter d+1个维度的点。d+2就不行了。
+简而言之：
+![](assets/Pasted%20image%2020250524204242.webp)
 
 ## SVM的VC维
 
