@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "e761f602b6eb5a2f",
+        "id": "b30363920cecd295",
         "type": "split",
         "children": [
           {
@@ -17,12 +17,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "👾 38965-machine-learning/bookwork.md",
+                    "file": "🧬 Evolutionary Computation/考前.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "bookwork"
+                  "title": "考前"
                 }
               },
               {
@@ -31,22 +31,22 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "🧬 Evolutionary Computation/考前.md",
+                    "file": "🧬 Evolutionary Computation/Week 5 Multi Objective Optimization.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "考前"
+                  "title": "Week 5 Multi Objective Optimization"
                 }
               }
             ]
           },
           {
-            "id": "e351e6ff559fd500",
+            "id": "917d93eb152718e2",
             "type": "tabs",
             "children": [
               {
-                "id": "86edab737d7429c9",
+                "id": "2ed06251640af5f0",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -77,7 +77,7 @@
                         "useWin32Conhost": true
                       },
                       "serial": {
-                        "columns": 149,
+                        "columns": 125,
                         "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % git add",
                         "rows": 26
                       }
@@ -302,24 +302,27 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "86edab737d7429c9",
+  "active": "2ed06251640af5f0",
   "lastOpenFiles": [
+    "🧬 Evolutionary Computation/考前.md",
+    "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
+    "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
+    "🧬 Evolutionary Computation/Week 8 Co-Evolution.md",
+    "🧬 Evolutionary Computation/Week 10 Runtime Analyse.md",
+    "🧬 Evolutionary Computation/Week 4 Constraint Handling.md",
+    "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
+    "🧬 Evolutionary Computation/Week 5 Multi Objective Optimization.md",
+    "🧬 Evolutionary Computation/模拟题.md",
+    "🧬 Evolutionary Computation/assets/Pasted image 20250529150044.webp",
+    "🧬 Evolutionary Computation/Week 7 Consolidation Week.md",
+    "🧬 Evolutionary Computation/Week 9  No Free Lunch Theorem.md",
+    "🧬 Evolutionary Computation/Week 1 Intro & Randomised Algorithms.md",
+    "🧱 科学上网知识总结/Clash原理略解.md",
     "👾 38965-machine-learning/bookwork.md",
     "👾 38965-machine-learning/9 - Bias and Variance.md",
     "👾 38965-machine-learning/10 - Overfitting.md",
     "👾 38965-machine-learning/12 - Validation.md",
     "👾 38965-machine-learning/assets/Pasted image 20250526155924.webp",
-    "🧬 Evolutionary Computation/考前.md",
-    "🧬 Evolutionary Computation/Week 10 Runtime Analyse.md",
-    "🧬 Evolutionary Computation/Week 9  No Free Lunch Theorem.md",
-    "🧬 Evolutionary Computation/Week 8 Co-Evolution.md",
-    "🧬 Evolutionary Computation/Week 5 Multi Objective Optimization.md",
-    "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
-    "🧬 Evolutionary Computation/Week 7 Consolidation Week.md",
-    "🧬 Evolutionary Computation/Week 4 Constraint Handling.md",
-    "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
-    "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
-    "🧬 Evolutionary Computation/Week 1 Intro & Randomised Algorithms.md",
     "👾 38965-machine-learning/11 - Regularisation.md",
     "👾 38965-machine-learning/8 - VC dimension.md",
     "👾 38965-machine-learning/assets/Pasted image 20250524204242.webp",
@@ -330,16 +333,12 @@
     "👾 38965-machine-learning/5 - Bayesian Regression.md",
     "👾 38965-machine-learning/assets/image (50).png",
     "🐧 38059-operating-systems-and-systems-programming/week-8-process.md",
-    "🐧 38059-operating-systems-and-systems-programming/week-7-memory-management-and-kernel-programming.md",
-    "🐧 38059-operating-systems-and-systems-programming/week-5-os-design-principles-and-system-calls.md",
-    "🐧 38059-operating-systems-and-systems-programming/week-3-file-function-and-compile.md",
     "🔐 30195-security-and-networks/assets/image (25) (1).png",
     "🔐 30195-security-and-networks/assets/image copy.png",
     "🔐 30195-security-and-networks/assets/image (137).png",
     "🔐 30195-security-and-networks/assets/image (136).png",
     "🔐 30195-security-and-networks/assets/image (135).png",
     "🔐 30195-security-and-networks/assets/image (134).png",
-    "🔐 30195-security-and-networks/assets/image (133).png",
     "🔐 30195-security-and-networks/assets",
     "🧱 科学上网知识总结/assets",
     "🧱 科学上网知识总结",

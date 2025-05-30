@@ -1,4 +1,4 @@
-# Week 4 Constraint Handling
+ # Week 4 Constraint Handling
 ## Motivation
 想象你要设计一堵墙，你是施工方，省钱是你的目的，但是会有Constrain，就是说，稳固度要达标。那么这个问题就可以大概表示为：
 Minimize: $$
