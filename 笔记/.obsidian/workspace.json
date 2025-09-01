@@ -15,10 +15,14 @@
                 "id": "dd6b74394cc990f6",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "🏫 申请/未命名.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "新标签页"
+                  "title": "未命名"
                 }
               }
             ]
@@ -60,7 +64,7 @@
                       },
                       "serial": {
                         "columns": 124,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % git add .\u001b[1B\u001b[51D",
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % git add .\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % git commit -m \"\"test\r\n[main 0e7a8d6] test\r\n 2 files changed, 13 insertions(+), 18 deletions(-)\r\n rename 笔记/{prompt收集 => 🎫 prompt收集}/coding.md (100%)\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % git push\r\nfatal: The current branch main has no upstream branch.\r\nTo push the current branch and set the remote as upstream, use\r\n\r\n    git push --set-upstream origin main\r\n\r\nTo have this happen automatically for branches without a tracking\r\nupstream, see 'push.autoSetupRemote' in 'git help config'.\r\n\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % git add",
                         "rows": 24
                       }
                     }
@@ -287,6 +291,7 @@
   },
   "active": "ede2a4d84adca8b6",
   "lastOpenFiles": [
+    "🏫 申请/未命名.md",
     "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
     "🏫 申请",
     "🥵 IELTS",
