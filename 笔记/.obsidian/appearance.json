@@ -1,7 +1,11 @@
 {
-  "theme": "moonstone",
-  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "cssTheme": "Blue Topaz",
   "textFontFamily": "LXGW Bright GB",
   "interfaceFontFamily": "Open Sans,PingFang SC",
-  "baseFontSize": 18
+  "baseFontSize": 18,
+  "enabledCssSnippets": [
+    "center_pic"
+  ],
+  "accentColor": ""
 }

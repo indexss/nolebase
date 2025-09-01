@@ -1,4 +1,5 @@
 # Week 1 Intro & ResponsibleAI
+
 ![](assets/Pasted%20image%2020250130121621.webp)
 ![](assets/Pasted%20image%2020250130121732.webp)
 ![](assets/Pasted%20image%2020250130121920.webp)

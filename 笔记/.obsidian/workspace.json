@@ -4,80 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7a641c96e6634f95",
-        "type": "split",
+        "id": "7bdf477f35caa49e",
+        "type": "tabs",
         "children": [
           {
-            "id": "e9dd65d31d4beea3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8ae98329ec11354e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "🥵 IELTS/评分标准.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "评分标准"
-                }
-              }
-            ]
-          },
-          {
-            "id": "fc3920bc5e9daf7d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "fe9495d961f1500c",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/Users/linlishi/projects/nolebase/笔记",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "/bin/zsh",
-                        "name": "",
-                        "platforms": {
-                          "darwin": true,
-                          "linux": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": true,
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": {
-                        "columns": 124,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % git add ",
-                        "rows": 24
-                      }
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "终端：zsh"
-                }
-              }
-            ]
+            "id": "d2a77dfbc1ad10bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🥵 IELTS/小作文用语总结.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "小作文用语总结"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +33,7 @@
       {
         "id": "4a4fbe666aeeab08",
         "type": "tabs",
-        "dimension": 72.75419545903257,
+        "dimension": 72.77992277992279,
         "children": [
           {
             "id": "fa4e2b6d3730ecc4",
@@ -136,7 +80,7 @@
       {
         "id": "849e5866336517c7",
         "type": "tabs",
-        "dimension": 27.245804540967423,
+        "dimension": 27.220077220077222,
         "children": [
           {
             "id": "aacdc5d8e19d6265",
@@ -152,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 258.5
   },
   "right": {
     "id": "f12232ab6faa5dfa",
@@ -289,8 +233,24 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "fe9495d961f1500c",
+  "active": "d2a77dfbc1ad10bb",
   "lastOpenFiles": [
+    "🥵 IELTS/👄 口语 P2 准备.md",
+    "🥵 IELTS/👄 口语 P1 素材.md",
+    "index.md",
+    "🥵 IELTS/小作文用语总结.md",
+    "未命名 1.base",
+    "未命名.base",
+    "🤖 34255-artificial-intelligence-2/week-4-bayesian-network.md",
+    "👾 38965-machine-learning/4 - Linear Regression.md",
+    "👾 38965-machine-learning/10 - Overfitting.md",
+    "👾 38965-machine-learning/9 - Bias and Variance.md",
+    "👾 38965-machine-learning/3 - SVM Classification.md",
+    "👾 38965-machine-learning/1 - Intro.md",
+    "👾 38965-machine-learning/7 - Learning Feasibility.md",
+    "📢 Intelligent Interactive System/merged.md",
+    "🔌 数电复健/C位技巧.md",
+    "🔐 30195-security-and-networks/week-5-networking-and-protocols.md",
     "🥵 IELTS/评分标准.md",
     "🥵 IELTS/assets/Pasted image 20250902011520.webp",
     "🥵 IELTS/小作文笔记.md",
@@ -303,10 +263,7 @@
     "🥵 IELTS/assets/cf80b1b95c85647c32aec627864c3282_MD5.webp",
     "🥵 IELTS/assets/482ea6e6d9858ce0df41466ad4e1263d_MD5.webp",
     "🥵 IELTS/assets/524b7d04df39ffc8d083c8aa6e07466a_MD5.webp",
-    "🥵 IELTS/小作文用语总结.md",
     "🥵 IELTS/assets",
-    "🥵 IELTS/👄 口语 P1 素材.md",
-    "🥵 IELTS/👄 口语 P2 准备.md",
     "🏫 申请/文书/USC 文书.md",
     "🏫 申请/文书/assets/e107e085c2373e1b624dbc51db9f83da_MD5.docx",
     "🏫 申请/文书/assets/2880af8cc4c0b49a87e58f89fba441b7_MD5.docx",
@@ -318,23 +275,11 @@
     "🏫 申请/文书/assets/3640f749f5b0d8cbb4adb5ba855da5b3_MD5.docx",
     "🏫 申请/文书/assets/b6bb0ebaec414c4211aa2fbf536ea49f_MD5.docx",
     "🏫 申请/文书/assets/70ca5403e4da977c145e944ee6becb72_MD5.docx",
-    "🏫 申请/文书/assets",
     "🏫 申请/推荐信/套磁邮件.md",
     "🏫 申请/推荐信/推荐信素材.md",
     "🏫 申请/学校信息/学校网申链接.md",
-    "🏫 申请/学校信息/assets",
     "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
     "yasi.md",
-    "ielt.md",
-    "毕业论文.md",
-    "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
-    "🧠 32167-neural-computation/2 - GD and Linear Classification.md",
-    "🧠 32167-neural-computation/3 - Backpropagation.md",
-    "🧠 32167-neural-computation/4 - CNN.md",
-    "🧠 32167-neural-computation/8 - GAN.md",
-    "毛概/简答题.md",
-    "习思想/目录.md",
-    "习思想/22-23.md",
-    "🧬 Evolutionary Computation/Week 4 Constraint Handling.md"
+    "ielt.md"
   ]
 }

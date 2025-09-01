@@ -46,7 +46,7 @@
   "nondestructive_resizeMode_customSize": "",
   "nondestructive_resizeMode_fitImage": "",
   "nondestructive_enlarge_or_reduce": "Always",
-  "resizeByDragging": false,
+  "resizeByDragging": true,
   "resizeWithScrollwheel": false,
   "scrollwheelModifier": "Shift",
   "allowResizeInReadingMode": false,
