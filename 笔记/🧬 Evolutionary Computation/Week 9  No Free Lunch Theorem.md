@@ -1,3 +1,7 @@
+---
+NotionID-o2n: 24126b02-9691-81b9-b4e6-f10611be6cef
+link-o2n: https://www.notion.so/Week-9-No-Free-Lunch-Theorem-24126b02969181b9b4e6f10611be6cef
+---
 # Week 9 No Free Lunch Theorem
 ## 黑盒优化
 ![](assets/Pasted%20image%2020250401193533.webp)

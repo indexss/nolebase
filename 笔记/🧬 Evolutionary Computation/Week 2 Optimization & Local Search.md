@@ -1,3 +1,7 @@
+---
+NotionID-o2n: 24126b02-9691-812e-95ba-ebbd2b6c593b
+link-o2n: https://www.notion.so/Week-2-Optimization-Local-Search-24126b029691812e95baebbd2b6c593b
+---
 # Week 2 Optimization & Local Search
 ## Traveling Salesman Problem
 ![](assets/Pasted%20image%2020250130190424.webp)

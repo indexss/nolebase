@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f15af1ee1247dfda",
+        "id": "ed492245c2ad3ac3",
         "type": "split",
         "children": [
           {
-            "id": "fe511c5ac9d238f9",
+            "id": "a3463199531c5794",
             "type": "tabs",
             "children": [
               {
-                "id": "a4e5a7cb116c627b",
+                "id": "63c1fb04ed428bc8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "习思想/目录.md",
+                    "file": "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "目录"
+                  "title": "Week 6 EDA and Genetic Programming"
                 }
               }
             ]
           },
           {
-            "id": "fabb2f6cb835cfac",
+            "id": "00c767d8999b8cbf",
             "type": "tabs",
             "children": [
               {
-                "id": "343f4ffb0fcfea19",
+                "id": "8c530cb9a10797d4",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -64,8 +64,8 @@
                       },
                       "serial": {
                         "columns": 124,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % git add ",
-                        "rows": 26
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % git ad  \u001b[2D",
+                        "rows": 24
                       }
                     }
                   },
@@ -152,7 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5024719238281
+    "width": 200
   },
   "right": {
     "id": "f12232ab6faa5dfa",
@@ -272,6 +272,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
@@ -285,56 +286,56 @@
       "publish:发布更改": false,
       "graph:查看关系图谱": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "share-to-notionnext:分享到 NotionNext": false,
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "343f4ffb0fcfea19",
+  "active": "8c530cb9a10797d4",
   "lastOpenFiles": [
-    "习思想/目录.md",
-    "毛概/简答题.md",
-    "习思想/22-23.md",
-    "习思想/assets/Pasted image 20250531204333.webp",
-    "习思想/assets",
-    "习思想",
-    "毛概",
-    "🧬 Evolutionary Computation/Week 5 Multi Objective Optimization.md",
-    "🧬 Evolutionary Computation/考前.md",
     "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
+    "ielt.md",
+    "毕业论文.md",
     "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
-    "🧬 Evolutionary Computation/Week 8 Co-Evolution.md",
-    "🧬 Evolutionary Computation/Week 10 Runtime Analyse.md",
+    "🧠 32167-neural-computation.zip",
+    "🧬 Evolutionary Computation.zip",
+    "🧠 32167-neural-computation/2 - GD and Linear Classification.md",
+    "🧠 32167-neural-computation/3 - Backpropagation.md",
+    "🧠 32167-neural-computation/4 - CNN.md",
+    "🧠 32167-neural-computation/8 - GAN.md",
+    "毛概/简答题.md",
+    "习思想/目录.md",
+    "习思想/22-23.md",
     "🧬 Evolutionary Computation/Week 4 Constraint Handling.md",
+    "🧬 Evolutionary Computation/Week 1 Intro & Randomised Algorithms.md",
+    "🧬 Evolutionary Computation/AS1.md",
+    "🧬 Evolutionary Computation/Week 9  No Free Lunch Theorem.md",
+    "🧬 Evolutionary Computation/Week 8 Co-Evolution.md",
+    "🧬 Evolutionary Computation/Week 5 Multi Objective Optimization.md",
     "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
+    "🐧 38059-operating-systems-and-systems-programming.zip",
+    "nlp.zip",
+    "zi6lCMpj",
+    "IIS.zip",
+    "🧬 Evolutionary Computation/考前.md",
+    "🧬 Evolutionary Computation 2",
+    "Evolutionary_Computation.zip",
+    "🧱 科学上网知识总结/Clash原理略解.md",
+    "鉴定/自我鉴定.md",
+    "index.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/2 - Neural Network and Backpropagation.md",
+    "鉴定/assets",
+    "鉴定",
+    "习思想/assets/Pasted image 20250531204333.webp",
+    "🧬 Evolutionary Computation/Week 10 Runtime Analyse.md",
     "🧬 Evolutionary Computation/模拟题.md",
     "🧬 Evolutionary Computation/assets/Pasted image 20250529150044.webp",
-    "🧬 Evolutionary Computation/Week 7 Consolidation Week.md",
-    "🧬 Evolutionary Computation/Week 9  No Free Lunch Theorem.md",
-    "🧬 Evolutionary Computation/Week 1 Intro & Randomised Algorithms.md",
-    "🧱 科学上网知识总结/Clash原理略解.md",
-    "👾 38965-machine-learning/bookwork.md",
-    "👾 38965-machine-learning/9 - Bias and Variance.md",
-    "👾 38965-machine-learning/10 - Overfitting.md",
-    "👾 38965-machine-learning/12 - Validation.md",
     "👾 38965-machine-learning/assets/Pasted image 20250526155924.webp",
-    "👾 38965-machine-learning/11 - Regularisation.md",
-    "👾 38965-machine-learning/8 - VC dimension.md",
     "👾 38965-machine-learning/assets/Pasted image 20250524204242.webp",
-    "👾 38965-machine-learning/3 - SVM Classification.md",
-    "👾 38965-machine-learning/6 - SVM Regression.md",
-    "👾 38965-machine-learning/2 - Logistic-Regression.md",
-    "👾 38965-machine-learning/1 - Intro.md",
     "👾 38965-machine-learning/assets/image (50).png",
     "🔐 30195-security-and-networks/assets/image (25) (1).png",
     "🔐 30195-security-and-networks/assets/image copy.png",
     "🔐 30195-security-and-networks/assets/image (137).png",
     "🔐 30195-security-and-networks/assets/image (136).png",
-    "🔐 30195-security-and-networks/assets/image (135).png",
-    "🔐 30195-security-and-networks/assets",
-    "🧱 科学上网知识总结/assets",
-    "🧱 科学上网知识总结",
-    "assets",
-    "prompt收集",
-    "📢 Intelligent Interactive System/as2/assets",
-    "📢 Intelligent Interactive System/as2"
+    "🔐 30195-security-and-networks/assets/image (135).png"
   ]
 }

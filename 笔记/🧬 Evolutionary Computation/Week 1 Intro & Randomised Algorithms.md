@@ -1,3 +1,7 @@
+---
+NotionID-o2n: 24126b02-9691-81a3-99a4-ed71496d11a2
+link-o2n: https://www.notion.so/Week-1-Intro-Randomised-Algorithms-24126b02969181a399a4ed71496d11a2
+---
 # Week 1 Intro & Randomised Algorithms
 ## Intro
 ### 什么是进化计算？
