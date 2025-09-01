@@ -4,35 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "ed492245c2ad3ac3",
+        "id": "fc9d6c58f5e25844",
         "type": "split",
         "children": [
           {
-            "id": "a3463199531c5794",
+            "id": "442eff34ba4f9cf0",
             "type": "tabs",
             "children": [
               {
-                "id": "63c1fb04ed428bc8",
+                "id": "dd6b74394cc990f6",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
-                    "mode": "source",
-                    "source": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "Week 6 EDA and Genetic Programming"
+                  "title": "新标签页"
                 }
               }
             ]
           },
           {
-            "id": "00c767d8999b8cbf",
+            "id": "bce32ab58995ec8f",
             "type": "tabs",
             "children": [
               {
-                "id": "8c530cb9a10797d4",
+                "id": "ede2a4d84adca8b6",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -64,7 +60,7 @@
                       },
                       "serial": {
                         "columns": 124,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % git add .\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % git commit -m \"sync\"\r\n[main 100f604] sync\r\n 21 files changed, 15542 insertions(+), 1531 deletions(-)\r\n create mode 100644 笔记/.obsidian/plugins/share-to-notionnext/data.json\r\n create mode 100644 笔记/.obsidian/plugins/share-to-notionnext/main.js\r\n create mode 100644 笔记/.obsidian/plugins/share-to-notionnext/manifest.json\r\n create mode 100644 笔记/Evolutionary_Computation.zip\r\n create mode 100644 笔记/IIS.zip\r\n create mode 100644 笔记/nlp.zip\r\n delete mode 100644 笔记/习思想/22-23.md\r\n delete mode 100644 笔记/习思想/assets/Pasted image 20250531204333.webp\r\n delete mode 100644 笔记/习思想/目录.md\r\n delete mode 100644 笔记/毕业论文.md\r\n delete mode 100644 笔记/毛概/简答题.md\r\n create mode 100644 笔记/🐧 38059-operating-systems-and-systems-programming.zip\r\n create mode 100644 笔记/🧠 32167-neural-computation.zip\r\n create mode 100644 笔记/🧬 Evolutionary Computation.zip\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % git push\r\nEnumerating objects: 35, done.\r\nCounting objects: 100% (35/35), done.\r\nDelta compression using up to 10 threads\r\nCompressing objects: 100% (23/23), done.\r\nWriting objects: 100% (23/23), 128.77 MiB | 2.73 MiB/s, done.\r\nTotal 23 (delta 12), reused 0 (delta 0), pack-reused 0\r\nremote: Resolving deltas: 100% (12/12), completed with 12 local objects.\r\nremote: \u001b[33;1mwarning\u001b[0m: See https://gh.io/lfs for more information.\r\nremote: \u001b[33;1mwarning\u001b[0m: File 笔记/🧠 32167-neural-computation.zip is 85.59 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB\r\nremote: \u001b[33;1mwarning\u001b[0m: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.\r\nremote: \u001b[31;1merror\u001b[0m: GH013: Repository rule violations found for refs/heads/main.\r\nremote: \r\nremote: - GITHUB PUSH PROTECTION\r\nremote:   —————————————————————————————————————————\r\nremote:     Resolve the following violations before pushing again\r\nremote: \r\nremote:     - Push cannot contain secrets\r\nremote: \r\nremote:     \r\nremote:      (?) Learn how to resolve a blocked push\r\nremote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push\r\nremote:     \r\nremote:     \r\nremote:       —— Notion API Token ——————————————————————————————————\r\nremote:        locations:\r\nremote:          - commit: 100f6046ebcc8cfdc2791797b84104550b7c603d\r\nremote:            path: 笔记/.obsidian/plugins/share-to-notionnext/data.json:24\r\nremote:          - commit: 100f6046ebcc8cfdc2791797b84104550b7c603d\r\nremote:            path: 笔记/.obsidian/plugins/share-to-notionnext/data.json:36\r\nremote:     \r\nremote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.\r\nremote:        https://github.com/indexss/nolebase/security/secret-scanning/unblock-secret/326d2WTmRifqfYS9YWr8sC4Cf5P\r\nremote:     \r\nremote: \r\nremote: \r\nTo github.com:indexss/nolebase.git\r\n \u001b[31m! [remote rejected]\u001b[0m main -> main (push declined due to repository rule violations)\r\n\u001b[31merror: failed to push some refs to 'github.com:indexss/nolebase.git'\r\n\u001b[0m(base) linlishi@Linlis-MacBook-Pro 笔记 % git add ",
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % git add .\u001b[1B\u001b[51D",
                         "rows": 24
                       }
                     }
@@ -286,13 +282,15 @@
       "publish:发布更改": false,
       "graph:查看关系图谱": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "share-to-notionnext:分享到 NotionNext": false,
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "8c530cb9a10797d4",
+  "active": "ede2a4d84adca8b6",
   "lastOpenFiles": [
     "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
+    "🏫 申请",
+    "🥵 IELTS",
+    "yasi.md",
     "ielt.md",
     "毕业论文.md",
     "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
@@ -323,11 +321,8 @@
     "鉴定/自我鉴定.md",
     "index.md",
     "💬 CS224N-Natural Language Processing with Deep Learning/2 - Neural Network and Backpropagation.md",
-    "鉴定/assets",
-    "鉴定",
     "习思想/assets/Pasted image 20250531204333.webp",
     "🧬 Evolutionary Computation/Week 10 Runtime Analyse.md",
-    "🧬 Evolutionary Computation/模拟题.md",
     "🧬 Evolutionary Computation/assets/Pasted image 20250529150044.webp",
     "👾 38965-machine-learning/assets/Pasted image 20250526155924.webp",
     "👾 38965-machine-learning/assets/Pasted image 20250524204242.webp",
