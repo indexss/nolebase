@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "fc9d6c58f5e25844",
+        "id": "7a641c96e6634f95",
         "type": "split",
         "children": [
           {
-            "id": "442eff34ba4f9cf0",
+            "id": "e9dd65d31d4beea3",
             "type": "tabs",
             "children": [
               {
-                "id": "dd6b74394cc990f6",
+                "id": "8ae98329ec11354e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "🏫 申请/未命名.md",
+                    "file": "🥵 IELTS/评分标准.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "未命名"
+                  "title": "评分标准"
                 }
               }
             ]
           },
           {
-            "id": "bce32ab58995ec8f",
+            "id": "fc3920bc5e9daf7d",
             "type": "tabs",
             "children": [
               {
-                "id": "ede2a4d84adca8b6",
+                "id": "fe9495d961f1500c",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -64,7 +64,7 @@
                       },
                       "serial": {
                         "columns": 124,
-                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % git add .\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % git commit -m \"\"test\r\n[main 0e7a8d6] test\r\n 2 files changed, 13 insertions(+), 18 deletions(-)\r\n rename 笔记/{prompt收集 => 🎫 prompt收集}/coding.md (100%)\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % git push\r\nfatal: The current branch main has no upstream branch.\r\nTo push the current branch and set the remote as upstream, use\r\n\r\n    git push --set-upstream origin main\r\n\r\nTo have this happen automatically for branches without a tracking\r\nupstream, see 'push.autoSetupRemote' in 'git help config'.\r\n\r\n(base) linlishi@Linlis-MacBook-Pro 笔记 % git add",
+                        "data": "(base) linlishi@Linlis-MacBook-Pro 笔记 % git add ",
                         "rows": 24
                       }
                     }
@@ -289,18 +289,45 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "ede2a4d84adca8b6",
+  "active": "fe9495d961f1500c",
   "lastOpenFiles": [
+    "🥵 IELTS/评分标准.md",
+    "🥵 IELTS/assets/Pasted image 20250902011520.webp",
+    "🥵 IELTS/小作文笔记.md",
+    "🥵 IELTS/assets/14a1a1cdbd8d9bb5416122aee9254a14_MD5.webp",
+    "🥵 IELTS/assets/71372d0143c79c6793e96e6fe5dfc940_MD5.webp",
+    "🥵 IELTS/assets/0a69d0854e61d4b4654164d833125863_MD5.webp",
+    "🥵 IELTS/assets/28e81fcf700cc9f91cf55c817da89727_MD5.webp",
+    "🥵 IELTS/assets/fa1719c45eec13955301dd558af62e8e_MD5.webp",
+    "🥵 IELTS/assets/afb683c5efd8169bf9f6d851c759f244_MD5.webp",
+    "🥵 IELTS/assets/cf80b1b95c85647c32aec627864c3282_MD5.webp",
+    "🥵 IELTS/assets/482ea6e6d9858ce0df41466ad4e1263d_MD5.webp",
+    "🥵 IELTS/assets/524b7d04df39ffc8d083c8aa6e07466a_MD5.webp",
+    "🥵 IELTS/小作文用语总结.md",
+    "🥵 IELTS/assets",
+    "🥵 IELTS/👄 口语 P1 素材.md",
+    "🥵 IELTS/👄 口语 P2 准备.md",
+    "🏫 申请/文书/USC 文书.md",
+    "🏫 申请/文书/assets/e107e085c2373e1b624dbc51db9f83da_MD5.docx",
+    "🏫 申请/文书/assets/2880af8cc4c0b49a87e58f89fba441b7_MD5.docx",
+    "🏫 申请/文书/assets/214c4db50d97021374fae351705bd9e0_MD5.docx",
+    "🏫 申请/面试/CMU Video Essay.md",
+    "🏫 申请/面试",
     "🏫 申请/未命名.md",
+    "🏫 申请/文书/CMU 文书素材 8.31.md",
+    "🏫 申请/文书/assets/3640f749f5b0d8cbb4adb5ba855da5b3_MD5.docx",
+    "🏫 申请/文书/assets/b6bb0ebaec414c4211aa2fbf536ea49f_MD5.docx",
+    "🏫 申请/文书/assets/70ca5403e4da977c145e944ee6becb72_MD5.docx",
+    "🏫 申请/文书/assets",
+    "🏫 申请/推荐信/套磁邮件.md",
+    "🏫 申请/推荐信/推荐信素材.md",
+    "🏫 申请/学校信息/学校网申链接.md",
+    "🏫 申请/学校信息/assets",
     "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
-    "🏫 申请",
-    "🥵 IELTS",
     "yasi.md",
     "ielt.md",
     "毕业论文.md",
     "🧬 Evolutionary Computation/Week 3 Evolutionary Algorithm Basis.md",
-    "🧠 32167-neural-computation.zip",
-    "🧬 Evolutionary Computation.zip",
     "🧠 32167-neural-computation/2 - GD and Linear Classification.md",
     "🧠 32167-neural-computation/3 - Backpropagation.md",
     "🧠 32167-neural-computation/4 - CNN.md",
@@ -308,34 +335,6 @@
     "毛概/简答题.md",
     "习思想/目录.md",
     "习思想/22-23.md",
-    "🧬 Evolutionary Computation/Week 4 Constraint Handling.md",
-    "🧬 Evolutionary Computation/Week 1 Intro & Randomised Algorithms.md",
-    "🧬 Evolutionary Computation/AS1.md",
-    "🧬 Evolutionary Computation/Week 9  No Free Lunch Theorem.md",
-    "🧬 Evolutionary Computation/Week 8 Co-Evolution.md",
-    "🧬 Evolutionary Computation/Week 5 Multi Objective Optimization.md",
-    "🧬 Evolutionary Computation/Week 2 Optimization & Local Search.md",
-    "🐧 38059-operating-systems-and-systems-programming.zip",
-    "nlp.zip",
-    "zi6lCMpj",
-    "IIS.zip",
-    "🧬 Evolutionary Computation/考前.md",
-    "🧬 Evolutionary Computation 2",
-    "Evolutionary_Computation.zip",
-    "🧱 科学上网知识总结/Clash原理略解.md",
-    "鉴定/自我鉴定.md",
-    "index.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/2 - Neural Network and Backpropagation.md",
-    "习思想/assets/Pasted image 20250531204333.webp",
-    "🧬 Evolutionary Computation/Week 10 Runtime Analyse.md",
-    "🧬 Evolutionary Computation/assets/Pasted image 20250529150044.webp",
-    "👾 38965-machine-learning/assets/Pasted image 20250526155924.webp",
-    "👾 38965-machine-learning/assets/Pasted image 20250524204242.webp",
-    "👾 38965-machine-learning/assets/image (50).png",
-    "🔐 30195-security-and-networks/assets/image (25) (1).png",
-    "🔐 30195-security-and-networks/assets/image copy.png",
-    "🔐 30195-security-and-networks/assets/image (137).png",
-    "🔐 30195-security-and-networks/assets/image (136).png",
-    "🔐 30195-security-and-networks/assets/image (135).png"
+    "🧬 Evolutionary Computation/Week 4 Constraint Handling.md"
   ]
 }
