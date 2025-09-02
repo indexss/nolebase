@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7500873f7c3ffcb2",
+        "id": "55c224a374d2c9f9",
         "type": "tabs",
         "children": [
           {
-            "id": "2a47a6e3d67c4fb0",
+            "id": "b305bf73c6c6a3ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "4 - Language Models and RNN"
             }
           }
         ]
@@ -33,7 +33,7 @@
       {
         "id": "4a4fbe666aeeab08",
         "type": "tabs",
-        "dimension": 71.93675889328063,
+        "dimension": 80.6949806949807,
         "children": [
           {
             "id": "fa4e2b6d3730ecc4",
@@ -80,7 +80,7 @@
       {
         "id": "084d0e89fa69660f",
         "type": "tabs",
-        "dimension": 28.063241106719367,
+        "dimension": 19.305019305019304,
         "children": [
           {
             "id": "8bea7169e71877e1",
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "🚗 测试插件/测试callout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "index 的反向链接列表"
+              "title": "测试callout 的反向链接列表"
             }
           },
           {
@@ -134,12 +134,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "🚗 测试插件/测试callout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "index 的出链列表"
+              "title": "测试callout 的出链列表"
             }
           },
           {
@@ -163,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "🚗 测试插件/测试callout.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "index 的大纲"
+              "title": "测试callout 的大纲"
             }
           },
           {
@@ -223,57 +223,58 @@
       "graph:查看关系图谱": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "2a47a6e3d67c4fb0",
+  "active": "b305bf73c6c6a3ca",
   "lastOpenFiles": [
+    "CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122022353.webp",
+    "CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
+    "CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md",
+    "Intelligent Interactive System/定型文.md",
+    "测试插件/测试callout.md",
+    "30195-security-and-networks/week-6-tls-and-tor.md",
+    "30195-security-and-networks/week-5-networking-and-protocols.md",
+    "30195-security-and-networks/week-4-asymmetric-cryptography.md",
+    "Templater/WARNING.md",
+    "Templater/NOTE.md",
+    "Templater/TIP.md",
+    "测试插件/assets",
+    "Templater",
+    "32167-neural-computation/10 - Transformers.md",
+    "申请/文书/USC 文书.md",
+    "测试插件",
+    "申请/学校信息/学校网申链接.md",
+    "assets/Pasted image 20250502221229.webp",
+    "assets/Pasted image 20250502213523.webp",
+    "assets/Pasted image 20250502221203.webp",
     "index.md",
-    "🔐 30195-security-and-networks/week-6-tls-and-tor.md",
-    "🔐 30195-security-and-networks/week-5-networking-and-protocols.md",
-    "🏫 申请/学校信息/学校网申链接.md",
-    "🎫 prompt收集/coding.md",
+    "prompt收集/coding.md",
     "未命名.base",
-    "🥵 IELTS/👄 口语 P1 素材.md",
-    "🥵 IELTS/👄 口语 P2 准备.md",
-    "🧠 32167-neural-computation/11 - Language Modeling.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/6 - Attention.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/2 - Neural Network and Backpropagation.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/1 - Word Vectors.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/9 - Prompting, Instruction Finetuning, and DPO, RLHF.md",
-    "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/11 - Efficient Neural Network Training.md",
-    "💬 CS224N-Natural Language Processing with Deep Learning/12 - Reasoning and Agents.md",
-    "🥵 IELTS/小作文用语总结.md",
+    "IELTS/👄 口语 P1 素材.md",
+    "IELTS/👄 口语 P2 准备.md",
+    "32167-neural-computation/11 - Language Modeling.md",
+    "CS224N-Natural Language Processing with Deep Learning/6 - Attention.md",
+    "CS224N-Natural Language Processing with Deep Learning/2 - Neural Network and Backpropagation.md",
+    "CS224N-Natural Language Processing with Deep Learning/1 - Word Vectors.md",
+    "CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
+    "CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md",
+    "CS224N-Natural Language Processing with Deep Learning/9 - Prompting, Instruction Finetuning, and DPO, RLHF.md",
+    "读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
     "🥵 IELTS/未命名.canvas",
     "未命名 1.base",
-    "🤖 34255-artificial-intelligence-2/week-4-bayesian-network.md",
-    "👾 38965-machine-learning/4 - Linear Regression.md",
-    "👾 38965-machine-learning/10 - Overfitting.md",
-    "👾 38965-machine-learning/9 - Bias and Variance.md",
-    "👾 38965-machine-learning/3 - SVM Classification.md",
-    "👾 38965-machine-learning/1 - Intro.md",
-    "👾 38965-machine-learning/7 - Learning Feasibility.md",
-    "🥵 IELTS/assets/Pasted image 20250902011520.webp",
-    "🥵 IELTS/assets/14a1a1cdbd8d9bb5416122aee9254a14_MD5.webp",
-    "🥵 IELTS/assets/71372d0143c79c6793e96e6fe5dfc940_MD5.webp",
-    "🥵 IELTS/assets/0a69d0854e61d4b4654164d833125863_MD5.webp",
-    "🥵 IELTS/assets/28e81fcf700cc9f91cf55c817da89727_MD5.webp",
-    "🥵 IELTS/assets/fa1719c45eec13955301dd558af62e8e_MD5.webp",
-    "🥵 IELTS/assets/afb683c5efd8169bf9f6d851c759f244_MD5.webp",
-    "🥵 IELTS/assets/cf80b1b95c85647c32aec627864c3282_MD5.webp",
-    "🥵 IELTS/assets/482ea6e6d9858ce0df41466ad4e1263d_MD5.webp",
-    "🥵 IELTS/assets/524b7d04df39ffc8d083c8aa6e07466a_MD5.webp",
-    "🥵 IELTS/assets",
-    "🏫 申请/文书/assets/e107e085c2373e1b624dbc51db9f83da_MD5.docx",
-    "🏫 申请/文书/assets/2880af8cc4c0b49a87e58f89fba441b7_MD5.docx",
-    "🏫 申请/文书/assets/214c4db50d97021374fae351705bd9e0_MD5.docx",
-    "🏫 申请/面试",
-    "🏫 申请/文书/assets/3640f749f5b0d8cbb4adb5ba855da5b3_MD5.docx",
-    "🏫 申请/文书/assets/b6bb0ebaec414c4211aa2fbf536ea49f_MD5.docx",
-    "🏫 申请/文书/assets/70ca5403e4da977c145e944ee6becb72_MD5.docx"
+    "IELTS/assets/Pasted image 20250902011520.webp",
+    "IELTS/assets/14a1a1cdbd8d9bb5416122aee9254a14_MD5.webp",
+    "IELTS/assets/71372d0143c79c6793e96e6fe5dfc940_MD5.webp",
+    "IELTS/assets/0a69d0854e61d4b4654164d833125863_MD5.webp",
+    "IELTS/assets/28e81fcf700cc9f91cf55c817da89727_MD5.webp",
+    "IELTS/assets/fa1719c45eec13955301dd558af62e8e_MD5.webp",
+    "IELTS/assets/afb683c5efd8169bf9f6d851c759f244_MD5.webp",
+    "IELTS/assets",
+    "申请/文书/assets/e107e085c2373e1b624dbc51db9f83da_MD5.docx",
+    "申请/文书/assets/2880af8cc4c0b49a87e58f89fba441b7_MD5.docx",
+    "申请/文书/assets/214c4db50d97021374fae351705bd9e0_MD5.docx",
+    "申请/面试"
   ]
 }
