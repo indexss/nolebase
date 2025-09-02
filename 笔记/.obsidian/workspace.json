@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7bdf477f35caa49e",
+        "id": "7500873f7c3ffcb2",
         "type": "tabs",
         "children": [
           {
-            "id": "d2a77dfbc1ad10bb",
+            "id": "2a47a6e3d67c4fb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🥵 IELTS/小作文用语总结.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "小作文用语总结"
+              "title": "index"
             }
           }
         ]
@@ -33,7 +33,7 @@
       {
         "id": "4a4fbe666aeeab08",
         "type": "tabs",
-        "dimension": 72.77992277992279,
+        "dimension": 71.93675889328063,
         "children": [
           {
             "id": "fa4e2b6d3730ecc4",
@@ -41,7 +41,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -78,16 +78,18 @@
         ]
       },
       {
-        "id": "849e5866336517c7",
+        "id": "084d0e89fa69660f",
         "type": "tabs",
-        "dimension": 27.220077220077222,
+        "dimension": 28.063241106719367,
         "children": [
           {
-            "id": "aacdc5d8e19d6265",
+            "id": "8bea7169e71877e1",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
               "state": {},
+              "pinned": true,
               "icon": "lucide-git-fork",
               "title": "关系图谱"
             }
@@ -113,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🧠 32167-neural-computation/11 - Language Modeling.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "11 - Language Modeling 的反向链接列表"
+              "title": "index 的反向链接列表"
             }
           },
           {
@@ -132,12 +134,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "4 - Language Models and RNN 的出链列表"
+              "title": "index 的出链列表"
             }
           },
           {
@@ -161,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🛜 科学上网知识总结/Clash原理略解.md",
+                "file": "index.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Clash原理略解 的大纲"
+              "title": "index 的大纲"
             }
           },
           {
@@ -178,16 +180,6 @@
               "state": {},
               "icon": "clock",
               "title": "Chronology"
-            }
-          },
-          {
-            "id": "8213f5ce55bbe8fc",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
             }
           }
         ],
@@ -230,17 +222,34 @@
       "publish:发布更改": false,
       "graph:查看关系图谱": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "d2a77dfbc1ad10bb",
+  "active": "2a47a6e3d67c4fb0",
   "lastOpenFiles": [
-    "🥵 IELTS/👄 口语 P2 准备.md",
-    "🥵 IELTS/👄 口语 P1 素材.md",
     "index.md",
-    "🥵 IELTS/小作文用语总结.md",
-    "未命名 1.base",
+    "🔐 30195-security-and-networks/week-6-tls-and-tor.md",
+    "🔐 30195-security-and-networks/week-5-networking-and-protocols.md",
+    "🏫 申请/学校信息/学校网申链接.md",
+    "🎫 prompt收集/coding.md",
     "未命名.base",
+    "🥵 IELTS/👄 口语 P1 素材.md",
+    "🥵 IELTS/👄 口语 P2 准备.md",
+    "🧠 32167-neural-computation/11 - Language Modeling.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/6 - Attention.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/2 - Neural Network and Backpropagation.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/1 - Word Vectors.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/8 - Pretraining.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/9 - Prompting, Instruction Finetuning, and DPO, RLHF.md",
+    "🧐 读读paper/Deep Double Descent Where Bigger Models and More Data Hurt.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/11 - Efficient Neural Network Training.md",
+    "💬 CS224N-Natural Language Processing with Deep Learning/12 - Reasoning and Agents.md",
+    "🥵 IELTS/小作文用语总结.md",
+    "🥵 IELTS/未命名.canvas",
+    "未命名 1.base",
     "🤖 34255-artificial-intelligence-2/week-4-bayesian-network.md",
     "👾 38965-machine-learning/4 - Linear Regression.md",
     "👾 38965-machine-learning/10 - Overfitting.md",
@@ -248,12 +257,7 @@
     "👾 38965-machine-learning/3 - SVM Classification.md",
     "👾 38965-machine-learning/1 - Intro.md",
     "👾 38965-machine-learning/7 - Learning Feasibility.md",
-    "📢 Intelligent Interactive System/merged.md",
-    "🔌 数电复健/C位技巧.md",
-    "🔐 30195-security-and-networks/week-5-networking-and-protocols.md",
-    "🥵 IELTS/评分标准.md",
     "🥵 IELTS/assets/Pasted image 20250902011520.webp",
-    "🥵 IELTS/小作文笔记.md",
     "🥵 IELTS/assets/14a1a1cdbd8d9bb5416122aee9254a14_MD5.webp",
     "🥵 IELTS/assets/71372d0143c79c6793e96e6fe5dfc940_MD5.webp",
     "🥵 IELTS/assets/0a69d0854e61d4b4654164d833125863_MD5.webp",
@@ -264,22 +268,12 @@
     "🥵 IELTS/assets/482ea6e6d9858ce0df41466ad4e1263d_MD5.webp",
     "🥵 IELTS/assets/524b7d04df39ffc8d083c8aa6e07466a_MD5.webp",
     "🥵 IELTS/assets",
-    "🏫 申请/文书/USC 文书.md",
     "🏫 申请/文书/assets/e107e085c2373e1b624dbc51db9f83da_MD5.docx",
     "🏫 申请/文书/assets/2880af8cc4c0b49a87e58f89fba441b7_MD5.docx",
     "🏫 申请/文书/assets/214c4db50d97021374fae351705bd9e0_MD5.docx",
-    "🏫 申请/面试/CMU Video Essay.md",
     "🏫 申请/面试",
-    "🏫 申请/未命名.md",
-    "🏫 申请/文书/CMU 文书素材 8.31.md",
     "🏫 申请/文书/assets/3640f749f5b0d8cbb4adb5ba855da5b3_MD5.docx",
     "🏫 申请/文书/assets/b6bb0ebaec414c4211aa2fbf536ea49f_MD5.docx",
-    "🏫 申请/文书/assets/70ca5403e4da977c145e944ee6becb72_MD5.docx",
-    "🏫 申请/推荐信/套磁邮件.md",
-    "🏫 申请/推荐信/推荐信素材.md",
-    "🏫 申请/学校信息/学校网申链接.md",
-    "🧬 Evolutionary Computation/Week 6 EDA and Genetic Programming.md",
-    "yasi.md",
-    "ielt.md"
+    "🏫 申请/文书/assets/70ca5403e4da977c145e944ee6becb72_MD5.docx"
   ]
 }

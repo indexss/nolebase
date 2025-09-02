@@ -52,7 +52,7 @@ GPU上存了什么东西？
 ![](assets/Pasted%20image%2020241202081533.webp)
 ### ZeRO Stage-1: Optimizer State Sharding
 针对 **Adam 状态进行分片**，此时每张卡模型状态所需显存变成了![](assets/ca88ba97671e8246a00d4b464e091235_MD5.webp)我们以单机8卡，7B模型为例，此时**模型状态部分**所需显存 降低到 4 * 7 + (12\*7)/8 = **38.5GB**。
-![](assets/Pasted%20image%2020241202081636.webp)
+![|914](assets/Pasted%20image%2020241202081636.webp)
 
 ### ZeRO Stage-2: Optimizer State + gradient sharding
 在Zero-1 的基础上，针对**模型梯度再次分片**，此时每张卡模型状态所需显存变成了 ![](assets/c83615e6801368cf7e20a8628fb16393_MD5.webp) 同样以单机8卡，7B模型为例，此时**模型状态部分**所需显存降低到 2*7+(14\*7)/8=**26.25GB**。
@@ -101,7 +101,7 @@ Code：
 ![](assets/Pasted%20image%2020241202083152.webp)
 
 LoRA效果很棒：
-![](assets/Pasted%20image%2020241202083224.webp)
+![|680](assets/Pasted%20image%2020241202083224.webp)
 
 给哪个矩阵用LoRA，用什么r？
 ![](assets/Pasted%20image%2020241202083255.webp)

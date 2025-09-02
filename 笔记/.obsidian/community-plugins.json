@@ -16,5 +16,9 @@
   "Enhanced-editing",
   "obsidian-linter",
   "obsidian-regex-replace",
-  "highlightr-plugin"
+  "highlightr-plugin",
+  "advanced-canvas",
+  "obsidian-hover-editor",
+  "templater-obsidian",
+  "editing-toolbar"
 ]
