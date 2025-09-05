@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "66e99524676083a8",
+        "id": "c0e6dfa436408f42",
         "type": "tabs",
         "children": [
           {
-            "id": "16aeb15357c326d3",
+            "id": "5fe83d1a222116be",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30195-security-and-networks/week-4-asymmetric-cryptography.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "week-4-asymmetric-cryptography"
+              "title": "新标签页"
             }
           }
         ]
@@ -41,7 +37,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -230,12 +226,17 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "16aeb15357c326d3",
+  "active": "5fe83d1a222116be",
   "lastOpenFiles": [
     "30195-security-and-networks/week-3-symmetric-cryptography.md",
+    "30195-security-and-networks/week-8-web-attacks-part-2.md",
+    "CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md",
+    "CS224N-Natural Language Processing with Deep Learning/9 - Prompting, Instruction Finetuning, and DPO, RLHF.md",
+    "CS224N-Natural Language Processing with Deep Learning/12 - Reasoning and Agents.md",
+    "CS224N-Natural Language Processing with Deep Learning/11 - Efficient Neural Network Training.md",
+    "30195-security-and-networks/week-4-asymmetric-cryptography.md",
     "30195-security-and-networks/week-2-hash-macs-authenticated-encryption-access-control.md",
     "30195-security-and-networks/week-1-intro-to-security.md",
-    "30195-security-and-networks/week-4-asymmetric-cryptography.md",
     "健身/带自重的固定器械.md",
     "健身",
     "CS224N-Natural Language Processing with Deep Learning/5 - Sequence to Sequence Models and Machine Translation.md",
@@ -264,12 +265,7 @@
     "assets/Pasted image 20250502221229.webp",
     "assets/Pasted image 20250502213523.webp",
     "assets/Pasted image 20250502221203.webp",
-    "prompt收集/coding.md",
     "未命名.base",
-    "IELTS/👄 口语 P1 素材.md",
-    "IELTS/👄 口语 P2 准备.md",
-    "32167-neural-computation/11 - Language Modeling.md",
-    "CS224N-Natural Language Processing with Deep Learning/6 - Attention.md",
     "🥵 IELTS/未命名.canvas",
     "未命名 1.base",
     "IELTS/assets/Pasted image 20250902011520.webp",

@@ -1,16 +1,16 @@
 # Efficient Neural Network Training
 我们将跟着这个路线图，讲解里面的技术：
-![](assets/Pasted%20image%2020241202080121.webp)
+![717](assets/Pasted%20image%2020241202080121.webp)
 
 ## 混合精度浮点数 & BFloat16
 首先，我们知道FP32是这样表示的：
-![](assets/Pasted%20image%2020241202080211.webp)
+![694](assets/Pasted%20image%2020241202080211.webp)
 而FP16和FP32的对比如下：
 
-![](assets/Pasted%20image%2020241202080227.webp)
+![735](assets/Pasted%20image%2020241202080227.webp)
 这里表示了FP16的范围：
 
-![](assets/Pasted%20image%2020241202080258.webp)
+![679](assets/Pasted%20image%2020241202080258.webp)
 
 所以我们就想到了用FP16替代FP32做NN的训练，但是会有这样的问题：
 - 梯度下溢：梯度小的时候就变成0了
@@ -18,24 +18,24 @@
 所以我们就有了第一个解决方案：混合精度
 ### 混合精度
 存一份model的FP32 参数，前向传播反向传播用FP16，梯度计算用FP16 后拷贝到FP32，然后用FP32梯度去更新FP32权重，再把FP32权重拷贝到FP16权重
-![](assets/Pasted%20image%2020241202080435.webp)
+![906](assets/Pasted%20image%2020241202080435.webp)
 这样做的问题是，梯度由于是现在FP16计算的，所以其还是有可能先下溢，再被拷贝成FP32，那就没用了。
 但是，我们可以借位精度，这样range就可以变大了。所以我们可以先scale，然后再恢复：
 
-![](assets/Pasted%20image%2020241202080743.webp)
+![810](assets/Pasted%20image%2020241202080743.webp)
 
 code如下：
-![](assets/Pasted%20image%2020241202080935.webp)
+![697](assets/Pasted%20image%2020241202080935.webp)
 ### BFloat16
 观察到我们上面可以先scale up再down，那么我们可以设计一种新的Float，其Range借位精度几位，这样就可以了，因为我们不需要那么高的精度。这种Float就是BFloat16：
-![](assets/Pasted%20image%2020241202080916.webp)
+![716](assets/Pasted%20image%2020241202080916.webp)
 
 code如下：
-![](assets/Pasted%20image%2020241202080946.webp)
+![761](assets/Pasted%20image%2020241202080946.webp)
 
 可以看到，BFloat16以更低的精度，居然能达到相同的准确度：
 
-![](assets/Pasted%20image%2020241202081045.webp)
+![737](assets/Pasted%20image%2020241202081045.webp)
 
 ## 多GPU训练
 GPU上存了什么东西？
@@ -49,19 +49,19 @@ GPU上存了什么东西？
 
 ### Distributed Data Parallel (DDP)
 最拉胯的分布式训练，全存，只不过输入数据的时候用的是sub batch
-![](assets/Pasted%20image%2020241202081533.webp)
+![778](assets/Pasted%20image%2020241202081533.webp)
 ### ZeRO Stage-1: Optimizer State Sharding
 针对 **Adam 状态进行分片**，此时每张卡模型状态所需显存变成了![](assets/ca88ba97671e8246a00d4b464e091235_MD5.webp)我们以单机8卡，7B模型为例，此时**模型状态部分**所需显存 降低到 4 * 7 + (12\*7)/8 = **38.5GB**。
-![|914](assets/Pasted%20image%2020241202081636.webp)
+![|704](assets/Pasted%20image%2020241202081636.webp)
 
 ### ZeRO Stage-2: Optimizer State + gradient sharding
 在Zero-1 的基础上，针对**模型梯度再次分片**，此时每张卡模型状态所需显存变成了 ![](assets/c83615e6801368cf7e20a8628fb16393_MD5.webp) 同样以单机8卡，7B模型为例，此时**模型状态部分**所需显存降低到 2*7+(14\*7)/8=**26.25GB**。
-![](assets/Pasted%20image%2020241202081736.webp)
+![751](assets/Pasted%20image%2020241202081736.webp)
 
 ### ZeRO Stage-3 (Full FSDP)
 在Zero-2的基础上，对**模型参数**也进行分片，此时每张卡模型状态所需显存变成了![](assets/7f54fe2c33adc63b5506a929d0206d38_MD5.webp)
 同样以单机8卡，7B模型为例，此时**模型状态部分**所需显存降低到 16 \*7/8=**14GB**
-![](assets/Pasted%20image%2020241202081901.webp)
+![692](assets/Pasted%20image%2020241202081901.webp)
 ###  Zero-offload
 显存不足，内存来补，用时间来换空间。Zero-offload 核心是在 Zero-2的基础上将Adam状态，梯度转移到 CPU内存。一般情况下不推荐。
 
@@ -96,15 +96,15 @@ GPU上存了什么东西？
 
 ## LoRA: Low-Rank Adaptation of Large Language Models
 如下图所示，核心思想是在预训练模型上增加旁路，通过降维矩阵 $A$ 和升维矩阵 $B$ 实现低秩更新。训练时固定预训练模型参数，仅优化 $A$ 和 $B$。模型输入输出维度不变，输出时将 $BA$ 与预训练权重叠加。初始化时用随机高斯分布生成 $A$，用零矩阵初始化 $B$，确保初始 $BA=0$ 对结果无影响。推理时，将训练好的 $BA$ 加到原权重 $W$ 中作为新权重，计算资源不增加。LoRA 的优势是训练更快，内存占用更少。
-![](assets/Pasted%20image%2020241202083127.webp)
+![250](assets/Pasted%20image%2020241202083127.webp)
 Code：
-![](assets/Pasted%20image%2020241202083152.webp)
+![706](assets/Pasted%20image%2020241202083152.webp)
 
 LoRA效果很棒：
 ![|680](assets/Pasted%20image%2020241202083224.webp)
 
 给哪个矩阵用LoRA，用什么r？
-![](assets/Pasted%20image%2020241202083255.webp)
+![698](assets/Pasted%20image%2020241202083255.webp)
 
 最后，就能看懂这张图了：
-![](assets/Pasted%20image%2020241202080121.webp)
+![704](assets/Pasted%20image%2020241202080121.webp)

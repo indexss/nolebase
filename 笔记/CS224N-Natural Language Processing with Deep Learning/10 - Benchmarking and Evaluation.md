@@ -1,7 +1,7 @@
 # Benchmarking and Evaluation
 模型在不同的环节下需要测量的指标是不一样的
 
-![](assets/Pasted%20image%2020241202031531.webp)
+![784](assets/Pasted%20image%2020241202031531.webp)
 
 
 ## Close Ended - Text Classification
@@ -25,8 +25,8 @@ Close Ended的特点就是：
 - Ques;on Answering: Squad 2: 问答，封闭式问答任务的答案通常是明确的，例如一个短语或单词，而不是开放式的自由文本生成。
 
 而在close ended领域，最棒的benchmark就是这个多任务benchmark：superGLUE, 涵盖了多领域的任务。
-![](assets/Pasted%20image%2020241202032226.webp)
-![](assets/Pasted%20image%2020241202032234.webp)
+![721](assets/Pasted%20image%2020241202032226.webp)
+![724](assets/Pasted%20image%2020241202032234.webp)
 而Close ended评估也有一些挑战：
 -  选择指标：准确度？回归率？precision？f1-score？ROC
 -  跨指标或任务的聚合：在多任务评估中，需要将不同任务的结果进行聚合以得出综合性能。不同任务可能使用不同的指标，如何合理地加权和整合是一个难题。SuperGLUE任务中，使用多种指标（如F1、准确率、Matthew's Correlation）评估不同子任务的性能。通过加权平均或其他方法，将这些指标整合为一个综合分数。
@@ -55,7 +55,7 @@ Open Ended的任务可能有多种正确答案，答案的质量也有高低之�
     - **METEOR**：结合精确率和召回率，同时考虑词形变化（如复数形式）。
     - **CIDEr**：专为图像描述生成任务设计，强调语义相关性。
 
-![](assets/Pasted%20image%2020241202033005.webp)
+![416](assets/Pasted%20image%2020241202033005.webp)
 
 ### Model-based 指标
 基于模型的评估指标的核心思想是：
@@ -70,7 +70,7 @@ Open Ended的任务可能有多种正确答案，答案的质量也有高低之�
 有哪些指标呢？
 ##### Vector Similarity
 没什么好说的。
-![](assets/Pasted%20image%2020241202033522.webp)
+![310](assets/Pasted%20image%2020241202033522.webp)
 
 ##### BERTSCORE
 ![](assets/Pasted%20image%2020241202033614.webp)
@@ -111,10 +111,10 @@ BLEURT 是一种自然语言生成的评估指标。它以一对句子作为输�
 全自动化的 AlpacaEval 仅需花费约 **1/22 的经济成本**和 **1/25 的时间成本**，就可以达到很高的人类赞同度。
 另一方面，这个paper也说明了人类是高Bias高Variance的
 
-![](assets/Pasted%20image%2020241202041146.webp)
+![470](assets/Pasted%20image%2020241202041146.webp)
 
 而下面的图也说明了，人类注释器和模拟注释器都更偏好 **列表形式** 和 **较长的输出**，这可能是因为这两种格式更易于阅读和理解。
-![](assets/Pasted%20image%2020241202041417.webp)
+![624](assets/Pasted%20image%2020241202041417.webp)
 这也揭露了更多问题，比如说 Spurious correlations
 **(a) Length（长度）**
 - **问题**：较长的输出可能被人类和模拟注释器高估，因为它们看起来更详细、更全面。
@@ -147,15 +147,15 @@ BLEURT 是一种自然语言生成的评估指标。它以一对句子作为输�
 3. 长度校正（可选）。根据输出长度重新加权胜率
 4. 计算平均胜率。
 AlpacaEval通过Length-controlled来降低长度带来的虚假相关。
-![](assets/Pasted%20image%2020241202041930.webp)
+![592](assets/Pasted%20image%2020241202041930.webp)
 
 另一个需要担心的就是，模型是否会对自己生成的内容更加偏好？也就是self-bias? 还好，不存在这样的问题。
 
-![](assets/Pasted%20image%2020241202042015.webp)
+![682](assets/Pasted%20image%2020241202042015.webp)
 ## LLM Evaluations Now
 ### HELM and open-llm leaderboard
 收集许多可以自动评估的基准，生成新的评估。
-![](assets/Pasted%20image%2020241202042120.webp)
+![826](assets/Pasted%20image%2020241202042120.webp)
 有哪些LM数据集呢？
 - **NarrativeQA**：短答案问答，基于书籍和电影脚本。
 - **NaturalQuestions（closed-book 和 open-book）**：短答案问答，基于维基百科或搜索查询。
@@ -185,18 +185,18 @@ AlpacaEval通过Length-controlled来降低长度带来的虚假相关。
         - **评估指标**：成功率、进度率、记忆能力、规划能力等。
 - **挑战**：
     - 智能体的评估需要在沙盒环境中进行，确保操作的可控性和安全性。
-![](assets/Pasted%20image%2020241202042738.webp)
+![693](assets/Pasted%20image%2020241202042738.webp)
 
 ### Perplexity
 困惑度与下游性能高度相关（r2=0.940），但依赖于数据和分词器的选择。
-![](assets/Pasted%20image%2020241202042802.webp)
+![622](assets/Pasted%20image%2020241202042802.webp)
 ### Arena-like
 - **描述**：
     - Arena-like 排行榜是用户驱动的评估方式，用户通过比较模型的输出来投票决定模型的优劣。
     - **展示内容**：
         - 排行榜显示了多个模型的 Elo 分数、投票数量、组织来源、知识截止日期等信息。
         - 用户根据模型的表现进行打分，最终决定模型排名。
-![](assets/Pasted%20image%2020241202042906.webp)
+![656](assets/Pasted%20image%2020241202042906.webp)
 ## Challenges with Evaluation
 ### Consistency issues
 **一致性问题**是指在评估语言模型性能时，由于测试设置或实现方式的差异，导致同一模型在相同任务或基准测试中表现和排名出现显著变化的问题。
@@ -231,11 +231,11 @@ AlpacaEval通过Length-controlled来降低长度带来的虚假相关。
     - 比较完整答案序列的概率（如 "C. The second pharyngeal arch"），而不是单独的选项。
     - 使用对数概率的加和来计算完整序列的概率，并可能对序列长度进行归一化处理。
     - **问题**：这种方法可能对较长的答案不公平，但归一化可以缓解这一问题。
-![](assets/Pasted%20image%2020241202043734.webp)
+![584](assets/Pasted%20image%2020241202043734.webp)
 ### Contamination and overfitting issues
 数据污染指的是模型在训练阶段接触到了测试数据，导致其在评估时表现异常好，但这并不能反映模型的真实泛化能力。
 Phi-1.5 模型可能过拟合于特定基准测试（如 GSM8K，一个数学问题数据集）。她举例说明，如果将一个问题输入 Phi-1.5，模型能够正确自动补全答案。
-![](assets/Pasted%20image%2020241202044102.webp)
+![668](assets/Pasted%20image%2020241202044102.webp)
 所以，我们很难保证，一个benchmark的答案有没有被大模型提前知道，从而overfitting
 然而，也有了一些解决方法
 - Private test set。这个保证新
@@ -256,26 +256,26 @@ Phi-1.5 模型可能过拟合于特定基准测试（如 GSM8K，一个数学问
 	        - 对这些最低概率的 token 计算平均对数似然值。
 	    4. **判断污染**：
 	        - 如果平均对数似然值异常高，则可能表明模型在训练中见过该文本或其变体，从而怀疑数据污染。
-![](assets/Pasted%20image%2020241202044553.webp)
+![450](assets/Pasted%20image%2020241202044553.webp)
 
 - Exchangeability test
   通过改变测试数据的顺序，观察模型在不同排列下的表现是否一致，来判断模型是否对特定数据有记忆。
-![](assets/Pasted%20image%2020241202044628.webp)
+![668](assets/Pasted%20image%2020241202044628.webp)
 
 ### Monoculture 问题
 大多数LLM只在英语下评测了。我们应该采用多语言benchmark
-![](assets/Pasted%20image%2020241202044730.webp)
+![631](assets/Pasted%20image%2020241202044730.webp)
 
 ### 局限于单一指标
 只关注单一性能指标会导致对模型能力的片面理解，忽略其他重要维度。在评估模型时，应综合考虑性能、效率、公平性等多方面因素，以便更全面地反映模型的实际能力。评估方法应避免对少数群体的不公平，并能适应不同用户的需求和偏好。
 MLPerf就是一个考虑了计算效率的metric
-![](assets/Pasted%20image%2020241202044902.webp)
+![585](assets/Pasted%20image%2020241202044902.webp)
 
 DiscrimEval是一个考虑biases的metric。
 - **偏见来源**：模型在决策中可能因显式或隐式群体特征（如种族、性别）而表现出不同程度的偏见。
 - **显式属性的影响更大**：直接提供群体信息时，模型更容易表现出偏见。
 - **重要性**：通过模板化方法，DiscrimEval框架能够系统地评估模型对不同群体的偏见，为改进模型公平性提供了依据。
-![](assets/Pasted%20image%2020241202045020.webp)
+![600](assets/Pasted%20image%2020241202045020.webp)
 
 后面都是一些有关政治正确的内容，不想写了。。就这样吧
 
