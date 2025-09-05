@@ -8,7 +8,7 @@ tags:
 # Sequence to Sequence Models and Machine Translation
 
 ## 特征值推导 Vanilla RNN的梯度消失问题
-![](assets/Pasted%20image%2020241123045744.webp)
+![582](assets/Pasted%20image%2020241123045744.webp)
 复习一下上次的知识。当J4想要对Wh求导的时候，由于Wh在第一步到第四步是共享的，所以是J对wh|i的加和：
  $$
  \frac{\partial J^{(4)}}{\partial W_h}=\frac{\partial J^{(4)}}{\partial W_h}|_{(4)}+\frac{\partial J^{(4)}}{\partial W_h}|_{(3)}+\frac{\partial J^{(4)}}{\partial W_h}|_{(2)}+\frac{\partial J^{(4)}}{\partial W_h}|_{(1)}$$
@@ -73,7 +73,7 @@ gates都是长度为n的向量，每一个时间步中，每个gates中的元素
 
 ![](assets/Pasted%20image%2020241123062537.webp)
 接下来看其结构：
-![](assets/Pasted%20image%2020241123062808.webp)
+![749](assets/Pasted%20image%2020241123062808.webp)
 接下来看一下为什么说LSTM解决了梯度消失的问题。
 
 ### 梯度推导

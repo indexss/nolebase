@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiDumbbell",
       "LiTicketPercent",
       "LiUniversity",
       "LiGhost",
-      "LiTerminal:linux",
-      "LiChartSpline"
+      "LiTerminal:linux"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -52,5 +52,6 @@
   "38965-machine-learning": "LiChartSpline",
   "38059-operating-systems-and-systems-programming": "LiGhost",
   "申请": "LiUniversity",
-  "prompt收集": "LiTicketPercent"
+  "prompt收集": "LiTicketPercent",
+  "健身": "LiDumbbell"
 }

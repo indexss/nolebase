@@ -150,7 +150,7 @@ $$R(a,s^{\prime})=R^{\mathrm{WTP}}\left(1-d^{\mathrm{Chronic}}(s^{\prime})\right
 - 飞行计划，人为因素，飞机和机组能力（Aircraft and crew capabilities）
 
 传统中，飞行员根据眼动来维持情景意识，优秀机师通过合理分配注视时间和扫描路径，来不断地从多个视野（外部与多套仪表）中收集信息，从而维持高水平的情境意识。
-![已上传的图片](assets/7ca3776ee70dc97477157510bf4a279a_MD5.png)
+![已上传的图片|543](assets/7ca3776ee70dc97477157510bf4a279a_MD5.png)
 我们希望有一个模型，预测最佳的眼动模式，帮飞行员维持高的情景意识，用于飞行员的训练，以及飞机设计等。
 我们希望用MDP建模，有两个假设：
 - 假设 1：眼动是一个不确定环境下的多阶段决策过程
@@ -162,7 +162,7 @@ $$R(a,s^{\prime})=R^{\mathrm{WTP}}\left(1-d^{\mathrm{Chronic}}(s^{\prime})\right
 - Subtasks（子任务）：飞行过程可拆分为若干具体操作目标，如，**Check speed**：监控与保持目标空速，**Check heading**：确认与修正航向。
 - Relevance of AOIs to Subtasks（AOI 与子任务的关联度），不同 AOI 对不同子任务的重要性是不同的，对“Check speed”而言，PFD 上的空速表高度相关（高关联度），对“Answer ATC”而言，外部视野或听觉类 AOI（如抬头听话筒）更关键。模型里用 **关联矩阵** 或 **概率权重** 来量化。
 - Bandwidth BW of each AOI（兴趣区带宽），类比通信系统的带宽，指从该 AOI 中接收新信息的“速率”或“容量”。带宽高的 AOI（如电子地图、雷达）能快速提供大量动态信息；带宽低的 AOI（如指针仪表）信息更新较慢。
-![](assets/Pasted%20image%2020250506221505.webp)
+![|623](assets/Pasted%20image%2020250506221505.webp)
 Subtask子任务，V是其对应的AOI价值，Subtask被拆解为不同AOI的关联度，而不同AOI有着不同的带宽。
 当视线从一个 AOI 转向下一个 AOI 时（动作 aₜ），各 AOI 会根据其带宽产生随机的信息更新量 u。
 - 状态 State：包括当前注视所在的 AOI、各子任务未满足的信息量，以及各 AOI 最新的可用信息不确定度。
