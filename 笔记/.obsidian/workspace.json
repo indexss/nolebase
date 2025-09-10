@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c0e6dfa436408f42",
+        "id": "64b7c31d65fc44e9",
         "type": "tabs",
         "children": [
           {
-            "id": "5fe83d1a222116be",
+            "id": "401bc0d0c88ccbc5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "4 - Language Models and RNN"
             }
           }
         ]
@@ -226,8 +230,11 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "5fe83d1a222116be",
+  "active": "401bc0d0c88ccbc5",
   "lastOpenFiles": [
+    "CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122014252.webp",
+    "CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
+    "32167-neural-computation/4 - CNN.md",
     "30195-security-and-networks/week-3-symmetric-cryptography.md",
     "30195-security-and-networks/week-8-web-attacks-part-2.md",
     "CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md",
@@ -246,7 +253,6 @@
     "测试插件/测试callout.md",
     "菜谱/未命名.canvas",
     "index.md",
-    "CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
     "CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122005056.webp",
     "CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122022353.webp",
     "CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md",
@@ -259,9 +265,7 @@
     "测试插件/assets",
     "Templater",
     "32167-neural-computation/10 - Transformers.md",
-    "申请/文书/USC 文书.md",
     "测试插件",
-    "申请/学校信息/学校网申链接.md",
     "assets/Pasted image 20250502221229.webp",
     "assets/Pasted image 20250502213523.webp",
     "assets/Pasted image 20250502221203.webp",
