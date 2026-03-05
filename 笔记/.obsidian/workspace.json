@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "64b7c31d65fc44e9",
+        "id": "7d6fa7fdd266f568",
         "type": "tabs",
         "children": [
           {
-            "id": "401bc0d0c88ccbc5",
+            "id": "6209b70d2c10df6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
+                "file": "601.664-artificial-intelligence/15-planning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 - Language Models and RNN"
+              "title": "15-planning"
             }
           }
         ]
@@ -33,7 +33,7 @@
       {
         "id": "4a4fbe666aeeab08",
         "type": "tabs",
-        "dimension": 80.6949806949807,
+        "dimension": 80.73122529644269,
         "children": [
           {
             "id": "fa4e2b6d3730ecc4",
@@ -54,12 +54,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cross entropy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "搜索"
@@ -80,7 +80,7 @@
       {
         "id": "084d0e89fa69660f",
         "type": "tabs",
-        "dimension": 19.305019305019304,
+        "dimension": 19.268774703557312,
         "children": [
           {
             "id": "8bea7169e71877e1",
@@ -98,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 329.5
   },
   "right": {
     "id": "f12232ab6faa5dfa",
@@ -163,17 +163,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🚗 测试插件/测试callout.md",
+                "file": "601.664-artificial-intelligence/15-planning.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "测试callout 的大纲"
+              "title": "15-planning 的大纲"
             }
           },
           {
             "id": "efd0372de782cc7c",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
+            }
+          },
+          {
+            "id": "41ad0c50ab94e8ba",
             "type": "leaf",
             "state": {
               "type": "chronology-calendar-view",
@@ -208,19 +218,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "publish:发布更改": false,
+      "graph:查看关系图谱": false,
       "terminal:Open terminal": false,
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "chronology:Open Chronology": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
-      "publish:发布更改": false,
-      "graph:查看关系图谱": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
@@ -230,55 +239,55 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "401bc0d0c88ccbc5",
+  "active": "6209b70d2c10df6c",
   "lastOpenFiles": [
-    "CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122014252.webp",
+    "601.664-artificial-intelligence/assets/15-planning-1772680496146.png",
+    "601.664-artificial-intelligence/assets/15-planning-1772680283313.png",
+    "601.664-artificial-intelligence/assets/15-planning-1772680073896.png",
+    "601.664-artificial-intelligence/assets/15-planning-1772679944004.png",
+    "601.664-artificial-intelligence/assets/15-planning-1772679342379.png",
+    "601.664-artificial-intelligence/assets/15-planning-1772679316185.png",
+    "601.664-artificial-intelligence/assets/15-planning-1772679035938.png",
+    "601.664-artificial-intelligence/assets/15-planning-1772678755101.png",
+    "601.664-artificial-intelligence/assets/15-planning-1772678714074.png",
+    "601.664-artificial-intelligence/assets/15-planning-1772678216999.png",
+    "601.664-artificial-intelligence/assets/15-planning-1772678128969.png",
+    "601.664-artificial-intelligence/14-knowledge-representation.md",
+    "601.664-artificial-intelligence/15-planning.md",
+    "601.664-artificial-intelligence/13-inference-in-first-order-logic.md",
+    "601.664-artificial-intelligence/11-logical-agents.md",
+    "未命名 2.base",
+    "IELTS/👄 口语 P2 准备.md",
+    "601.664-artificial-intelligence/08-informed-search.md",
+    "601.664-artificial-intelligence/12-first-order-logic.md",
+    "601.664-artificial-intelligence/10-constraint-satisfaction.md",
+    "520.681-perception-for-emboddied-ai/08_gaussian_splatting.md",
+    "520.681-perception-for-emboddied-ai/99-math.md",
+    "601.664-artificial-intelligence/07-basic-search.md",
+    "601.664-artificial-intelligence/09-game-playing.md",
+    "601.664-artificial-intelligence/05-cognitive-psychology.md",
+    "Intelligent Interactive System/智能座舱系统.md",
+    "34255-artificial-intelligence-2/week-8-and-9-and-10-search-and-csp-and-game.md",
+    "601.664-artificial-intelligence/hw/磁疗.md",
+    "601.664-artificial-intelligence/hw/ai1翻译.md",
+    "601.664-artificial-intelligence/hw",
+    "未命名",
+    "601.664-artificial-intelligence/06-intelligent-agent.md",
+    "601.664-artificial-intelligence/04-cognitive-neuroscience.md",
+    "601.664-artificial-intelligence/03-philosophy-of-mind.md",
+    "601.664-artificial-intelligence/02-fiction.md",
+    "601.664-artificial-intelligence/01-Introduction.md",
+    "38965-machine-learning/2 - Logistic-Regression.md",
+    "32167-neural-computation/2 - GD and Linear Classification.md",
     "CS224N-Natural Language Processing with Deep Learning/4 - Language Models and RNN.md",
-    "32167-neural-computation/4 - CNN.md",
-    "30195-security-and-networks/week-3-symmetric-cryptography.md",
-    "30195-security-and-networks/week-8-web-attacks-part-2.md",
-    "CS224N-Natural Language Processing with Deep Learning/10 - Benchmarking and Evaluation.md",
-    "CS224N-Natural Language Processing with Deep Learning/9 - Prompting, Instruction Finetuning, and DPO, RLHF.md",
-    "CS224N-Natural Language Processing with Deep Learning/12 - Reasoning and Agents.md",
-    "CS224N-Natural Language Processing with Deep Learning/11 - Efficient Neural Network Training.md",
-    "30195-security-and-networks/week-4-asymmetric-cryptography.md",
-    "30195-security-and-networks/week-2-hash-macs-authenticated-encryption-access-control.md",
-    "30195-security-and-networks/week-1-intro-to-security.md",
-    "健身/带自重的固定器械.md",
-    "健身",
-    "CS224N-Natural Language Processing with Deep Learning/5 - Sequence to Sequence Models and Machine Translation.md",
-    "CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241123062537.webp",
-    "Intelligent Interactive System/Week 9 Markov Decision Processes.md",
-    "Intelligent Interactive System/Week 2 Cooperation.md",
-    "测试插件/测试callout.md",
-    "菜谱/未命名.canvas",
-    "index.md",
-    "CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122005056.webp",
-    "CS224N-Natural Language Processing with Deep Learning/assets/Pasted image 20241122022353.webp",
-    "CS224N-Natural Language Processing with Deep Learning/7 - Transformer.md",
-    "Intelligent Interactive System/定型文.md",
-    "30195-security-and-networks/week-6-tls-and-tor.md",
-    "30195-security-and-networks/week-5-networking-and-protocols.md",
-    "Templater/WARNING.md",
-    "Templater/NOTE.md",
-    "Templater/TIP.md",
-    "测试插件/assets",
-    "Templater",
-    "32167-neural-computation/10 - Transformers.md",
-    "测试插件",
-    "assets/Pasted image 20250502221229.webp",
-    "assets/Pasted image 20250502213523.webp",
-    "assets/Pasted image 20250502221203.webp",
-    "未命名.base",
-    "🥵 IELTS/未命名.canvas",
+    "520.681-perception-for-emboddied-ai/as1",
     "未命名 1.base",
-    "IELTS/assets/Pasted image 20250902011520.webp",
-    "IELTS/assets/14a1a1cdbd8d9bb5416122aee9254a14_MD5.webp",
-    "IELTS/assets/71372d0143c79c6793e96e6fe5dfc940_MD5.webp",
-    "IELTS/assets/0a69d0854e61d4b4654164d833125863_MD5.webp",
-    "IELTS/assets",
-    "申请/文书/assets/e107e085c2373e1b624dbc51db9f83da_MD5.docx",
-    "申请/文书/assets/2880af8cc4c0b49a87e58f89fba441b7_MD5.docx",
-    "申请/文书/assets/214c4db50d97021374fae351705bd9e0_MD5.docx"
+    "未命名.base",
+    "assets",
+    "520.638-deep-learning/review-3/assets",
+    "520.638-deep-learning/review-3",
+    "520.638-deep-learning/review-2",
+    "菜谱/未命名.canvas",
+    "🥵 IELTS/未命名.canvas"
   ]
 }

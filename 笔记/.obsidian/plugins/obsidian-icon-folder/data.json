@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiDumbbell",
-      "LiTicketPercent",
-      "LiUniversity",
-      "LiGhost",
-      "LiTerminal:linux"
+      "LiAtom",
+      "LiBrain",
+      "LiScanEye",
+      "🤖",
+      "LiDumbbell"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -53,5 +53,8 @@
   "38059-operating-systems-and-systems-programming": "LiGhost",
   "申请": "LiUniversity",
   "prompt收集": "LiTicketPercent",
-  "健身": "LiDumbbell"
+  "健身": "LiDumbbell",
+  "520.681-perception-for-emboddied-ai": "LiScanEye",
+  "601.664-artificial-intelligence": "LiBrain",
+  "520.638-deep-learning": "LiAtom"
 }

@@ -1,0 +1,1 @@
+![[05-cognitive-psychology-1772487535874.png]]

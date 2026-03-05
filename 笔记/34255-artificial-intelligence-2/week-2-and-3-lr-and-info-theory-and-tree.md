@@ -192,6 +192,15 @@ Information Theory研究的是如何量化信息。
 > 实例：使用Information Gain来构建决策树
 >
 > ![image-20240409005719889](file:///Users/linlishi/Library/Application%20Support/typora-user-images/image-20240409005719889.png?lastModify=1714230909)
+
+
+
+
+
+
+
+
+
 >
 > 我们只研究其中的AB两个因素
 >

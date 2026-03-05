@@ -8,17 +8,24 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"❤️ 好的文章，爱来自Larry\"  ",
+      "query": "path:520.638-deep-learning  ",
       "color": {
         "a": 1,
-        "rgb": 5542386
+        "rgb": 2549248
       }
     },
     {
-      "query": "path:\"🧐 读读paper\"  ",
+      "query": "path:520.681-perception-for-emboddied-ai  ",
       "color": {
         "a": 1,
-        "rgb": 14069084
+        "rgb": 2549248
+      }
+    },
+    {
+      "query": "path:601.664-artificial-intelligence  ",
+      "color": {
+        "a": 1,
+        "rgb": 65297
       }
     }
   ],
@@ -32,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.24323051181544128,
-  "close": true
+  "scale": 1.3041554229174894,
+  "close": false
 }
